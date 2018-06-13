@@ -1,0 +1,668 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+/*Componentes*/
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*header*/
+
+.header {
+    padding: 10px 0px;
+    background-image: url("../assets/img/wave-menu2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 121px;
+    display: flex;
+}
+
+.header__logo {
+    padding: 2% 0% 2% 2%;
+    width: 10%;
+}
+
+.logo {
+    width: 95px;
+}
+
+.menu {
+    padding: 1%;
+    width: 90%;
+    float: right;
+}
+
+.menu__contacts {
+    padding: 15px;
+    float: right;
+}
+
+.menu__main {
+    padding: 15px;
+    float: left;
+}
+
+.menu__main a,
+.menu__contacts a {
+    margin: 8px;
+}
+
+
+/*HOME*/
+
+
+/*HOME CARROSSEL*/
+
+.home {
+    width: 100%;
+}
+
+.home__carrossel {
+    height: 800px;
+    background-image: url("../assets/img/piscina-carrossel1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*HOME GALERY*/
+
+.home__galery {
+    padding-top: 5%;
+    width: 100%;
+    height: 1080px;
+    grid-gap: 0px 0px;
+    display: grid;
+    grid-template-areas: auto, auto, auto, auto, auto, auto;
+    background-image: url("../assets/img/produtos/azulejo_borda_piscina.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image__one,
+.image__two,
+.image__three {
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    height: 330px;
+}
+
+.image__one figurecaption {
+    position: absolute;
+    top: 265px;
+    left: 325px;
+}
+
+.image__two figurecaption {
+    position: absolute;
+    top: 270px;
+    left: 160px;
+}
+
+.image__three figurecaption {
+    position: absolute;
+    top: 265px;
+    left: 285px;
+}
+
+.home__galery--image {
+    padding: 3% 0% 0% 0%;
+    width: 250px;
+}
+
+.image1,
+.image6 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.image2,
+.image7 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.image3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.image4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.image5 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+
+
+/*HOME SUBSCRIPTION*/
+
+.home__subscription {
+    width: 100%;
+    padding: 8% 0px;
+    text-align: center;
+    size: 14px;
+}
+
+.home__subscription h1 {
+    size: 26px;
+    color: #55b2c8;
+}
+
+.home__subscription input[type=text],
+form input[type=text] {
+    width: 343px;
+    height: 28px;
+}
+
+.home__subscription input[type=text]::placeholder,
+.home__subscription input[type=text]:-ms-input-placeholder,
+form input[type=text]::placeholder,
+form input[type=text]:-ms-input-placeholder {
+    color: #55b2c8;
+}
+
+.home__subscription input[type=submit],
+form input[type=submit] {
+    width: 100px;
+    height: 32px;
+    size: 18px;
+    background-color: #55b2c8;
+    color: #fff;
+}
+
+
+/*HOME ORÇAMENTO*/
+
+.orcamento input[type=text] {
+    width: 100%;
+    height: 28px;
+}
+
+.orcamento {
+    padding: 80px 90px;
+    background-color: #55b2c8;
+}
+
+.orcamento h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.orcamento__char--count {
+    display: block;
+    float: right;
+}
+
+.orcamento__bar--submit {
+    float: right;
+    border: 6px solid #fff;
+    size: 25px;
+    color: #fff;
+}
+
+.orcamento__name {
+    grid-area: name;
+}
+
+.orcamento__email {
+    grid-area: email;
+}
+
+.orcamento__phone {
+    grid-area: phone;
+}
+
+.orcamento__subjective {
+    grid-area: subjective;
+}
+
+.orcamento__message {
+    grid-area: message;
+    width: 100%;
+}
+
+.orcamento__char {
+    grid-area: char;
+}
+
+.orcamento__bar {
+    grid-area: bar;
+}
+
+.orcamento__form {
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-areas: 'name subjective subjective' 'email message message' 'phone message message' 'char char char' 'bar bar bar';
+}
+
+.home__accessories {
+    padding: 6% 7%;
+    background-color: #55b2c8;
+}
+
+.home__accessories--title h1,
+.home__accessories--title h3,
+.home__accessories--title nav {
+    color: #fff;
+    padding: 0px 0px 15px 0px;
+    text-align: center;
+}
+
+.home__accessories--title h3 {
+    size: 12px;
+}
+
+.home__accessories--image {
+    width: 300px;
+    height: 300px;
+}
+
+.home__accessories--menu {
+    padding-top: 10px;
+    background-color: #000;
+    opacity: 0.6;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.home__accessories--menu a {
+    margin-top: 5px;
+    margin: 0 19px;
+    color: #fff;
+}
+
+.home__accessories--text {
+    display: flex;
+    padding: 1% 3%;
+    height: 200px;
+}
+
+.home__accessories--image {
+    width: 30%;
+    height: 100%;
+}
+
+.home__accessories--description {
+    width: 70%;
+    height: 100%;
+}
+
+.product__piscina--title {
+    text-align: center;
+}
+
+
+/*Product*/
+
+.product__piscina {
+    padding: 5%;
+}
+
+.product__item {
+    margin: 5%;
+}
+
+.product__item h3 {
+    margin: 15px 5px;
+}
+
+.product__piscina--tipo-description {
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px 10px;
+    padding: 10px;
+}
+
+.product__piscina--tipo-description figure {
+    padding: 10px;
+}
+
+
+/*ul p figure*/
+
+.product__item ul,
+.product__item p,
+.product__item figure {
+    padding: 0 35px;
+}
+
+
+/*Contact*/
+
+.contact {
+    display: grid;
+    grid-template-areas: auto auto;
+    grid-gap: 15px 30px;
+    width: 100%;
+}
+
+.contact__title {
+    margin: 3% 12%;
+    text-align: left;
+    color: #55b2c8;
+}
+
+.contact__email {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.contact__email--form {
+    float: right;
+    padding-left: 0px;
+}
+
+.contact__email--form input[type=text],
+.contact__email--form textarea {
+    margin: 4px;
+    display: block;
+    width: 500px;
+    border-radius: 3px;
+}
+
+.contact__email--form input[type=submit] {
+    background-color: #fff;
+    color: #55b2c8;
+    font-weight: bolder;
+    size: 20px;
+    border: 6px solid #55b2c8;
+    ;
+}
+
+.contact__address {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.contact__address--data {
+    float: left;
+    padding-right: 0px;
+}
+
+.contact__map {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    width: 100%;
+}
+
+.contact__map--elements {
+    padding: 5%;
+}
+
+.contact__map--elements iframe {
+    width: 100%;
+}
+
+
+/*About*/
+.about{
+    padding:58px 0px;
+}
+.about__description,
+.about__mission,
+.about__vision,
+.about__values{
+    padding: 39px 0px;
+}
+
+.about__description--title,
+.about__mission--title,
+.about__vision--title,
+.about__values--title{
+    margin-top:10px;
+    font-size:35px;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about__description--figure,
+.about__mission--figure,
+.about__vision--figure,
+.about__values--figure{
+    font-size:20px;
+    display:flex;
+    padding:39px 50px;
+}
+
+.about__mission ,
+.about__values{
+    background-color:#6e7575;
+} 
+
+.about__description--figure figcaption,
+.about__mission--figure figcaption,
+.about__vision--figure figcaption,
+.about__values--figure figcaption{
+    size:14px;
+    padding:20px 61px;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about__description--figure img{
+    width: 30%;
+    height:30%;
+    border-radius:5px;
+    outline-style: solid;
+    outline-color: #757575;
+    outline-width: 0.1px;
+    outline-offset: 6px;
+
+}
+.about__mission--figure img{
+    width: 20%;
+    height:20%;
+}
+.about__vision--figure img{
+    width: 160%;
+    height:160%;
+}
+
+.about__values--figure img{
+    width: 18%;
+    height:18%;
+}
+
+.about__mission--title{
+    color:#9fdfdf;
+}
+.about__vision--title{
+    color:#648787;
+}
+.about__values--title{
+    color:#fff;   
+}
+
+.about__mission--figure figcaption{
+    color:#fff;
+}
+.about__vision--figure figcaption{
+    color:#000;
+}
+.about__values--figure figcaption{
+    color:#9fdfdf;   
+}
+
+/*faq*/
+
+.faq__topic--articles{
+    border-radius:8px;
+}
+
+.faq__topic article span,
+.faq__piscina article span,
+.faq__products article span,
+.faq__services article span{
+    font-weight:bold;
+}
+
+.faq__topic h2,
+.faq__piscina h2,
+.faq__products h2,
+.faq__services h2{
+    font-size:17px;
+    margin-bottom:12px;
+    color:#55b2c8;
+}
+
+.faq__piscina,
+.faq__products,
+.faq__services{
+    display:grid;
+    grid-gap: 0px 15px;
+    grid-column: auto auto auto;
+}
+.faq__piscina--articles1,.faq__piscina--articles2,.faq__piscina--articles3,
+.faq__products--articles1,.faq__products--articles2,.faq__products--articles3,
+.faq__services--articles1,.faq__services--articles2,.faq__services--articles3{    
+    background-color:#eaeced;
+    padding:18px;
+    border-radius:5px;
+}
+.faq__piscina--articles1,
+.faq__products--articles1,
+.faq__services--articles1{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.faq__piscina--articles2,
+.faq__products--articles2,
+.faq__services--articles2{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.faq__piscina--articles3,
+.faq__products--articles3,
+.faq__services--articles3{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.faq{
+    margin:20px 0px;
+}
+.faq__title{
+    padding:60px 48px;
+    background-color:#eaeced;
+    margin-bottom:22px;
+}
+.faq__title h1{
+    margin-bottom:18px;
+    color:#55b2c8;
+}
+.faq__body{    
+    margin: 27px 27px;
+    padding: 37px 37px;
+    border-radius:8px;
+}
+.faq__body--legend{
+    font-size:26px;
+    font-weight:bold;
+    color:#55b2c8;
+    text-align:center;
+}
+.faq__topic--articles{    
+    padding:18px;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+.faq__topic--articles{    
+    background-color:#eaeced;
+}
+
+.faq__topic--articles article,
+.faq__piscina--articles1 article,.faq__piscina--articles2 article,.faq__piscina--articles3 article,
+.faq__products--articles1 article,.faq__products--articles2 article,.faq__products--articles3 article,
+.faq__services--articles1 article,.faq__services--articles2 article,.faq__services--articles3 article{
+    margin:0 15px 0 10px;
+}
+
+.faq__topic--title,
+.faq__piscina--title,
+.faq__products--title,
+.faq__services--title{
+    margin:30px 0 30px 0px;
+    color:#55b2c8;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #424242;
+    color: #fafafa;
+    size: 14px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: auto auto auto auto auto;
+    grid-column-gap: 10px;
+}
+
+.footer__logo {
+    padding: 2%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.payment__methods {
+    padding: 10px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.footer__menu {
+    padding: 10px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.footer__menu li {
+    list-style-type: none;
+}
+
+.footer__menu a {
+    color: #fff;
+}
+
+.social__networks {
+    padding: 10px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.footer__bottom {
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.footer h1 {
+    size: 20px;
+}
+
+.developer {
+    float: right;
+}
