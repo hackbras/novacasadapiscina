@@ -598,6 +598,184 @@ form input[type=submit] {
     margin:30px 0 30px 0px;
     color:#55b2c8;
 }
+/*Promotion
+
+promotion
+promotion__banner-    
+promotion__banner--base
+promotion__banner--image-tree
+promotion__banner--title
+promotion__banner--image-sun
+
+promotion__title
+
+promotion__one
+promotion__one--title
+promotion__one--sutitle
+promotion__one--body
+promotion__one--image
+promotion__one--image
+promotion__one--description
+
+promotion__subscription
+promotion__subscription--form
+promotion__subscription--form-title
+promotion__subscription--form-subtitle
+
+promotion__two
+promotion__two--title
+promotion__two--subtitle
+promotion__two--body
+promotion__two--image
+promotion__two--image
+promotion__two--description
+
+*/
+
+.promotion{
+    padding:16px 0px;
+}
+
+.promotion__banner--outline,
+.promotion__title{
+    margin:20px 28px;
+}
+.promotion__one,
+.promotion__two{
+    margin:20px 28px;
+    padding:20px 28px;
+}
+
+.promotion__subscription{   
+    margin:20px 0px;
+    padding:80px 38px;
+    text-align:center;
+}
+
+.promotion__banner--outline {
+    border: 1px solid #757575;    
+    border-radius:8px;
+    padding:14px;
+}
+.promotion__banner--base{
+    background-color:#529bff;
+    padding:2%;
+    display: flex;
+    justify-content:space-between;
+    border-radius:8px;
+}
+.promotion__banner--image-tree,
+.promotion__banner--image-sun{
+    width:20%;
+    height:20%;
+}
+.promotion__banner--title h1{
+    font-family: Arial, Aguafina Script, sans-serif;
+    margin-top:43px;
+    font-size:36px;
+    color:#fff;
+}
+.promotion__banner--title h2{
+     margin-top:15px;
+}
+.promotion__title{
+    color:#529bff;
+    text-align:center;
+}
+.promotion__one--sutitle,
+.promotion__two--subtitle{
+    color:#55b2c8;
+}
+.promotion__one--title,
+.promotion__two--title{
+    margin-top:20px;
+    color:#767676;
+}
+.promotion__subscription{
+    background-color:#55b2c8;
+    text-align:center;
+}
+.promotion__subscription--form-title{
+    color:#fff;
+    font-size:36px;
+}
+.promotion__subscription--form-subtitle{
+    font-weight:normal;
+}
+
+.promotion__subscription--form input[type="text"]{
+    border:0px;
+    height:32px;
+    padding:0px 5px;
+}
+.promotion__subscription--form input[type="text"]::placeholder{
+    color:#55b2c8;
+    font-size:16px;
+}
+
+.promotion__subscription--form input[type="submit"]{
+    background-color:#fff;
+    color:#55b2c8;
+    font-weight:bold;
+    font-size:18px;
+    border:0px;
+}
+.promotion__one--description input[type="submit"],
+.promotion__two--description input[type="submit"]{
+    width:160px;
+    height:44px;
+    margin:15px 0px;
+    padding:5px 15px;
+    background-color:#fff;
+    border:5px solid #529bff;
+    color:#529bff;
+    font-weight:bolder;
+    border-radius:5px;
+    font-size:16px;
+
+}
+.promotion__one--image{
+    width:70%;
+}
+.promotion__two--image{
+    width:80%;
+}
+.promotion__one--image{
+    grid-column:1 / 2;
+    grid-row:1 / 2;
+}
+.promotion__one--description{
+    grid-column:2 / 3;
+    grid-row:1 / 2;
+}
+
+.promotion__two--description{
+    grid-column: 1 / 2;
+    grid-row:1 / 2;
+}
+
+.promotion__two--image{
+    grid-column: 2 / 3;
+    grid-row:1 / 2;
+}
+
+.promotion__one--body{
+    display: grid;    
+    grid-template-columns:400px auto;
+    grid-gap: 10px 10px;
+    justify-content: center;
+}
+.promotion__two--body{
+    display: grid;
+    grid-template-columns: auto 400px;
+    grid-gap: 10px 10px;    
+    justify-content:  space-evenly;
+}
+.promotion__one--description figcaption,
+.promotion__two--description figcaption{
+    padding:35px 0px 0px 0px;
+    font-size:20px;
+}
 
 /*Footer*/
 
