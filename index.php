@@ -22,10 +22,10 @@
         include "/includes/product/product-others-aquecedor-gas.php";
         include "/includes/contact.php";
         include "/includes/about.php";
-        include "/includes/faq.php";*/
-        include "/includes/promotion.php";
+        include "/includes/faq.php";
+        include "/includes/promotion.php";*/
+        include "/includes/product/product-store.php"; 			
         /*Falta:
-			include "/includes/product/products.php"; 
 			include "/includes/product/product-description.php"; 
         */
 	?>
