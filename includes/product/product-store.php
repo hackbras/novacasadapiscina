@@ -51,47 +51,11 @@
         <h1 class="store__products--title"></h1>
         <h2 class="store__products--subtitle"></h2>
         <div class="store__products--articles">
-            <article class="store__product">
-                <span class="store__product--freight"></span>
-                <span class="store__product--discount"></span>
-                <figure class="store__product--description">
-                    <img src="" alt="">
-                    <figcaptio></figcaption>
-                    <span></span>
-                </figure>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
-            </article>
-
             <article>
                 <span class="store__product--freight"></span>
                 <span class="store__product--discount"></span>
                 <figure class="store__product--description">
-                    <img src="" alt="">
-                    <figcaptio></figcaption>
-                    <span></span>
-                </figure>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
-            </article>
-
-            <article>
-               <span class="store__product--freight"></span>
-                <span class="store__product--discount"></span>
-                <figure class="store__product--description">
-                    <img src="" alt="">
-                    <figcaptio></figcaption>
-                    <span></span>
-                </figure>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
-            </article>
-
-            <article>
-               <span class="store__product--freight"></span>
-                <span class="store__product--discount"></span>
-                <figure class="store__product--description">
-                    <img src="" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
                     <figcaptio></figcaption>
                     <span></span>
                 </figure>
@@ -103,7 +67,31 @@
                 <span class="store__product--freight"></span>
                 <span class="store__product--discount"></span>
                 <figure class="store__product--description">
-                    <img src="" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
+                    <figcaptio></figcaption>
+                    <span></span>
+                </figure>
+                <input type="submit" value="DETALHES">
+                <input type="submit" value="COMPRAR">
+            </article>
+
+            <article>
+               <span class="store__product--freight"></span>
+                <span class="store__product--discount"></span>
+                <figure class="store__product--description">
+                    <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
+                    <figcaptio></figcaption>
+                    <span></span>
+                </figure>
+                <input type="submit" value="DETALHES">
+                <input type="submit" value="COMPRAR">
+            </article>
+
+            <article>
+               <span class="store__product--freight"></span>
+                <span class="store__product--discount"></span>
+                <figure class="store__product--description">
+                    <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
                     <figcaptio></figcaption>
                     <span></span>
                 </figure>
@@ -115,7 +103,19 @@
                 <span class="store__product--freight"></span>
                 <span class="store__product--discount"></span>
                 <figure class="store__product--description">
-                    <img src="" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
+                    <figcaptio></figcaption>
+                    <span></span>
+                </figure>
+                <input type="submit" value="DETALHES">
+                <input type="submit" value="COMPRAR">
+            </article>
+
+            <article>
+                <span class="store__product--freight"></span>
+                <span class="store__product--discount"></span>
+                <figure class="store__product--description">
+                    <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
                     <figcaptio></figcaption>
                     <span></span>
                 </figure>
@@ -127,7 +127,7 @@
                <span class="store__product--freight"></span>
                 <span class="store__product--discount"></span>
                 <figure class="store__product--description">
-                    <img src="" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
                     <figcaptio></figcaption>
                     <span></span>
                 </figure>
@@ -139,7 +139,7 @@
                <span class="store__product--freight"></span>
                 <span class="store__product--discount"></span>
                 <figure class="store__product--description">
-                    <img src="" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
                     <figcaptio></figcaption>
                     <span></span>
                 </figure>
@@ -151,7 +151,7 @@
                <span class="store__product--freight"></span>
                 <span class="store__product--discount"></span>
                 <figure class="store__product--description">
-                    <img src="" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
                     <figcaptio></figcaption>
                     <span></span>
                 </figure>

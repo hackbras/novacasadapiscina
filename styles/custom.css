@@ -847,6 +847,39 @@ promotion__two--description
     padding:8px 8px;   
     border-radius: 8px;   
 }
+.store__products--articles {
+    padding:0px 40px 0px 20px;
+    justify-content: space-between;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
+}
+
+.store__products--articles article{
+    padding:3px 3px;
+    width:220px;
+    height:350px;
+    border:0.5px solid #7575756e;
+    border-radius:5px;    
+    margin: 17px 0px;
+}
+.store__products--articles input[value="COMPRAR"]{
+    background-color:#55b2c8;   
+    width:121px;
+    height:26px;
+    border-radius:7px;
+    color:#fff;
+    border:0px;
+}
+.store__products--articles input[value="DETALHES"]{
+    background-color:#fff;   
+    width:93px;
+    height:24px;
+    color:#55b2c8;
+    border:0px;
+}
+
 /*Footer*/
 
 .footer {
