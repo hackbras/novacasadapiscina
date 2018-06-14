@@ -23,10 +23,12 @@
         include "/includes/contact.php";
         include "/includes/about.php";
         include "/includes/faq.php";
-        include "/includes/promotion.php";*/
-        include "/includes/product/product-store.php"; 			
+        include "/includes/promotion.php";
+        include "/includes/product/product-store.php"; 		*/
+        include "/includes/product/product-description.php"
         /*Falta:
-			include "/includes/product/product-description.php"; 
+        com: email,nome, telefone e endereço
+			include "/includes/product/product-store.php"; 
         */
 	?>
 	
