@@ -2,39 +2,39 @@
     <!--Imagens carroussel-->
     <section class="description__images">
         <aside class="description__carroussel">
-             <img class="description__carroussel--up" src="" alt="">
+             <img class="description__carroussel--up" src="assets/img/produtos/" alt="">
              <figure class="description__carroussel--images">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
+                <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
+                <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
+                <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
             </figure>        
-            <img class="description__carroussel--down" src="" alt="">
+            <img class="description__carroussel--down" src="assets/img/produtos/" alt="">
         </aside>
         <!--Imagem Principal-->
         <figure class="description__image--master">
-            <figcaption></figcaption>
-            <img src="" alt="">
+            <figcaption>Nome do Produto</figcaption>
+            <img src="assets/img/produtos/piscina4.jpg" alt="">
         </figure>
     </section>
 
     <section class="description__cost">       
         <div class="description__cost--values">
-            <label class="description__cost--values" for="">de:</label>
+            <label class="description__cost--label" for="">de:</label>
             <span  id="description__cost--values">xxx,xxR$</span>
             
-            <label class="description__cost--for" for="">por:</label>
+            <label class="description__cost--label" for="">por:</label>
             <span id="description__cost--for"></span>
            
-            <label class="description__cost--until" for="">em atér:</label>
+            <label class="description__cost--until" for="">em até:</label>
             <span id="description__cost--until"></span>
             
-            <label class="description__cost--of" for="">de:</label>
+            <label class="description__cost--label" for="">de:</label>
             <span id="description__cost--of"></span>
 
             <span id="description__cost--interest">sem juros</span>
 
-            <label class="description__cost--or" for=""> ou:</label>
+            <label class="description__cost--label" for=""> ou:</label>
             <span id="description__cost--or"></span>
             <span id="description__cost--in-cash">à vista</span>
 
