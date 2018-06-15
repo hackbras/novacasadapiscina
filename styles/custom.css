@@ -1060,9 +1060,59 @@ promotion__two--description
     top: 50%;    
     grid-column:3 / 4;
     grid-row:1 / 2;
+    grid-gap:10px 0px;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:auto auto;
+}
+.description__cost--values{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
 }
 .description__cost--label{
     font-weight:bold;
+}
+.description__cost--button-count{
+    grid-column:1 / 2;
+    grid-row:2 / 3;
+    display:grid;
+    grid-template-columns:23px 30px;
+    grid-template-rows:16px 16px;
+    grid-gap:1px 3px;
+}
+.description__cost--button-count input[type="number"]{
+    text-align:center;
+    padding-left:0px;
+    width:35px;
+    height:86%;
+    grid-column:1 / 2;
+    grid-row:1 / 3;
+}
+.description__cost--button-plus{
+    background-color:#fff;
+    border:2px solid #55b2c8;
+    color:#55b2c8;    
+    height:100%;
+    grid-column:2 / 3;
+    grid-row:1 / 2;
+}
+.description__cost--button-minus{
+    background-color:#fff;
+    border:2px solid #55b2c8;
+    color:#55b2c8;    
+    height:100%;
+    grid-column:2 / 3;
+    grid-row:2 / 3;
+}
+.description__cost--button-buy{
+    grid-column:2 / 3;
+    grid-row:2 / 3;
+    background-color:#fff;
+    color:#55b2c8;
+    font-weight:bold;
+    border: 5px solid #55b2c8;
+    padding:5px 5px;
+
 }
 
 .description__information{
@@ -1070,8 +1120,12 @@ promotion__two--description
     grid-row:2 / 3;
 }
 .description__image--master img{
-    width:100%;
-
+    width:100%;    
+    border-radius: 5px;
+    outline-style: solid;
+    outline-color: #757575;
+    outline-width: 0.1px;
+    outline-offset: 6px;
 }
 .description__image--master figcaption{
     text-align:center;

@@ -11,29 +11,15 @@
 <?php include "/includes/header.php";?>
 
     <?php
-        /*include "/includes/home.php";
-        include "/includes/product/product-pool.php";        
-        include "/includes/product/product-pool-vinil.php";    
-        include "/includes/product/product-pool-fibra.php"; 
-        include "/includes/product/product-pool-azulejo.php";           
-        include "/includes/product/product-spa.php";
-        include "/includes/product/product-sauna.php";
-        include "/includes/product/product-others-aquecedor-solar.php";
-        include "/includes/product/product-others-aquecedor-gas.php";
-        include "/includes/contact.php";
-        include "/includes/about.php";
-        include "/includes/faq.php";
-        include "/includes/promotion.php";
-        include "/includes/product/product-store.php"; 		*/
-        include "/includes/product/product-description.php"
-        /*Falta:
-        com: email,nome, telefone e endereço
-			include "/includes/product/product-store.php"; 
+        /*Falta Melhorar:
+        
+        	include "/includes/product/product-store-car.php";
+			include "/includes/product/product-store-form.php";
         */
 	?>
 	
 	<?php
-		/*include "/includes/conexao.php";
+		include "/includes/conexao.php";
 
 		$consulta="select * from ".$tabela;
 		$query = mysql_query($consulta);
@@ -43,20 +29,20 @@
 			$whatsapp=$resultado->whatsapp;
 			$telefone=$resultado->celular;
 			$email=$resultado->email;
-		}*/
+		}/**/
 	?>
 
 	<?php
-        /*
+        
 		foreach ($_REQUEST as $_OPT => $_VAL) {
 			$$_OPT = $_VAL;
 		}
 		if(is_array($pagina)){
-			include("/includes/home.php");
+			include("includes/home.php");
 		}
 		else{
 			include($pagina);
-		}*/
+		}/**/
 	?>
 
 <?php include "/includes/footer.php";?>

@@ -24,18 +24,18 @@
             <span  id="description__cost--values">xxx,xxR$</span>
             
             <label class="description__cost--label" for="">por:</label>
-            <span id="description__cost--for"></span>
+            <span id="description__cost--for">xxx,xxR$</span>
            
             <label class="description__cost--until" for="">em até:</label>
-            <span id="description__cost--until"></span>
+            <span id="description__cost--until">5x</span>
             
             <label class="description__cost--label" for="">de:</label>
-            <span id="description__cost--of"></span>
+            <span id="description__cost--of">xx,xxR$</span>
 
             <span id="description__cost--interest">sem juros</span>
 
             <label class="description__cost--label" for=""> ou:</label>
-            <span id="description__cost--or"></span>
+            <span id="description__cost--or">xxxx,xxR$</span>
             <span id="description__cost--in-cash">à vista</span>
 
             <label id="description__cost--in-cash" for="">no:</label>
@@ -43,12 +43,12 @@
             <span id="description__cost--discount">x% de desconto</span>
         </div>
 
-        <div class="description__cost--buttom-count">
+        <div class="description__cost--button-count">
             <input type="number" value="1">
-            <buttom class="description__cost--buttom-plus">+</buttom>
-            <buttom class="description__cost--buttom-minus">-</buttom>
+            <button type="submit" class="description__cost--button-plus">+</button>
+            <button type="submit" class="description__cost--button-minus">-</button>
         </div>
-        <input class="description__cost--buttom-buy" type="submit" value="COMPRAR">
+        <input class="description__cost--button-buy" type="submit" value="COMPRAR">
     </section>
 
     <article class="description__information">
@@ -58,9 +58,19 @@
 
         <h3 class="description__information--subtitle">Medidas</h3>
             <ul class="description__information--measures">
-                <li>Diâmetro exterior: 1,80m </li>
-                <li>Diâmetro interior: 1,40 m</li>
-                <li>Altura: 0,64 m</li>
+                <li> 
+                    <label>Diâmetro exterior:</label>
+                    <span>1,80m </span>
+                </li>
+
+                <li> 
+                    <label>Diâmetro interior:</label>
+                    <span>1,40 m</span>
+                </li>
+                <li> 
+                    <label>Altura:</label>
+                    <span>0,64 m</span>
+                </li>
             </ul>
 
         <h3 class="description__information--subtitle">Informações Técnicas</h3>
