@@ -353,30 +353,77 @@ form input[type=submit] {
 
 /*Product*/
 
-.product__piscina {
+.product__container {
     padding: 5%;
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows:auto auto;
+    grid-gap:0px 30px;
+}
+.product__default--title{
+    padding:8px 0px;
+}
+/*Product Menu*/
+.product__menu{
+    grid-column:1 / 2;
+    grid-row:1 / 2;
+    border-right:1px solid #b5afaf;
+}
+.product__menu ul{
+    padding:0px 15px;;
+}
+.product__menu ul li{
+    list-style-type:none;
+}
+.product__menu--tipo,
+.product__menu--acessorios,
+.product__menu--acabamento{
+    margin:5px 0px;
+}
+.product__menu--tipo h3,
+.product__menu--acessorios h3,
+.product__menu--acabamento h3{
+    margin:5px 0px;
 }
 
-.product__item {
-    margin: 5%;
+/*Product Default*/
+.product__default{
+    grid-column:2 / 3;
+    grid-row:1 / 2;
+}
+.product__default--figure img{
+    width:450px;
 }
 
 .product__item h3 {
     margin: 15px 5px;
 }
 
-.product__piscina--tipo-description {
+.product__default--tipo-description {
     width: 300px;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 10px 10px;
     padding: 10px;
 }
-
-.product__piscina--tipo-description figure {
-    padding: 10px;
+.product__default--description{
+    column-count:2;
+}
+.product__default--tipo-description figure {
+    padding: :10px;
+}
+.product__default--description,
+.product__default--projeto,
+.product__default--tipos,
+.product__default--modelos,
+.product__default--instalation{
+    padding:8px 8px;
 }
 
+
+.product__default--tipos ul{
+    margin:0px 20px;
+}
 
 /*ul p figure*/
 

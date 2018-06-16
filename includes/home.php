@@ -34,7 +34,7 @@
     </section>
 
     <div class="home__subscription">   
-        <h1 class="home__subscription--title">Inscreva-se</h1>
+        <h1 class="home__subscription--title">Fique por dentro!</h1>
         <form class="form" action="">
             <input class="form-text" type="text" placeholder="Nome:">
 
