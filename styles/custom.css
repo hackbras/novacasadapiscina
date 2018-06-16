@@ -677,39 +677,7 @@ form input[type=submit] {
 }
 
 
-/*Promotion
-
-promotion
-promotion__banner-    
-promotion__banner--base
-promotion__banner--image-tree
-promotion__banner--title
-promotion__banner--image-sun
-
-promotion__title
-
-promotion__one
-promotion__one--title
-promotion__one--sutitle
-promotion__one--body
-promotion__one--image
-promotion__one--image
-promotion__one--description
-
-promotion__subscription
-promotion__subscription--form
-promotion__subscription--form-title
-promotion__subscription--form-subtitle
-
-promotion__two
-promotion__two--title
-promotion__two--subtitle
-promotion__two--body
-promotion__two--image
-promotion__two--image
-promotion__two--description
-
-*/
+/*Promotion*/
 
 .promotion {
     padding: 16px 0px;
@@ -891,7 +859,7 @@ promotion__two--description
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     border-radius: 5px;
-    height: 600px;
+    height: 650px;
 }
 
 .store__products {

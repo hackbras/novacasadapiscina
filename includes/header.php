@@ -17,9 +17,9 @@
             <a href="">(31)9 9290-2814</a>
         </nav>
         <nav class="menu__main">   
-            <a href="index.php?pagina=includes/product/product-pool.php">Piscina</a>
-            <a href="index.php?pagina=includes/product/product-sauna.php">Sauna</a>
-            <a href="index.php?pagina=includes/product/product-spa.php">Spa</a>
+            <a href="index.php?pagina=includes/product-information/product-pool.php">Piscina</a>
+            <a href="index.php?pagina=includes/product-information/product-sauna.php">Sauna</a>
+            <a href="index.php?pagina=includes/product-information/product-spa.php">Spa</a>
             <a href="index.php?pagina=includes/contact.php">Contatos</a>
             <a href="index.php?pagina=includes/about.php">Sobre</a>
             <a href="index.php?pagina=includes/faq.php">Dúvidas Frequêntes</a>

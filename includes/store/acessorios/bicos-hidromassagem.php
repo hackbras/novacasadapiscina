@@ -4,8 +4,8 @@
     ?>
 
     <section class="store__products">
-        <h1 class="store__products--title">Produtos e Acessórios</h1>
-        <h2 class="store__products--subtitle">PISCINA</h2>
+        <h1 class="store__products--title">Acessórios</h1>
+        <h2 class="store__products--subtitle">Bicos de Hidromassagem</h2>
         <div class="store__products--articles">
             <article>
                 <span class="store__product--freight">FRETE GRÁTIS</span>
@@ -15,7 +15,7 @@
                     <figcaption>Nome do produto</figcaption>
                 </figure>
                 <span class="store__product--values-or-status">por: R$ xx.xxx,00 ou até 5x de R$ xx,00</span>
-                <a class="store__product--details" href="index.php?pagina=includes/product-information/product-description.php">
+                <a class="store__product--details" href="index.php?pagina=includes/product-information-information/product-description.php">
                     <input type="submit" value="DETALHES">
                 </a>
                 <a class="store__product--to-buy" href="index.php?pagina=includes/store/product-store-car.php">                    
@@ -31,7 +31,7 @@
                     <figcaption>Nome do produto</figcaption>
                 </figure>
                 <span class="store__product--values-or-status">por: R$ xx.xxx,00 ou até 5x de R$ xx,00</span>
-                <a class="store__product--details" href="index.php?pagina=includes/product-information/product-description.php">
+                <a class="store__product--details" href="index.php?pagina=includes/product-information-information/product-description.php">
                     <input type="submit" value="DETALHES">
                 </a>
                 <a class="store__product--to-buy" href="index.php?pagina=includes/store/product-store-car.php">                    

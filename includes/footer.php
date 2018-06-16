@@ -11,9 +11,9 @@
         <h1> Categorias</h1>  
         <ul> 
             <li><a href="index.php?pagina=includes/home.php" >Página Inicial</a></li>
-            <li><a href="index.php?pagina=includes/product/product-pool.php" >Piscina</a></li>
-            <li><a href="index.php?pagina=includes/product/product-sauna.php" >Sauna</a></li>
-            <li><a href="index.php?pagina=includes/product/product-spa.php" >Spa</a></li>
+            <li><a href="index.php?pagina=includes/product-information/product-pool.php" >Piscina</a></li>
+            <li><a href="index.php?pagina=includes/product-information/product-sauna.php" >Sauna</a></li>
+            <li><a href="index.php?pagina=includes/product-information/product-spa.php" >Spa</a></li>
             <li><a href="index.php?pagina=includes/contact.php" >Contatos</a></li>
             <li><a href="index.php?pagina=includes/about.php" >Sobre</a></li>
             <li><a href="index.php?pagina=includes/faq.php" >Dúvidas Frequêntes</a></li>

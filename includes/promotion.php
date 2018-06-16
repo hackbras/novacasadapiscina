@@ -31,7 +31,7 @@
             <h4 class="promotion__subscription--form-subtitle">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promossões</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h4>
             <input type="text" placeholder="Nome:">
             <input type="text" placeholder="E-mail ou Telefone:">
-            <input type="submit" value="Enviar">
+            <input class="button-green" type="submit" value="Enviar">
         </form>
     </section>
 

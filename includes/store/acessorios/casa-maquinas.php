@@ -4,8 +4,8 @@
     ?>
 
     <section class="store__products">
-        <h1 class="store__products--title">Produtos e Acessórios</h1>
-        <h2 class="store__products--subtitle">PISCINA</h2>
+        <h1 class="store__products--title">Acessórios</h1>
+        <h2 class="store__products--subtitle">Casa de Máquinas</h2>
         <div class="store__products--articles">
             <article>
                 <span class="store__product--freight">FRETE GRÁTIS</span>
