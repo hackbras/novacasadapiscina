@@ -3,7 +3,7 @@
     $pgatual= strtolower(end($pagina));
 ?>
 
-<header class="header">
+<header class="header-home">
     <div class="header__logo">
     <a href="index.php?pagina=includes/home.php">        
         <img class="logo" src="assets/img/logo3-1.png" alt="" >

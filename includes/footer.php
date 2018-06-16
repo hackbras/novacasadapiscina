@@ -10,14 +10,15 @@
     <div class="footer__menu"> 
         <h1> Categorias</h1>  
         <ul> 
-            <li><a href="" >Piscina</a></li>
-            <li><a href="" >Sauna</a></li>
-            <li><a href="" >Spa</a></li>
-            <li><a href="" >Contatos</a></li>
-            <li><a href="" >Sobre</a></li>
-            <li><a href="" >Dúvidas Frequêntes</a></li>
-            <li><a href="" >Loja Virtual</a></li>
-            <li><a href="" >Promoções</a></li>
+            <li><a href="index.php?pagina=includes/home.php" >Página Inicial</a></li>
+            <li><a href="index.php?pagina=includes/product/product-pool.php" >Piscina</a></li>
+            <li><a href="index.php?pagina=includes/product/product-sauna.php" >Sauna</a></li>
+            <li><a href="index.php?pagina=includes/product/product-spa.php" >Spa</a></li>
+            <li><a href="index.php?pagina=includes/contact.php" >Contatos</a></li>
+            <li><a href="index.php?pagina=includes/about.php" >Sobre</a></li>
+            <li><a href="index.php?pagina=includes/faq.php" >Dúvidas Frequêntes</a></li>
+            <li><a href="index.php?pagina=includes/store/product-store.php" >Loja Virtual</a></li>
+            <li><a href="index.php?pagina=includes/promotion.php" >Promoções</a></li>
         </ul>
     </div>
 

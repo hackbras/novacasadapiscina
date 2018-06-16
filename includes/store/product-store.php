@@ -59,8 +59,12 @@
                     <figcaption>Nome do produto</figcaption>
                 </figure>
                 <span class="store__product--values-or-status">por: R$ xx.xxx,00 ou até 5x de R$ xx,00</span>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
+                <a class="store__product--details" href="index.php?pagina=includes/product/product-description.php">
+                    <input type="submit" value="DETALHES">
+                </a>
+                <a class="store__product--to-buy" href="index.php?pagina=includes/store/product-store-car.php">                    
+                    <input type="submit" value="COMPRAR">
+                 </a>
             </article>
 
             <article>
@@ -71,8 +75,12 @@
                     <figcaption>Nome do produto</figcaption>
                 </figure>
                 <span class="store__product--values-or-status">por: R$ xx.xxx,00 ou até 5x de R$ xx,00</span>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
+                <a class="store__product--details" href="index.php?pagina=includes/product/product-description.php">
+                    <input type="submit" value="DETALHES">
+                </a>
+                <a class="store__product--to-buy" href="index.php?pagina=includes/store/product-store-car.php">                    
+                    <input type="submit" value="COMPRAR">
+                </a>
             </article>
 
             <article>
@@ -83,8 +91,12 @@
                     <figcaption>Nome do produto</figcaption>
                 </figure>
                 <span class="store__product--values-or-status">por: R$ xx.xxx,00 ou até 5x de R$ xx,00</span>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
+                <a class="store__product--details" href="index.php?pagina=includes/product/product-description.php">
+                    <input type="submit" value="DETALHES">
+                </a>
+                <a class="store__product--to-buy" href="index.php?pagina=includes/store/product-store-car.php">    
+                    <input type="submit" value="COMPRAR">
+                </a>
             </article>
 
             <article>
@@ -95,8 +107,12 @@
                     <figcaption>Nome do produto</figcaption>
                 </figure>
                 <span class="store__product--values-or-status">por: R$ xx.xxx,00 ou até 5x de R$ xx,00</span>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
+                <a class="store__product--details" href="index.php?pagina=includes/product/product-description.php">
+                    <input type="submit" value="DETALHES">
+                </a>
+                <a class="store__product--to-buy" href="index.php?pagina=includes/store/product-store-car.php">                    
+                    <input type="submit" value="COMPRAR">
+                </a>
             </article>
 
             <article>
@@ -107,8 +123,12 @@
                     <figcaption>Nome do produto</figcaption>
                 </figure>
                 <span class="store__product--values-or-status">por: R$ xx.xxx,00 ou até 5x de R$ xx,00</span>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
+                <a class="store__product--details" href="index.php?pagina=includes/product/product-description.php">
+                    <input type="submit" value="DETALHES">
+                </a>
+                <a class="store__product--to-buy" href="index.php?pagina=includes/store/product-store-car.php">                    
+                    <input type="submit" value="COMPRAR">
+                </a>
             </article>
 
             <article>
@@ -119,8 +139,12 @@
                     <figcaption>Nome do produto</figcaption>
                 </figure>
                 <span class="store__product--values-or-status">por: R$ xx.xxx,00 ou até 5x de R$ xx,00</span>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
+                <a class="store__product--details" href="index.php?pagina=includes/product/product-description.php">
+                    <input type="submit" value="DETALHES">
+                </a>
+                <a class="store__product--to-buy" href="index.php?pagina=includes/store/product-store-car.php">                    
+                    <input type="submit" value="COMPRAR">
+                </a>
             </article>
 
             <article>
@@ -131,8 +155,12 @@
                     <figcaption>Nome do produto</figcaption>
                 </figure>
                 <span class="store__product--values-or-status">por: R$ xx.xxx,00 ou até 5x de R$ xx,00</span>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
+                <a class="store__product--details" href="index.php?pagina=includes/product/product-description.php">
+                    <input type="submit" value="DETALHES">
+                </a>
+                <a class="store__product--to-buy" href="index.php?pagina=includes/store/product-store-car.php">                    
+                    <input type="submit" value="COMPRAR">
+                </a>
             </article>
 
             <article>
@@ -143,8 +171,12 @@
                     <figcaption>Nome do produto</figcaption>
                 </figure>
                 <span class="store__product--values-or-status">por: R$ xx.xxx,00 ou até 5x de R$ xx,00</span>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
+                <a class="store__product--details"  href="index.php?pagina=includes/product/product-description.php">
+                    <input type="submit" value="DETALHES">
+                </a>
+                <a class="store__product--to-buy" href="index.php?pagina=includes/store/product-store-car.php">
+                    <input type="submit" value="COMPRAR">
+                </a>
             </article>
 
             <article>
@@ -155,8 +187,12 @@
                     <figcaption>Nome do produto</figcaption>
                 </figure>
                 <span class="store__product--values-or-status">por: R$ xx.xxx,00 ou até 5x de R$ xx,00</span>
-                <input type="submit" value="DETALHES">
-                <input type="submit" value="COMPRAR">
+                <a class="store__product--details" href="index.php?pagina=includes/product/product-description.php">
+                    <input type="submit" value="DETALHES">
+                </a>
+                <a class="store__product--to-buy" href="index.php?pagina=includes/store/product-store-car.php">
+                    <input type="submit" value="COMPRAR">
+                </a>
             </article>
         </div>
     </section>

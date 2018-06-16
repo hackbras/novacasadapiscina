@@ -8,16 +8,13 @@
 </head>
 
 <body>
-<?php include "/includes/header.php";?>
+	<?php 
+		
+		include "/includes/header.php";
 
-    <?php
-        /*Falta Melhorar:
-        
-        	include "/includes/product/product-store-car.php";
-			include "/includes/product/product-store-form.php";
-        */
 	?>
-	
+
+
 	<?php
 		include "/includes/conexao.php";
 

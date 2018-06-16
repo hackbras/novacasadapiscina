@@ -40,7 +40,7 @@
 
             <input class="form-text"  type="text" placeholder="E-mail ou Telefone:">
 
-            <input class="form-submit" type="submit" value="enviar">
+            <input class="form-submit button-white" type="submit" value="enviar">
         </form>
     </div>  
 
@@ -79,7 +79,7 @@
 
             <input class="form-text"  type="text" placeholder="E-mail ou Telefone:">
 
-            <input class="form-submit" type="submit" value="enviar">
+            <input class="form-submit button-white" type="submit" value="enviar">
         </form>
     </div>  
 
@@ -102,7 +102,7 @@
             </div>        
 
             <div class="orcamento__bar">
-                <input class="orcamento__bar--submit"  type="submit" value="enviar">
+                <input class="orcamento__bar--submit button-green"  type="submit" value="enviar">
             </div>
         </form>
     </section>

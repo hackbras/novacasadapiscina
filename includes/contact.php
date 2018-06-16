@@ -5,7 +5,7 @@
             <input type="text" placeholder="Nome:">
             <input type="text" placeholder="Email:">
              <textarea >   </textarea>
-            <input type="submit" value="Enviar">
+            <input class="button-white" type="submit" value="Enviar">
         </form>
     </section>
 
@@ -31,7 +31,7 @@
     <section class="contact__item contact__map">
         <div class="contact__item contact__map--elements">
             <iframe></iframe>
-            <buttom>Ver no Google</buttom>
+            <buttom class="button-white" type="submit">Ver no Google</buttom>
          </div>
     </section>
 </div>

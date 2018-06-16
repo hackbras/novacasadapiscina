@@ -48,7 +48,9 @@
             <button type="submit" class="description__cost--button-plus">+</button>
             <button type="submit" class="description__cost--button-minus">-</button>
         </div>
-        <input class="description__cost--button-buy" type="submit" value="COMPRAR">
+        <a href="index.php?pagina=includes/store/product-store-car.php">
+            <input class="description__cost--button-buy button-white" type="submit" value="COMPRAR">
+        </a>
     </section>
 
     <article class="description__information">
