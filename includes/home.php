@@ -5,40 +5,41 @@
     <section class="home__galery">  
             <figure class="image__one image1">    
                 <img src="assets/img/produtos/pronto/produto-piscina.png" class="home__galery--image" alt="Imagem de uma piscina grande, com uma área verde em volta, um sombrero ou tolde e niveis diferentes de profundidade.">
-                <figurecaption>Piscina</figurecaption>      
+                <figurecaption class="label__black">Piscina</figurecaption>      
             </figure>
             <figure class="image__one image2">    
                 <img src="assets/img/produtos/pronto/produto-spa.png" class="home__galery--image" alt="Imagem de um SPA moderno com uma decoração exótica de bambus e algumas plantas.">
-                <figurecaption>SPA</figurecaption>      
+                <figurecaption class="label__black">SPA</figurecaption>      
             </figure>
             <figure class="image__two image3">    
                 <img src="assets/img/produtos/pronto/produto-aquecimento-gas.png" class="home__galery--image" alt="Imagem de um equipamento moderno de aquecimento a Gás.">
-                <figurecaption>Aquecimento a Gás</figurecaption>      
+                <figurecaption class="label__black">Aquecimento a Gás</figurecaption>      
             </figure>
             <figure class="image__two image4">    
                 <img src="assets/img/produtos/pronto/produto-aquecedor-solar.PNG" class="home__galery--image" alt="Imagem de painéis solares de um aquecedor solar convencional.">
-                <figurecaption>Aquecedor Solar</figurecaption>      
+                <figurecaption class="label__black">Aquecedor Solar</figurecaption>      
             </figure>
             <figure class="image__two image5">    
                 <img src="assets/img/produtos/pronto/produto-sauna.png" class="home__galery--image" alt="Kit completo para Sauna, com todos os equipamentos e máquinário necessário.">
-                <figurecaption>Aparelho para Sauna</figurecaption>      
+                <figurecaption class="label__black">Aparelho para Sauna</figurecaption>      
             </figure>
             <figure class="image__three image6">    
                 <img src="assets/img/produtos/pronto/produto-kit-limpeza-piscina.png" class="home__galery--image" alt="Imagem de um kit de limpeza para piscinas.">
-                <figurecaption>Kit de Limpeza</figurecaption>      
+                <figurecaption class="label__black">Kit de Limpeza</figurecaption>      
             </figure>
             <figure class="image__three image7">        
                 <img src="assets/img/produtos/pronto/produto-cadeira-espreguicadeira.png" class="home__galery--image" alt="Imagem com cadeira espreguiçadeira moderna de cor laranja.">
-                <figurecaption>Espreguiçadeira</figurecaption>      
+                <figurecaption class="label__black">Espreguiçadeira</figurecaption>      
             </figure>
     </section>
 
     <div class="home__subscription">   
         <h1 class="home__subscription--title">Fique por dentro!</h1>
+        <h2 class="home__subscription--subtitle">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promossões</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h2>
         <form class="form" action="">
-            <input class="form-text" type="text" placeholder="Nome:">
+            <input class="form-text text__green" type="text" placeholder="Nome:">
 
-            <input class="form-text"  type="text" placeholder="E-mail ou Telefone:">
+            <input class="form-text text__green"  type="text" placeholder="E-mail ou Telefone:">
 
             <input class="form-submit button-white" type="submit" value="enviar">
         </form>
@@ -47,37 +48,110 @@
     <section class="home__accessories">   
         <div class="home__accessories--title">
             <h1>Conheça nossos Acessórios</h1>
-            <h3>Sub título Acessórios  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac   </h3>
+            <h3>Saiba mais sobre nossos acessórios para sua piscina, souna ou spa.</h3>
         </div>
 
         <nav class="home__accessories--menu">   
-            <a href="">Bicos de Hidromassagem</a>
-            <a href="">Capa de piscina</a>
-            <a href="">Casa de Máquinas</a>
-            <a href="">Cascata Inox</a>
-            <a href="">Cascata de Fibra</a>
-            <a href="">Refletores de Led</a>
-            <a href="">Bomba</a>
-            <a href="">Filtro</a>
+            <a class="home__accessories--menu-bicos-hidromassagem" href="">Bicos de Hidromassagem</a>
+            <a class="home__accessories--menu-capa-piscina" href="">Capa de piscina</a>
+            <a class="home__accessories--menu-casa-maquinas" href="">Casa de Máquinas</a>
+            <a class="home__accessories--menu-inox" href="">Cascata Inox</a>
+            <a class="home__accessories--menu-cascata-fibra" href="">Cascata de Fibra</a>
+            <a class="home__accessories--menu-refletores-led" href="">Refletores de Led</a>
+            <a class="home__accessories--menu-bomba" href="">Bomba</a>
+            <a class="home__accessories--menu-filtro" href="">Filtro</a>
         </nav>
+        
+        <div class="home__accessories--container">
+            <article id="home__accessories--bicos-hidromassagem" class="home__accessories--text">
+                <div class="home__accessories--image" >        
+                    <img src="assets/img/acessorios/prontos/bicos-jato-de-hidromassagem.png" alt="" width="220px">
+                </div>
 
-        <article class="home__accessories--text">
-            <div class="home__accessories--image" >        
-                <img src="" alt="">
-            </div>
+                <p class="home__accessories--description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                </p>
+            </article>
 
-            <p class="home__accessories--description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
-            </p>
-        </article>
+             <article id="home__accessories--capa-piscina" class="home__accessories--text">
+                <div class="home__accessories--image" >        
+                    <img src="assets/img/acessorios/prontos/capa_pra-piscina.png" alt="" width="220px">
+                </div>
+
+                <p class="home__accessories--description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                </p>
+            </article>
+
+             <article id="home__accessories--casa-maquinas" class="home__accessories--text">
+                <div class="home__accessories--image" >        
+                    <img src="assets/img/acessorios/prontos/casa-de-maquinas.png" alt="" width="220px">
+                </div>
+
+                <p class="home__accessories--description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                </p>
+            </article>
+
+             <article id="home__accessories--Inox" class="home__accessories--text">
+                <div class="home__accessories--image" >        
+                    <img src="assets/img/acessorios/prontos/cascata-inox.png" alt="" width="220px">
+                </div>
+
+                <p class="home__accessories--description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                </p>
+            </article>
+
+             <article id="home__accessories--cascata-fibra" class="home__accessories--text">
+                <div class="home__accessories--image" >        
+                    <img src="assets/img/acessorios/prontos/cascata-fibra-bico-de-pato.png" alt="" width="220px">
+                </div>
+
+                <p class="home__accessories--description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                </p>
+            </article>
+
+             <article id="home__accessories--refletores-led" class="home__accessories--text">
+                <div class="home__accessories--image" >        
+                    <img src="assets/img/acessorios/prontos/refletores-de-led-pra-piscina.png" alt="" width="220px">
+                </div>
+
+                <p class="home__accessories--description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                </p>
+            </article>
+
+             <article id="home__accessories--Bomba" class="home__accessories--text">
+                <div class="home__accessories--image" >        
+                    <img src="assets/img/acessorios/prontos/bomba.png" alt="" width="220px">
+                </div>
+
+                <p class="home__accessories--description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                </p>
+            </article>
+
+             <article id="home__accessories--filtro" class="home__accessories--text">
+                <div class="home__accessories--image" >        
+                    <img src="assets/img/acessorios/prontos/filtro-pra-piscina1.png" alt="" width="220px">
+                </div>
+
+                <p class="home__accessories--description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                </p>
+            </article>
+        </div>
     </section> 
 
     <div class="home__subscription">   
         <h1 class="home__subscription--title">Inscreva-se</h1>
+        <h2 class="home__subscription--subtitle">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promossões</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h2>
         <form class="form" action="">
-            <input class="form-text" type="text" placeholder="Nome:">
+            <input class="form-text text__green" type="text" placeholder="Nome:">
 
-            <input class="form-text"  type="text" placeholder="E-mail ou Telefone:">
+            <input class="form-text text__green"  type="text" placeholder="E-mail ou Telefone:">
 
             <input class="form-submit button-white" type="submit" value="enviar">
         </form>
@@ -86,16 +160,16 @@
     <section class="orcamento"> 
         <h1 class="orcamento__title" >ORÇAMENTO IMEDIATO</h1>
         <form class="orcamento__form"  action="">
-            <input class="orcamento__name" type="text" placeholder="Nome:">
+            <input class="orcamento__name text__green" type="text" placeholder="Nome:">
 
-            <input class="orcamento__subjective"  type="text" placeholder="Assunto:">
+            <input class="orcamento__subjective  text__green"  type="text" placeholder="Assunto:">
 
 
-            <input class="orcamento__email"  type="text" placeholder="E-mail:">
+            <input class="orcamento__email  text__green"  type="text" placeholder="E-mail:">
 
-            <textarea class="orcamento__message">   </textarea>
+            <textarea class="orcamento__message  textarea__green" placeholder="Escreva sua mensagem aqui:">   </textarea>
 
-            <input class="orcamento__phone"  type="text" placeholder="Telefone:">
+            <input class="orcamento__phone  text__green"  type="text" placeholder="Telefone:">
 
             <div class="orcamento__char" >
                 <span class="orcamento__char--count" >0 de 250</span>

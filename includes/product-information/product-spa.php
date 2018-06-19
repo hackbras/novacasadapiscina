@@ -1,7 +1,42 @@
 <div class="product__container">
-   <?php
-    include "includes/product-information/menu.php";
-   ?>
+   <aside class="product__menu">
+        <div class="product__menu--tipo">
+                <!--
+            <h3>Tipos</h3>
+            <ul>
+                <li><a href="index.php?pagina=includes/product-information/product-spa.php">Tipo1</a></li>
+                <li><a href="index.php?pagina=includes/product-information/product-spa.php">Tipo2</a></li>
+                <li><a href="index.php?pagina=includes/product-information/product-spa.php">Tipo3</a></li>
+                
+            </ul>-->
+        </div>
+        
+        <div class="product__menu--acabamento">
+            <h3>Veja também</h3>
+            <ul>
+                <li><a href="index.php?pagina=includes/product-information/product-spa.php">SPA</a></li>
+                <li><a href="index.php?pagina=includes/product-information/product-sauna.php">Sauna</a></li>
+                <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-gas.php">Aquecedor à Gás</a></li>     
+                <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-solar.php">Aquecedor Solar Elétrico</a></li>             
+            </ul>
+        </div>
+
+        <div class="product__menu--acessorios">
+            <h2>Loja</h2>
+            <h3>Acessórios</h3>
+            <ul>
+                <li><a href="index.php?pagina=includes/store/acessorios/refletores-led.php">Refletor Led</a></li>
+                <li><a href="index.php?pagina=includes/store/acessorios/bicos-hidromassagem.php">Bicos de Hidromassagem</a></li>
+                <li><a href="index.php?pagina=includes/store/acessorios/capa-piscina.php">Capa de Piscina</a></li>
+                <li><a href="index.php?pagina=includes/store/acessorios/casa-maquinas.php">Casa de Máquinas</a></li>
+                <li><a href="index.php?pagina=includes/store/acessorios/cascata-inox.php">Cascata Inox</a></li>
+                <li><a href="index.php?pagina=includes/store/acessorios/cascata-fibra.php">Cascata de Fibra</a></li>
+                <li><a href="index.php?pagina=includes/store/acessorios/bombas.php.php">Bomba de Água</a></li>
+                <li><a href="index.php?pagina=includes/store/acessorios/filtros.php">Filtro</a></li>
+            </ul>            
+            <a class="label__black" href="index.php?pagina=includes/store/product-store.php">Outros Proutos</a>
+        </div>
+    </aside>
     <section class="product__default">
         <div class="product__default--description">
             <h1 class="product__default--title">SPA</h1>   
@@ -32,63 +67,63 @@
             <h3>Modelos</h3>
             <div class="product__default--tipo-description">
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/praia-grande.png" alt="">
-                    <figcaption>Praia Grande</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>            
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/diamante.png" alt="">
-                    <figcaption>Diamante</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
             
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/jade.png" alt="">
-                    <figcaption>Jade</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/guarapari.png" alt="">
-                    <figcaption>Guarapari</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/havai.png" alt="">
-                    <figcaption>Havai</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/ilha-bela.png" alt="">
-                    <figcaption>Ilha Bela</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption> </figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itaipava.png" alt="">
-                    <figcaption>Itaipava</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itaparica.png" alt="">
-                    <figcaption>Itaparica</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itapoa.png" alt="">
-                    <figcaption>Itapoa</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/rubi.png" alt="">
-                    <figcaption>Rubi</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
-                    <figcaption>Angra</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/feijao.png" alt="">
-                    <figcaption>Feijao</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
 
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/pop.png" alt="">
-                    <figcaption>Pop</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/isa.png" alt="">
-                    <figcaption>Isa</figcaption>
+                    <img src="assets/img/no-image.png" alt="">
+                    <figcaption></figcaption>
                 </figure>
             </div>
 

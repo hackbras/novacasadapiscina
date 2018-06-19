@@ -33,16 +33,34 @@ a {
     color:#fff;
     font-weight:bold;
 }
+
+
 .text__green::placeholder{
     color:#55b2c8;
     padding:0px 7px;
 }
-.text__green{
-    border:0.5px solid gray;
+.text__green{    
+    height: 33px;
+    border:0.5px solid #b5afaf;
     border-radius:3px;
     margin:2px 0px;
 }
-
+.textarea__green::placeholder{
+    color:#55b2c8;
+    padding:0px 7px;
+}
+.textarea__green{    
+    border:0.5px solid #b5afaf;
+    border-radius:3px;
+    margin:2px 0px;
+}
+/*Validation*/
+.text__green:invalid{
+    border:1px solid red;
+}
+input:invalid { 
+    border: 2px solid red;
+}
 
 /*header*/
 
@@ -87,6 +105,7 @@ a {
 .menu__main {
     padding: 15px;
     float: left;
+    position:relative;
 }
 
 .menu__main a,
@@ -100,6 +119,205 @@ a {
     opacity:0.5;
     color:#fff;
     border-radius:5px;
+}
+#menu__store--view{
+    visibility: hidden;
+}
+/*
+.menu__main--store:hover + .menu__store,
+.menu__main--store:hover + .menu__store--view
+{
+    visibility: visible !important;
+    color:yellow;
+}
+
+.menu__main--store:hover + .menu__store,
+.menu__main--store:hover + .menu__store--view
+{
+    visibility: visible;
+    color:yellow;
+}
+.menu__main--store:hover + .menu__store,
+.menu__main--store:hover + .menu__store--view
+{
+    display:block !important;
+    color:yellow;
+}
+
+.menu__main--store:hover + .menu__store,
+.menu__main--store:hover + .menu__store--view
+{
+    display:block;
+    color:yellow;
+}
+
+
+.menu__main--store:hover .menu__store,
+.menu__main--store:hover .menu__store--view
+{
+    visibility: visible !important;
+    color:yellow;
+}
+
+.menu__main--store:hover .menu__store,
+.menu__main--store:hover .menu__store--view
+{
+    visibility: visible;
+    color:yellow;
+}
+.menu__main--store:hover .menu__store,
+.menu__main--store:hover .menu__store--view
+{
+    display:block !important;
+    color:yellow;
+}
+
+.menu__main--store:hover .menu__store,
+.menu__main--store:hover .menu__store--view
+{
+    display:block;
+    color:yellow;
+}
+
+
+.menu__main--store:hover > .menu__store,
+.menu__main--store:hover > .menu__store--view
+{
+    visibility: visible !important;
+    color:yellow;
+}
+
+.menu__main--store:hover > .menu__store,
+.menu__main--store:hover > .menu__store--view
+{
+    visibility: visible;
+    color:yellow;
+}
+.menu__main--store:hover > .menu__store,
+.menu__main--store:hover > .menu__store--view
+{
+    display:block !important;
+    color:yellow;
+}
+
+.menu__main--store:hover > .menu__store,
+.menu__main--store:hover > .menu__store--view
+{
+    display:block;
+    color:yellow;
+}
+
+
+
+.menu__main--store:hover ~ .menu__store,
+.menu__main--store:hover ~ .menu__store--view
+{
+    visibility: visible !important;
+    color:yellow;
+}
+
+.menu__main--store:hover ~ .menu__store,
+.menu__main--store:hover ~ .menu__store--view
+{
+    visibility: visible;
+    color:yellow;
+}
+.menu__main--store:hover ~ .menu__store,
+.menu__main--store:hover ~ .menu__store--view
+{
+    display:block !important;
+    color:yellow;
+}
+
+.menu__main--store:hover ~ .menu__store,
+.menu__main--store:hover ~ .menu__store--view
+{
+    display:block;
+    color:yellow;
+}*/
+.menu__store{
+    background-color:#55b2c8;
+    opacity:025px;
+    padding:17px 17px;
+    position:absolute;
+    top:20%;
+    left:35%;
+    display:grid;
+    grid-template-columns:530px 250px;;
+    grid-template-rows:35px auto;
+    grid-gap:5px 10px;
+    border-radius:5px;
+
+}
+/*fonte 0577ab
+background-color: branco
+titulo branco
+borda laterais 0.5 757575
+*/
+.menu__store--nav{
+    background-color:#fff;
+    z-indez:-1;
+    grid-column:1 / 2;
+    grid-row:1 / 2;
+    padding:10px 10px;
+    display:grid;
+    grid-template-columns:230px 128px 80px;
+    grid-template-rows:auto;
+    grid-gap:0px 0px;
+}
+.menu__store--nav a{
+    font-weight:bold;    
+}
+.menu__store--nav-produto{
+    grid-column:1 / 2;    
+    grid-row: 1 / 2; ;
+}
+.menu__store--nav-acessorios{
+    grid-column:2 / 3;    
+    grid-row: 1 / 2; ;
+}
+.menu__store--nav-servicos{
+    grid-column:3 / 4;    
+    grid-row: 1 / 2; ;
+}
+
+.menu__store--options{
+    padding:10px 15px;
+    background-color:#fff;
+    grid-column:1 / 2;    
+    grid-row: 2 / 3;    
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto;
+    grid-gap:10px 0px;        
+}
+.menu__store--produto{
+    grid-column:1 / 2;    
+    grid-row: 1 / 2; ;
+}
+.menu__store--acessorios{
+    grid-column:2 / 3;    
+    grid-row:1 / 2; 
+}
+.menu__store--servico{
+    grid-column:3 / 4;    
+    grid-row:1 / 2; 
+}
+
+.menu__store--produto li,
+.menu__store--acessorios li,
+.menu__store--servico li{
+    padding:5px 0px;
+}
+
+.menu__store--options ul li{
+    list-style-type:none;
+}
+.menu__store--image{    
+    grid-column:2 / 3;
+    grid-row: 1 / 3;
+    width:250px;
+    padding:20px 0px;
 }
 
 /*HOME*/
@@ -127,10 +345,11 @@ a {
     height: 1080px;
     grid-gap: 0px 0px;
     display: grid;
-    grid-template-areas: auto, auto, auto, auto, auto, auto;
+    grid-template-columns: auto, auto, auto, auto, auto, auto;
     background-image: url("../assets/img/produtos/azulejo_borda_piscina.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-color:aqua;
 }
 
 .image__one,
@@ -206,11 +425,13 @@ a {
     font-size: 26px;
     color: #55b2c8;
 }
+.home__subscription h2 {
+    font-size: 16px;
+}
 
 .home__subscription input[type=text],
 form input[type=text] {
     width: 343px;
-    height: 28px;
 }
 
 .home__subscription input[type=text]::placeholder,
@@ -230,7 +451,7 @@ form input[type=submit] {
 }*/
 
 
-/*HOME ORÃƒÆ’Ã¢â‚¬Â¡AMENTO*/
+/*HOME ORÃ‡AMENTO*/
 
 .orcamento input[type=text] {
     width: 100%;
@@ -246,6 +467,7 @@ form input[type=submit] {
     text-align: center;
     color: #fff;
     margin-bottom: 40px;
+    font-size:30px;
 }
 
 .orcamento__char--count {
@@ -308,7 +530,8 @@ form input[type=submit] {
 }
 
 .home__accessories--title h3 {
-    font-size: 12px;
+    font-size: 22px;
+    color:#21464f;
 }
 
 .home__accessories--image {
@@ -344,12 +567,32 @@ form input[type=submit] {
 .home__accessories--description {
     width: 70%;
     height: 100%;
+    color:#ffffff;
 }
 
 .product__piscina--title {
     text-align: center;
 }
+/*home > acessorios > abas*/
+/*#home__accessories--bicos-hidromassagem{
 
+}*/
+#home__accessories--capa-piscina,
+#home__accessories--casa-maquinas,
+#home__accessories--Inox,
+#home__accessories--cascata-fibra,
+#home__accessories--refletores-led,
+#home__accessories--Bomba,
+#home__accessories--filtro{
+    display:none;
+}
+/*   .home__accessories--capa-piscina:hover + #home__accessories--capa-piscina{ display:block;}
+.home__accessories--casa-maquinas:hover + #home__accessories--casa-maquinas{ display:block;}
+.home__accessories--Inox:hover + #home__accessories--Inox{ display:block;}
+.home__accessories--cascata-fibra:hover + #home__accessories--cascata-fibra{ display:block;}
+.home__accessories--refletores-led:hover + #home__accessories--refletores-led{ display:block;}
+.home__accessories--Bomba:hover + #home__accessories--Bomba{ display:block;}
+.home__accessories--filtro:hover + #home__accessories--filtro{ display:block;}*/
 
 /*Product*/
 
@@ -362,13 +605,27 @@ form input[type=submit] {
 }
 .product__default--title{
     padding:8px 0px;
+    color:#55b2c8;
 }
+
+
 /*Product Menu*/
 .product__menu{
     grid-column:1 / 2;
     grid-row:1 / 2;
     border-right:1px solid #b5afaf;
 }
+
+.product__menu h2{
+    color:#55b2c8;
+}
+.product__menu h3{
+    color:#615e5e;
+}
+.product__menu a{
+    color:#5c909c
+}
+
 .product__menu ul{
     padding:0px 15px;;
 }
@@ -395,6 +652,12 @@ form input[type=submit] {
     width:450px;
 }
 
+.product__default--figure{
+    color:#615e5e;
+}
+
+
+
 .product__item h3 {
     margin: 15px 5px;
 }
@@ -412,6 +675,11 @@ form input[type=submit] {
 .product__default--tipo-description figure {
     padding: :10px;
 }
+.product__default--tipo-description img{
+    height:120px;
+    border: 1px solid #615e5e;
+    border-radius:5px;
+}
 .product__default--description,
 .product__default--projeto,
 .product__default--tipos,
@@ -419,7 +687,19 @@ form input[type=submit] {
 .product__default--instalation{
     padding:8px 8px;
 }
+.product__default--modelos,
+.product__default--modelos figcaption{
+    color:#615e5e;
+}
 
+.product__default--tipos ul li,
+.product__default--tipos h3{
+    color:#615e5e;
+}
+.product__default--instalation,
+.product__default--projeto{
+    color:#615e5e;
+}
 
 .product__default--tipos ul{
     margin:0px 20px;
