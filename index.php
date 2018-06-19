@@ -10,11 +10,11 @@
 
 <body>
 	<?php 		
-		include "/includes/header.php";
+		include "includes/header.php";
 	?>
 
 	<?php
-		include "/includes/conexao.php";
+		include "includes/conexao.php";
 
 		$consulta="select * from ".$tabela;
 		$query = mysql_query($consulta);
@@ -40,7 +40,7 @@
 		}/**/
 	?>
 
-<?php include "/includes/footer.php";?>
+<?php include "includes/footer.php";?>
 
 </body>
 </html>
