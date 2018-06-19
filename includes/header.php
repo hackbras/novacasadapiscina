@@ -11,10 +11,10 @@
     </div>
     <div class="menu">
         <nav class="menu__contacts">   
-            <a href="">contato@novacasadapiscina.com.br</a>
-            <a href="">(31)3599-3764</a>
-            <a href="">(31)9 9951-1854</a>
-            <a href="">(31)9 9290-2814</a>
+            <a id="menu__contacts--email" href="">contato@novacasadapiscina.com.br</a>
+            <a id="menu__contacts--fixo" href="">(31)3599-3764</a>
+            <a id="menu__contacts--celular1" href="">(31)9 9951-1854</a>
+            <a id="menu__contacts--celular2" href="">(31)9 9290-2814</a>
         </nav>
         <nav class="menu__main">   
             <a href="index.php?pagina=includes/product-information/product-pool.php">Piscina</a>

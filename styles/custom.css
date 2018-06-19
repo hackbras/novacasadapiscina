@@ -11,7 +11,7 @@ a {
     color: #000;
 }
 .button-white{    
-    background-color:#fff;
+    background-color:rgba(255, 255, 255, 0.2);
     color:#55b2c8;
     font-weight:bold;
     border: 5px solid #55b2c8;
@@ -19,7 +19,7 @@ a {
     margin:2px 0px;
 }
 .button-green{    
-    background-color:#55b2c8;
+    background-color:rgba(255, 255, 255, 0.2);
     color:#fff;
     font-weight:bold;
     border: 5px solid #fff;
@@ -123,6 +123,28 @@ input:invalid {
 #menu__store--view{
     visibility: hidden;
 }
+
+#menu__contacts--email::before{
+    content: url("../assets/img/icones/email3.png");
+    vertical-align:-3px; 
+    padding:0px 3px;  
+}
+#menu__contacts--fixo::before{
+    content: url("../assets/img/icones/phone2.png");  
+    vertical-align:-3px; 
+    padding:0px 3px;  
+}
+#menu__contacts--celular1::before{
+    content: url("../assets/img/icones/whatsapp2.png");   
+    vertical-align:-3px; 
+    padding:0px 3px;
+}
+#menu__contacts--celular2::before{
+     content: url("../assets/img/icones/whatsapp2.png");   
+    vertical-align:-3px; 
+    padding:0px 3px;  
+}
+
 /*
 .menu__main--store:hover + .menu__store,
 .menu__main--store:hover + .menu__store--view
@@ -334,9 +356,22 @@ borda laterais 0.5 757575
     background-image: url("../assets/img/piscina-carrossel1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    text-align:center;    
+    align-items: center;
+    position:relative;
 }
 
-
+.home__carrossel h1{
+    position:absolute;
+    top:300px;
+    left:350px;
+    font-size:56px;
+    color:#fff;
+}
+.home__carrossel--submit{
+    position:absolute;
+    top:390px;
+}
 /*HOME GALERY*/
 
 .home__galery {
@@ -428,7 +463,10 @@ borda laterais 0.5 757575
 .home__subscription h2 {
     font-size: 16px;
 }
-
+.form input[type=text],
+.form input[type=email]{
+    margin:0px -3px;
+}
 .home__subscription input[type=text],
 form input[type=text] {
     width: 343px;
@@ -451,7 +489,7 @@ form input[type=submit] {
 }*/
 
 
-/*HOME ORÃ‡AMENTO*/
+/*HOME ORÇAMENTO*/
 
 .orcamento input[type=text] {
     width: 100%;
@@ -569,30 +607,35 @@ form input[type=submit] {
     height: 100%;
     color:#ffffff;
 }
-
 .product__piscina--title {
     text-align: center;
 }
 /*home > acessorios > abas*/
-/*#home__accessories--bicos-hidromassagem{
+/*#home__accessories--home-bicos-hidromassagem{
 
 }*/
-#home__accessories--capa-piscina,
-#home__accessories--casa-maquinas,
-#home__accessories--Inox,
-#home__accessories--cascata-fibra,
-#home__accessories--refletores-led,
-#home__accessories--Bomba,
-#home__accessories--filtro{
+#home__accessories--container-capa-piscina,
+#home__accessories--container-casa-maquinas,
+#home__accessories--container-Inox,
+#home__accessories--container-cascata-fibra,
+#home__accessories--container-refletores-led,
+#home__accessories--container-Bomba,
+#home__accessories--container-filtro {
     display:none;
 }
-/*   .home__accessories--capa-piscina:hover + #home__accessories--capa-piscina{ display:block;}
-.home__accessories--casa-maquinas:hover + #home__accessories--casa-maquinas{ display:block;}
-.home__accessories--Inox:hover + #home__accessories--Inox{ display:block;}
-.home__accessories--cascata-fibra:hover + #home__accessories--cascata-fibra{ display:block;}
-.home__accessories--refletores-led:hover + #home__accessories--refletores-led{ display:block;}
-.home__accessories--Bomba:hover + #home__accessories--Bomba{ display:block;}
-.home__accessories--filtro:hover + #home__accessories--filtro{ display:block;}*/
+.home__accessories--menu-bicos-hidromassagem:hover + #home__accessories--container-bicos-hidromassagem{ 
+    background-color:black;
+}
+
+/*
+.home__accessories--menu-casa-maquinas:hover + #home__accessories--casa-maquinas{ display:block;}
+.home__accessories--menu-Inox:hover + #home__accessories--Inox{ display:block;}
+.home__accessories--menu-cascata-fibra:hover + #home__accessories--cascata-fibra{ display:block;}
+.home__accessories--menu-refletores-led:hover + #home__accessories--refletores-led{ display:block;}
+.home__accessories--menu-Bomba:hover + #home__accessories--Bomba{ display:block;}
+.home__accessories--menu-filtro:hover + #home__accessories--filtro{ display:block;}
+*/
+
 
 /*Product*/
 
