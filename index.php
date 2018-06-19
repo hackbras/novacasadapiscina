@@ -5,15 +5,13 @@
     <title>HTML Tutorial</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/custom.css">
+	<script src="scripts/main.js"></script>
 </head>
 
 <body>
-	<?php 
-		
+	<?php 		
 		include "/includes/header.php";
-
 	?>
-
 
 	<?php
 		include "/includes/conexao.php";

@@ -461,6 +461,7 @@ borda laterais 0.5 757575
     color: #55b2c8;
 }
 .home__subscription h2 {
+    font-weight:normal;
     font-size: 16px;
 }
 .form input[type=text],
@@ -587,7 +588,6 @@ form input[type=submit] {
 
 .home__accessories--menu a {
     margin-top: 5px;
-    margin: 0 19px;
     color: #fff;
 }
 
@@ -616,25 +616,36 @@ form input[type=submit] {
 }*/
 #home__accessories--container-capa-piscina,
 #home__accessories--container-casa-maquinas,
-#home__accessories--container-Inox,
+#home__accessories--container-inox,
 #home__accessories--container-cascata-fibra,
 #home__accessories--container-refletores-led,
-#home__accessories--container-Bomba,
+#home__accessories--container-bomba,
 #home__accessories--container-filtro {
     display:none;
 }
-.home__accessories--menu-bicos-hidromassagem:hover + #home__accessories--container-bicos-hidromassagem{ 
-    background-color:black;
+.home__accessories--menu-bicos-hidromassagem,
+.home__accessories--menu-capa-piscina,
+.home__accessories--menu-casa-maquinas,
+.home__accessories--menu-inox,
+.home__accessories--menu-cascata-fibra,
+.home__accessories--menu-refletores-led ,
+.home__accessories--menu-bomba,
+.home__accessories--menu-filtro{ 
+    padding:7px 19px;
+}
+.home__accessories--menu-bicos-hidromassagem:hover,
+.home__accessories--menu-capa-piscina:hover,
+.home__accessories--menu-casa-maquinas:hover,
+.home__accessories--menu-inox:hover,
+.home__accessories--menu-cascata-fibra:hover,
+.home__accessories--menu-refletores-led:hover ,
+.home__accessories--menu-bomba:hover,
+.home__accessories--menu-filtro:hover{ 
+    background-color:#fff;
+    color:#21464f;
+    border-radius:8px;
 }
 
-/*
-.home__accessories--menu-casa-maquinas:hover + #home__accessories--casa-maquinas{ display:block;}
-.home__accessories--menu-Inox:hover + #home__accessories--Inox{ display:block;}
-.home__accessories--menu-cascata-fibra:hover + #home__accessories--cascata-fibra{ display:block;}
-.home__accessories--menu-refletores-led:hover + #home__accessories--refletores-led{ display:block;}
-.home__accessories--menu-Bomba:hover + #home__accessories--Bomba{ display:block;}
-.home__accessories--menu-filtro:hover + #home__accessories--filtro{ display:block;}
-*/
 
 
 /*Product*/
