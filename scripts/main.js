@@ -2,9 +2,17 @@
 /*Exibir e ocultar acessórios*/
 
 
-function show__element(id_element) {
+function show__element(id_element, option) {
+    /*a=accessories and m=menu */
     document.getElementById(id_element).style.display = "block"
 
+    if (option == 'a') {
+        hide__accessories(id_element);
+    }
+
+}
+
+function hide__accessories(id_element) {
     let hidro = "home__accessories--container-bicos-hidromassagem";
     let capa = "home__accessories--container-capa-piscina";
     let casamaquina = "home__accessories--container-casa-maquinas";

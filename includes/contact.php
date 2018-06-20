@@ -1,10 +1,11 @@
 <h1 class="contact__title">CONTATOS</h1>
 <div class="contact">
     <section class="contact__item contact__email">
-        <form class="contact__item contact__email--form">
-            <input class="text__green" type="text" placeholder="Nome:">
-            <input class="text__green" type="text" placeholder="Email:">
-            <textarea  class="text__green" placeholder="Escreva sua mensagem aqui." rows="10">   </textarea>
+        <form name="formulario" method="post" class="contact__item contact__email--form">
+            <input name="nome" class="text__green" type="text" placeholder="Nome:">
+            <input name="email" class="text__green" type="text" placeholder="Email:">
+            <input name="assunto" class="text__green" type="text" placeholder="Assunto:">
+            <textarea name="mensagem"  class="text__green" placeholder="Escreva sua mensagem aqui." rows="20">   </textarea>
             <input class="button-white" type="submit" value="Enviar">
         </form>
     </section>
@@ -35,3 +36,49 @@
          </div>
     </section>
 </div>
+
+<?php
+
+
+
+	function zerar(){		
+
+		unset($email_destino);
+
+		unset($nome);
+
+		unset($email_contato);
+
+		unset($assunto);
+
+		unset($mensagem);
+
+	}
+
+
+
+	$email_destino="contato@novacasadapiscina.com.br";
+
+	$nome=$_POST['nome'];
+
+	$email_contato=$_POST['email'];
+
+	$assunto=$_POST['assunto'];
+
+	$mensagem=$_POST['mensagem'];
+
+	
+
+	if (isset($nome)&& isset($email_contato) && isset($mensagem)
+
+		&& mail($email_destino, $assunto, $mensagem,"from:contato@novacasadapiscina.com.br")){
+
+	echo '<script>alert("'.$nome.'sua mensagem foi enviada com sucesso.");</script>';
+
+	zerar();
+
+	}
+
+
+
+?>

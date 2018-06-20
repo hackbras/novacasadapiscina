@@ -68,14 +68,14 @@
         </div>
 
         <nav class="home__accessories--menu">   
-            <a class="home__accessories--menu-bicos-hidromassagem" href="" onmouseover="show__element('home__accessories--container-bicos-hidromassagem')" >Bicos de Hidromassagem</a>
-            <a class="home__accessories--menu-capa-piscina" href="" onmouseover="show__element('home__accessories--container-capa-piscina')" >Capa de piscina</a>
-            <a class="home__accessories--menu-casa-maquinas" href="" onmouseover="show__element('home__accessories--container-casa-maquinas')" >Casa de Máquinas</a>
-            <a class="home__accessories--menu-inox" href="" onmouseover="show__element('home__accessories--container-inox')" >Cascata Inox</a>
-            <a class="home__accessories--menu-cascata-fibra" href="" onmouseover="show__element('home__accessories--container-cascata-fibra')" >Cascata de Fibra</a>
-            <a class="home__accessories--menu-refletores-led" href="" onmouseover="show__element('home__accessories--container-refletores-led')" >Refletores de Led</a>
-            <a class="home__accessories--menu-bomba" href="" onmouseover="show__element('home__accessories--container-bomba')" >Bomba</a>
-            <a class="home__accessories--menu-filtro" href="" onmouseover="show__element('home__accessories--container-filtro')" >Filtro</a>
+            <a class="home__accessories--menu-bicos-hidromassagem" href="" onmouseover="show__element('home__accessories--container-bicos-hidromassagem','a')" >Bicos de Hidromassagem</a>
+            <a class="home__accessories--menu-capa-piscina" href="" onmouseover="show__element('home__accessories--container-capa-piscina','a')" >Capa de piscina</a>
+            <a class="home__accessories--menu-casa-maquinas" href="" onmouseover="show__element('home__accessories--container-casa-maquinas','a')" >Casa de Máquinas</a>
+            <a class="home__accessories--menu-inox" href="" onmouseover="show__element('home__accessories--container-inox','a')" >Cascata Inox</a>
+            <a class="home__accessories--menu-cascata-fibra" href="" onmouseover="show__element('home__accessories--container-cascata-fibra','a')" >Cascata de Fibra</a>
+            <a class="home__accessories--menu-refletores-led" href="" onmouseover="show__element('home__accessories--container-refletores-led','a')" >Refletores de Led</a>
+            <a class="home__accessories--menu-bomba" href="" onmouseover="show__element('home__accessories--container-bomba','a')" >Bomba</a>
+            <a class="home__accessories--menu-filtro" href="" onmouseover="show__element('home__accessories--container-filtro','a')" >Filtro</a>
         </nav>
         
         <div class="home__accessories--container">
@@ -86,8 +86,9 @@
                     </div>
 
                     <p class="home__accessories--description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                        Dispositivo de Hidromassagem para Piscinas, Banheiras e spa.    
                     </p>
+                    <a href="index.php?pagina=includes/store/acessorios/bicos-hidromassagem.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
             </article>
 
@@ -100,6 +101,7 @@
                 <p class="home__accessories--description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
                 </p>
+                <a href="index.php?pagina=includes/store/acessorios/capa-piscina.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
             </article>
 
@@ -112,6 +114,7 @@
                 <p class="home__accessories--description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
                 </p>
+                <a href="index.php?pagina=includes/store/acessorios/casa-maquinas.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
             </article>
 
@@ -124,6 +127,7 @@
                 <p class="home__accessories--description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
                 </p>
+                <a href="index.php?pagina=includes/store/acessorios/cascata-inox.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
             </article>
 
@@ -136,6 +140,7 @@
                 <p class="home__accessories--description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
                 </p>
+                <a href="index.php?pagina=includes/store/acessorios/cascata-fibra.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
             </article>
 
@@ -148,6 +153,7 @@
                 <p class="home__accessories--description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
                 </p>
+                <a href="index.php?pagina=includes/store/acessorios/refletores-led.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
             </article>
 
@@ -160,6 +166,7 @@
                 <p class="home__accessories--description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
                 </p>
+                <a href="index.php?pagina=includes/store/acessorios/bombas.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
             </article>
 
@@ -172,6 +179,7 @@
                 <p class="home__accessories--description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
                 </p>
+                <a href="index.php?pagina=includes/store/acessorios/filtros.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
             </article>
         </div>
@@ -213,3 +221,49 @@
         </form>
     </section>
 </section>
+
+<?php
+
+
+
+	function zerar(){		
+
+		unset($email_destino);
+
+		unset($nome);
+
+		unset($email_contato);
+
+		unset($assunto);
+
+		unset($mensagem);
+
+	}
+
+
+
+	$email_destino="contato@novacasadapiscina.com.br";
+
+	$nome=$_POST['nome'];
+
+	$email_contato=$_POST['email'];
+
+	$assunto=$_POST['assunto'];
+
+	$mensagem=$_POST['mensagem'];
+
+	
+
+	if (isset($nome)&& isset($email_contato) && isset($mensagem)
+
+		&& mail($email_destino, $assunto, $mensagem,"from:contato@novacasadapiscina.com.br")){
+
+	echo '<script>alert("'.$nome.'sua mensagem foi enviada com sucesso.");</script>';
+
+	zerar();
+
+	}
+
+
+
+?>
