@@ -36,6 +36,9 @@
 
     <div class="footer__bottom">
         <addr class="address">Av. São Paulo, 1431 - Centro (macaúbas) CEP 32400191 - IBIRITÈ/MG</addr> 
-        <span class="developer"> Desenvolvido por: codeísta.com</span>
+        <div class="developer"> 
+            <label>Desenvolvido por:</label> 
+            <span>codeísta.com</span>
+        </div>
     </div>
 </footer>

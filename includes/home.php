@@ -8,43 +8,43 @@
             <figure class="image__one image1">  
                 <a href="index.php?pagina=includes/product-information/product-pool.php">
                 <img src="assets/img/produtos/pronto/produto-piscina.png" class="home__galery--image" alt="Imagem de uma piscina grande, com uma área verde em volta, um sombrero ou tolde e niveis diferentes de profundidade.">
-                <figurecaption class="label__black">Piscina</figurecaption>      
+                <figcaption class="label__black">Piscina</figcaption>      
                 </a>  
             </figure>
             <figure class="image__one image2">    
                 <a href="index.php?pagina=includes/product-information/product-spa.php">
                 <img src="assets/img/produtos/pronto/produto-spa.png" class="home__galery--image" alt="Imagem de um SPA moderno com uma decoração exótica de bambus e algumas plantas.">
-                <figurecaption class="label__black">SPA</figurecaption>      
+                <figcaption class="label__black">SPA</figcaption>      
                 </a>  
             </figure>
             <figure class="image__two image3">    
                 <a href="index.php?pagina=includes/product-information/product-others-aquecedor-gas.php">
                 <img src="assets/img/produtos/pronto/produto-aquecimento-gas.png" class="home__galery--image" alt="Imagem de um equipamento moderno de aquecimento a Gás.">
-                <figurecaption class="label__black">Aquecimento a Gás</figurecaption>      
+                <figcaption class="label__black">Aquecimento a Gás</figcaption>      
                 </a>  
             </figure>
             <figure class="image__two image4">    
                 <a href="index.php?pagina=includes/product-information/product-others-aquecedor-solar.php">  
                 <img src="assets/img/produtos/pronto/produto-aquecedor-solar.PNG" class="home__galery--image" alt="Imagem de painéis solares de um aquecedor solar convencional.">
-                <figurecaption class="label__black">Aquecedor Solar</figurecaption>      
+                <figcaption class="label__black">Aquecedor Solar</figcaption>      
                 </a>
             </figure>
             <figure class="image__two image5">    
                 <a href="index.php?pagina=includes/product-information/product-sauna.php">
                 <img src="assets/img/produtos/pronto/produto-sauna.png" class="home__galery--image" alt="Kit completo para Sauna, com todos os equipamentos e máquinário necessário.">
-                <figurecaption class="label__black">Aparelho para Sauna</figurecaption>      
+                <figcaption class="label__black">Aparelho para Sauna</figcaption>      
                 </a>  
             </figure>
             <figure class="image__three image6">    
                 <a href="index.php?pagina=includes/store/products/limpeza-kit-limpeza.php">
                 <img src="assets/img/produtos/pronto/produto-kit-limpeza-piscina.png" class="home__galery--image" alt="Imagem de um kit de limpeza para piscinas.">
-                <figurecaption class="label__black">Kit de Limpeza</figurecaption>      
+                <figcaption class="label__black">Kit de Limpeza</figcaption>      
                 </a>  
             </figure>
             <figure class="image__three image7">        
                 <a href="index.php?pagina=includes/store/products/espreguicadeira.php">
                 <img src="assets/img/produtos/pronto/produto-cadeira-espreguicadeira.png" class="home__galery--image" alt="Imagem com cadeira espreguiçadeira moderna de cor laranja.">
-                <figurecaption class="label__black">Espreguiçadeira</figurecaption>      
+                <figcaption class="label__black">Espreguiçadeira</figcaption>      
                 </a>  
             </figure>
     </section>
