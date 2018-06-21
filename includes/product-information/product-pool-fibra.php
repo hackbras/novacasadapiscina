@@ -37,14 +37,13 @@
         </div>
     </aside>
     <section class="product__default">
+        <h1 class="product__default--title">Piscinas de Fibra</h1>   
         <div class="product__default--description">
-            <h1 class="product__default--title">Piscinas de Fibra</h1>   
             <figure class="product__default--figure">
                 <figcaption>
                 <img src="assets/img/produtos/pool3-2.jpg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.</figcaption>
+                As piscinas de fibra começaram  a ser fabricadas nos anos 50, uma reflexão  que surgiu da manufatura  de barcos com este elemento. Tanto piscinas quanto barcos  são fabricados utilizando procedimentos  e matérias-primas similares. Além de barcos, existem vários outros produtos  que são fabricados com fibra  de vidro, tais como pás de helicóptero, equipamentos médicos e estruturas  de aviões, exatamente por ser um material  altamente resistente a transformações  de temperatura e pressão. A piscina de fibra  é a que tem  maior durabilidade entre todos  os tipos de piscinas, é também a que precisa  de menos tempo para ser instalada.
+                </figcaption>
             </figure>
         </div>
 

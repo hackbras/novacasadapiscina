@@ -37,14 +37,15 @@
         </div>
     </aside>
     <section class="product__default">
-        <div class="product__default--description">
             <h1 class="product__default--title">Piscinas de Azulejo</h1>   
+        <div class="product__default--description">
             <figure class="product__default--figure">
                 <figcaption>
                 <img src="assets/img/produtos/piscina_azulejo.jpg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.</figcaption>
+                 Piscinas de concreto armado são as mais robustas. Se você quer uma piscina  desse tipo saiba tudo ao respeito  o assunto neste artigo. Todos. os tipos de piscina  podem ter mais de uma alternativa  de revestimento, as de concreto  armado não são heterogêneos, podem ser revestidas com azulejo, por exemplo. A. durabilidade de uma piscina  desse tipo é melhor  aos outros tipos, a sua o seu alicerce  é para a vida toda. A piscina é feita  com o concreto armado  e varias camadas de impermeabilizante, são aplicados também, blocos  de concreto para auxiliar  ainda mais a armação  da piscina.
+
+As piscinas de concreto  armado possuem um valor  mais alto comparado à piscina  de alvenaria, cada esquema  faz seu custo modificar. O projeto determina o molde, tamanho e o acabamento  da construção, que são decisórios  para fechar seu seu custo.
+</figcaption>
             </figure>
         </div>
 

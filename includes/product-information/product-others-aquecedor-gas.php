@@ -35,8 +35,8 @@
         </div>
     </aside>
     <section class="product__default">
-        <div class="product__default--description">
-            <h1 class="product__default--title">Aquecedor a Gás</h1>   
+            <h1 class="product__default--title">Aquecedor a Gás</h1>  
+        <div class="product__default--description"> 
             <figure class="product__default--figure">
                 <figcaption>
                 <img src="assets/img/produtos/pronto/produto-aquecimento-gas.png">

@@ -44,7 +44,7 @@
              Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</figcaption>        
                 <input type="submit" value="PARTICIPE">
             </div>
-            <img class="promotion__two--image" src="assets/img/children-pool-party3.png" alt="">   
+            <img class="promotion__two--image" src="assets/img/children-pool-party4.png" alt="">   
         </figure>
     </section>
 

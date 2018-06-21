@@ -781,7 +781,7 @@ form input[type=submit] {
     grid-row:1 / 2;
 }
 .product__default--figure img{
-    width:450px;
+    width:100%;
     border-radius:5px;
     outline-style: solid;
     outline-color: #757575;
