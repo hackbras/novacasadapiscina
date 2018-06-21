@@ -33,7 +33,7 @@
                 <li><a href="index.php?pagina=includes/store/acessorios/bombas.php.php">Bomba de Água</a></li>
                 <li><a href="index.php?pagina=includes/store/acessorios/filtros.php">Filtro</a></li>
             </ul>            
-            <a class="label__black" href="index.php?pagina=includes/store/product-store.php">Outros Proutos</a>
+            <a class="label__black"  href="index.php?pagina=includes/store/product-store.php">Outros Proutos</a>
         </div>
     </aside>
     <section class="product__default">
