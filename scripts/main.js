@@ -1,3 +1,30 @@
+/*Carrossel */
+//.home__carrossel
+//background-image: url("../assets/img/carrossel/piscina-carrossel1.jpg");
+//aquecedor-solar-up-1196x600.png
+//aquecedor-solar.jpg
+
+//document.body.style.backgroundImage = "url('img_tree.png')";
+
+/*<nav class="home__carrossel--items">
+<a id="home__carrossel--piscina"></a>
+<a id="home__carrossel--spa"></a>
+<a id="home__carrossel--aquecedor-solar"></a>*/
+
+function next_image(image) {
+    switch (image) {
+        case "piscina":
+            document.querySelector(".home__carrossel").style.backgroundImage = "url('../assets/img/carrossel/piscina-carrossel1.jpg')";
+        case "spa":
+            document.querySelector(".home__carrossel").style.backgroundImage = "url('../assets/img/carrossel/spa.png')";
+        case "aquecedor":
+            document.querySelector(".home__carrossel").style.backgroundImage = "url('../assets/img/carrossel/aquecedor-solar-up-1196x600.png')";
+            break;
+        default:
+            document.querySelector(".home__carrossel").style.backgroundImage = "url('../assets/img/carrossel/piscina-carrossel1.jpg')";
+    }
+}
+
 /*Abas Acessórios*/
 /*Exibir e ocultar acessórios*/
 
@@ -20,7 +47,7 @@ function hide__accessories(id_element) {
     let cascatafibra = "home__accessories--container-cascata-fibra";
     let refletorled = "home__accessories--container-refletores-led";
     let bomba = "home__accessories--container-bomba";
-    let filtro = "home__accessories--container-filtro"
+    let filtro = "home__accessories--container-filtro";
 
     switch (id_element) {
         case "home__accessories--container-bicos-hidromassagem":
@@ -29,7 +56,7 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            hide__element(bomba);
+            //hide__element(bomba);
             hide__element(filtro);
             break;
         case "home__accessories--container-capa-piscina":
@@ -38,7 +65,7 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            hide__element(bomba);
+            // hide__element(bomba);
             hide__element(filtro);
             break;
         case "home__accessories--container-casa-maquinas":
@@ -47,7 +74,7 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            hide__element(bomba);
+            //hide__element(bomba);
             hide__element(filtro);
             break;
         case "home__accessories--container-inox":
@@ -56,7 +83,7 @@ function hide__accessories(id_element) {
             hide__element(hidro);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            hide__element(bomba);
+            //hide__element(bomba);            
             hide__element(filtro);
             break;
         case "home__accessories--container-cascata-fibra":
@@ -65,7 +92,7 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(hidro);
             hide__element(refletorled);
-            hide__element(bomba);
+            //hide__element(bomba);
             hide__element(filtro);
             break;
         case "home__accessories--container-refletores-led":
@@ -74,25 +101,25 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(hidro);
-            hide__element(bomba);
+            //hide__element(bomba);
             hide__element(filtro);
             break;
-        case "home__accessories--container-bomba":
-            hide__element(capa);
-            hide__element(casamaquina);
-            hide__element(cascatainox);
-            hide__element(cascatafibra);
-            hide__element(refletorled);
-            hide__element(hidro);
-            hide__element(filtro);
-            break;
+            /*case "home__accessories--container-bomba":
+                hide__element(capa);
+                hide__element(casamaquina);
+                hide__element(cascatainox);
+                hide__element(cascatafibra);
+                hide__element(refletorled);
+                hide__element(hidro);
+                hide__element(filtro);
+                break;*/
         case "home__accessories--container-filtro":
             hide__element(capa);
             hide__element(casamaquina);
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            hide__element(bomba);
+            //hide__element(bomba);
             hide__element(hidro);
             break;
         default:
@@ -101,7 +128,7 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            hide__element(bomba);
+            //hide__element(bomba);
             hide__element(filtro);
     }
 }

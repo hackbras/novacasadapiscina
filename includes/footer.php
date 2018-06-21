@@ -23,7 +23,7 @@
     </div>
 
     <div class="social__networks">
-        <h1>Redes Sociais</h1>
+        <h1>Acompanhe-nos</h1>
 
         <a href="https://www.instagram.com/novacasadapiscina">
         <img src="assets/img/icones/instagram.png" alt="Ícone da rede social instagram para que os clientes possam acompanhar nossa página.">

@@ -350,10 +350,14 @@ borda laterais 0.5 757575
 .home {
     width: 100%;
 }
-
+/*
+    piscina-carrossel1.jpg
+    aquecedor-solar-up-1196x600.png
+    spa.png
+*/
 .home__carrossel {
     height: 800px;
-    background-image: url("../assets/img/piscina-carrossel1.jpg");
+    background-image: url("../assets/img/carrossel/piscina-carrossel1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align:center;    
@@ -364,14 +368,65 @@ borda laterais 0.5 757575
 .home__carrossel h1{
     position:absolute;
     top:300px;
-    left:350px;
+    left:310px;
     font-size:56px;
     color:#fff;
 }
 .home__carrossel--submit{
-    position:absolute;
-    top:390px;
+    position:absolute;    
+    left:610px;
+    top:410px;
 }
+
+.home__carrossel--items li{
+     width:30px;
+    height:30px;
+    list-style-type:none;
+    cursor:pointer;
+}
+#home__carrossel--piscina{
+    position:absolute;
+    top:500px;
+    left:600px; 
+    background-color:#fff;
+    border-radius:50px;
+    margin:0px 10px;
+}/*
+#home__carrossel--piscina:hover + .home__carrossel{
+     background-image: url("../assets/img/carrossel/piscina-carrossel1.jpg");
+      height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+#home__carrossel--spa{
+    position:absolute;
+    top:500px;
+    left:660px;
+    background-color:#fff;
+    border-radius:50px;
+    margin:0px 10px;
+}/*
+#home__carrossel--spa:hover + .home__carrossel{
+     background-image: url("../assets/img/carrossel/spa.png");  
+      height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+#home__carrossel--aquecedor{
+    position:absolute;
+    top:500px;
+    left:720px;
+    background-color:#fff;
+    border-radius:50px;
+    margin:0px 10px;
+}/*
+#home__carrossel--aquecedor:hover + .home__carrossel{
+     background-image: url("assets/img/carrossel/aquecedor-solar-up-1196x600.png");  
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
 /*HOME GALERY*/
 
 .home__galery {
@@ -559,7 +614,7 @@ form input[type=submit] {
 }
 
 .home__accessories {
-    padding: 5% 7%;
+    padding: 5% 10%;
     background-color: #55b2c8;
 }
 .home__accessories--title h1{
@@ -601,7 +656,7 @@ form input[type=submit] {
     grid-template-columns:250px 500px auto;
     grid-template-rows:auto auto;
     grid-gap:10px 10px;
-    padding: 1% 3%;
+    padding: 2% 3% 0% 0%;
     height: 200px;
     text-align:center;
 }
@@ -617,16 +672,17 @@ form input[type=submit] {
     grid-row:2 / 3;
     height:22px;
     width:100px;
-    margin:0px 25%;
+    margin:0px 40%;
 }
 
 .home__accessories--description {
     grid-column:2 / 4;
     grid-row:1 / 2;
-    padding:0px 0px;
+    padding:25px 0px 0px 0px;
     width: 70%;
     height: 100%;
-    color:#ffffff;
+    color:#ffffff;    
+    vertical-align:33px; 
 }
 .product__default--title{
     padding:8px 0px;
@@ -657,7 +713,7 @@ form input[type=submit] {
 .home__accessories--menu-refletores-led ,
 .home__accessories--menu-bomba,
 .home__accessories--menu-filtro{ 
-    padding:7px 19px;
+    padding:7px 13px;
 }
 .home__accessories--menu-bicos-hidromassagem:hover,
 .home__accessories--menu-capa-piscina:hover,
@@ -726,6 +782,13 @@ form input[type=submit] {
 }
 .product__default--figure img{
     width:450px;
+    border-radius:5px;
+    outline-style: solid;
+    outline-color: #757575;
+    outline-width: 0.1px;
+    outline-offset: 6px;
+    margin:3px 0px 10px 0px;
+    display:block;
 }
 
 .product__default--figure{
@@ -739,10 +802,10 @@ form input[type=submit] {
 }
 
 .product__default--tipo-description {
-    width: 300px;
+    width: 90%;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-gap: 10px 10px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap: 15px 20px;
     padding: 10px;
 }
 .product__default--description{
@@ -752,8 +815,7 @@ form input[type=submit] {
     padding: :10px;
 }
 .product__default--tipo-description img{
-    height:120px;
-    border: 1px solid #615e5e;
+    height:112px;
     border-radius:5px;
 }
 .product__default--description,
@@ -767,6 +829,10 @@ form input[type=submit] {
 .product__default--modelos figcaption{
     color:#615e5e;
 }
+.product__default--modelos figcaption{    
+    text-align:center;
+}
+
 
 .product__default--tipos ul li,
 .product__default--tipos h3{

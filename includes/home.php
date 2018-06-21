@@ -2,6 +2,11 @@
     <section class="home__carrossel"> 
         <h1>Piscinas de Vinil, Fibra e Azulejo</h1>  
         <a href="index.php?pagina=includes/product-information/product-pool.php" class="button-green home__carrossel--submit">Saiba mais...</a>
+        <ul class="home__carrossel--items">
+            <li id="home__carrossel--piscina"></li>
+            <li id="home__carrossel--spa"></li>
+            <li id="home__carrossel--aquecedor"></li>
+        </ul>
     </section>
 
     <section class="home__galery">  
@@ -74,8 +79,8 @@
             <a class="home__accessories--menu-inox" href="" onmouseover="show__element('home__accessories--container-inox','a')" >Cascata Inox</a>
             <a class="home__accessories--menu-cascata-fibra" href="" onmouseover="show__element('home__accessories--container-cascata-fibra','a')" >Cascata de Fibra</a>
             <a class="home__accessories--menu-refletores-led" href="" onmouseover="show__element('home__accessories--container-refletores-led','a')" >Refletores de Led</a>
-            <a class="home__accessories--menu-bomba" href="" onmouseover="show__element('home__accessories--container-bomba','a')" >Bomba</a>
-            <a class="home__accessories--menu-filtro" href="" onmouseover="show__element('home__accessories--container-filtro','a')" >Filtro</a>
+            <!--<a class="home__accessories--menu-bomba" href="" onmouseover="show__element('home__accessories--container-bomba','a')" >Bomba</a>-->
+            <a class="home__accessories--menu-filtro" href="" onmouseover="show__element('home__accessories--container-filtro','a')" >Filtro e bomba</a>
         </nav>
         
         <div class="home__accessories--container">
@@ -99,7 +104,7 @@
                 </div>
 
                 <p class="home__accessories--description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                    Para proteger a água da piscina de toda sujeira exterior. Resistentes em caso de quedas acidentais, evita a proliferação de algas, evitando que a água da piscina fique verde, economizando produtos químicos em seu tratamento.
                 </p>
                 <a href="index.php?pagina=includes/store/acessorios/capa-piscina.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
@@ -112,7 +117,7 @@
                 </div>
 
                 <p class="home__accessories--description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                    Escolha entre uma casa de máquinas de alvenaria sob medida, ou uma casa de máquinas de Fibra com as medidas definidas de acordo com o modelo.
                 </p>
                 <a href="index.php?pagina=includes/store/acessorios/casa-maquinas.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
@@ -125,7 +130,8 @@
                 </div>
 
                 <p class="home__accessories--description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+
+Diversão para toda a família, com design moderno e material inoxidável, valoriza, decora e embeleza sua área de lazer. Todos vão te elogiar pelo maravilhoso investimento.   
                 </p>
                 <a href="index.php?pagina=includes/store/acessorios/cascata-inox.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
@@ -138,7 +144,8 @@
                 </div>
 
                 <p class="home__accessories--description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                    As cascatas agem na oxigenação da água o que auxilia no tratamento.
+Sinta a relaxante massagem provocada pela sua queda d'agua.  
                 </p>
                 <a href="index.php?pagina=includes/store/acessorios/cascata-fibra.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
@@ -151,24 +158,25 @@
                 </div>
 
                 <p class="home__accessories--description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                    Sendo perfeita para quem busca por opções para deixar o seu ambiente de piscina ainda mais sofisticado, a Luz de Led para Piscina é ideal para gerar belos efeitos na água, 
+                    tornando o ambiente mais agradável. Além de deixar o local muito mais elegante.   
                 </p>
                 <a href="index.php?pagina=includes/store/acessorios/refletores-led.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
             </article>
 
-             <article id="home__accessories--container-bomba">
+             <!--<article id="home__accessories--container-bomba">
                 <div id="home__accessories--content-Bomba" class="home__accessories--text">
                 <div class="home__accessories--image" >        
                     <img src="assets/img/acessorios/prontos/bomba.png" alt="" width="220px">
                 </div>
 
                 <p class="home__accessories--description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                    Ter a água de sua piscina limpa e purificada faz toda a diferença na qualidade do lazer de sua família. E para isso, é de suma importância você contar com uma bomba de qualidade. A Bomba para Piscina 3cv BM-300 é um produto muito eficiente e prático, que purifica a água de sua piscina com muita qualidade e torna os momentos de lazer de sua família muito mais agradáveis.   
                 </p>
                 <a href="index.php?pagina=includes/store/acessorios/bombas.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
-            </article>
+            </article>-->
 
              <article id="home__accessories--container-filtro">
                 <div id="home__accessories--content-filtro" class="home__accessories--text">
@@ -177,7 +185,7 @@
                 </div>
 
                 <p class="home__accessories--description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu                                       pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.    
+                    Ter a água de sua piscina limpa e purificada faz toda a diferença na qualidade do lazer de sua família. E para isso, é de suma importância você contar com uma bomba de qualidade. A Bomba para Piscina é um produto muito eficiente e prático, que purifica a água de sua piscina com muita qualidade e torna os momentos de lazer de sua família muito mais agradáveis.   
                 </p>
                 <a href="index.php?pagina=includes/store/acessorios/filtros.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>

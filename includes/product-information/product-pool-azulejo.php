@@ -65,63 +65,63 @@
         <div class="product__default--modelos">
             <h3>Modelos</h3>
             <div class="product__default--tipo-description">
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/praia-grande.png" alt="">
+                 <figure>
+                    <img src="assets/img/produtos/tipos_de_piscinas/praia-grande3.png" alt="">
                     <figcaption>Praia Grande</figcaption>
                 </figure>            
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/diamante.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/diamante3.png" alt="">
                     <figcaption>Diamante</figcaption>
                 </figure>
             
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/jade.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/jade3.png" alt="">
                     <figcaption>Jade</figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/guarapari.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/guarapari3.png" alt="">
                     <figcaption>Guarapari</figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/havai.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/havai3.png" alt="">
                     <figcaption>Havai</figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/ilha-bela.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/ilha-bela3.png" alt="">
                     <figcaption>Ilha Bela</figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itaipava.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/itaipava3.png" alt="">
                     <figcaption>Itaipava</figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itaparica.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/itaparica3.png" alt="">
                     <figcaption>Itaparica</figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itapoa.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/itapoa3.png" alt="">
                     <figcaption>Itapoa</figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/rubi.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/rubi3.png" alt="">
                     <figcaption>Rubi</figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/angra.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/angra3.png" alt="">
                     <figcaption>Angra</figcaption>
                 </figure>
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/feijao.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/feijao3.png" alt="">
                     <figcaption>Feijao</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/pop.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/pop3.png" alt="">
                     <figcaption>Pop</figcaption>
                 </figure>
                 
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/isa.png" alt="">
+                    <img src="assets/img/produtos/tipos_de_piscinas/isa3.png" alt="">
                     <figcaption>Isa</figcaption>
                 </figure>
             </div>

@@ -13,7 +13,7 @@
             <div class="faq__topic--articles">
                 <article>
                     <span>Dúvida 1 -</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ?</p>
+                    <p>As piscinas são apenas nos modelos definidos ou podem ter um formato customizado?</p>
                 </article>
                 <article>
                     <span>Dúvida 2 -</span>
