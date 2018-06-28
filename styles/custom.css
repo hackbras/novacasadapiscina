@@ -891,6 +891,91 @@ form input[type=submit] {
 .product__default--modelos-adulto figure{
     text-align:center;
 }
+.product__default--caso-image_default img{
+    width:93%;
+}
+.product__default--caso-images{
+    width: 10px;
+    display: flex;
+}
+.product__default--casos{
+    padding:10px;
+}
+.product__default--caso-titulo{
+    padding:10px;
+}
+.product__default--caso-images img{
+    height:84.5px;    
+}
+#svg8 {
+    margin:-100px 0px 0px 0px;
+    width:100%;
+}
+/*Etapa1 vinil*/
+#rect4971-6,
+#rect4977-6,
+#path4969-9,
+#tspan4979-0,
+#tspan4983-2,
+#tspan4987-0,
+#tspan4989-2{
+    display:none;
+}
+/*Etapa1 outros*/
+#rect4971-6-1,
+#rect4977-6-1,
+#path4969-9-9,
+#tspan4979-0-78,
+#tspan4983-2-5,
+#tspan4987-0-9,
+#tspan4989-2-2{
+    display:none;
+}
+#path10-3:hover + #rect4971-6,
+#path10-3:hover + #rect4977-6,
+#path10-3:hover + #path4969-9,
+#path10-3:hover + #tspan4979-0,
+#path10-3:hover + #tspan4983-2,
+#path10-3:hover + #tspan4987-0,
+#path10-3:hover + #tspan4989-2{
+    display:block;
+}
+/*Etapa2 vinil*/
+#rect4971-6-6,
+#rect4977-6-6,
+#rect5097,
+#path4969-9-8,
+#tspan4989-2-1,
+#tspan5099,
+#tspan5095{
+    display:none;
+}
+/*Etapa2 outros*/
+#rect4971-6-6-0,
+#rect4977-6-6-0,
+#rect5097-1,
+#path4969-9-8-6,
+#tspan4989-2-1-0,
+#tspan5099-6,
+#tspan5095-5{
+    display:none;
+}
+
+/*
+#svg8{
+    width:10%;
+}
+
+.product__default--steps circle{
+    width:10px;
+}
+.svg-steps-up{
+    margin:0px 0px 130px 0px;
+}
+.svg-steps-down{
+    margin:30px 0px 0px 0px;
+}*/
+
 .product__default--tipos ul li,
 .product__default--tipos h3,
 .product__default--instalation,
