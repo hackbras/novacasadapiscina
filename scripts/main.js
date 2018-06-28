@@ -1,15 +1,4 @@
 /*Carrossel */
-//.home__carrossel
-//background-image: url("../assets/img/carrossel/piscina-carrossel1.jpg");
-//aquecedor-solar-up-1196x600.png
-//aquecedor-solar.jpg
-
-//document.body.style.backgroundImage = "url('img_tree.png')";
-
-/*<nav class="home__carrossel--items">
-<a id="home__carrossel--piscina"></a>
-<a id="home__carrossel--spa"></a>
-<a id="home__carrossel--aquecedor-solar"></a>*/
 
 function next_image(image) {
     switch (image) {
@@ -135,4 +124,13 @@ function hide__accessories(id_element) {
 
 function hide__element(id_element) {
     document.getElementById(id_element).style.display = "none";
+}
+
+function toggle__image(id_default, id_atual) {
+    //onmouseover="toggle__image('product__default--caso-image_default',this.id)"
+    let src_default=document.getElementById(id_default).src;
+    let src_atual=document.getElementById(id_atual).src;
+
+    document.getElementById(id_default).src = src_atual;
+    document.getElementById(id_atual).src = src_default;
 }

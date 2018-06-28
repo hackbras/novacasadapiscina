@@ -908,8 +908,9 @@ form input[type=submit] {
     height:84.5px;    
 }
 #svg8 {
-    margin:-100px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
     width:100%;
+    z-index:-1;
 }
 /*Etapa1 vinil*/
 #rect4971-6,
