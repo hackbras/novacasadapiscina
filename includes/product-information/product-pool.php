@@ -42,96 +42,133 @@
             <figure class="product__default--figure">
                 <figcaption>
                 <img src="assets/img/child.png">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.</figcaption>
+                 Toda a família se reune  e mergulha em um ambiente  de sensações e experiências. 
+                Cada modelo se combina  a uma necessidade ímpar  adequando-se perfeitamente ao 
+                seu propósito. Você vai   as diferenças básicas nos  os
+                principais tipos de piscinas. Nós asseguramos que seja qual for o tipo,
+                sua maior  escolha sempre vai ser na novacasadapiscina. </figcaption>
             </figure>
-        </div>
-
-        <div class="product__default--projeto">
-            <h3>Projeto</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
         </div>
         
         <div class="product__default--tipos">
-            <h3>Tipos</h3>
-            <ul>
-                <li>Vinil</li>
-                <li>Fibra</li>
-                <li>Azulejo</li>
-            </ul>
+            <h1>Etapas:</h1>
+            <article>
+                <h2>1ª Escolha do tipo de piscina</h2>
+                <h3>Tipos</h3>
+                <ul>
+                    <li>Vinil</li>
+                    <li>Fibra</li>
+                    <li>Azulejo</li>
+                </ul>
+            </article>            
         </div>
         
-        <div class="product__default--modelos">
-            <h3>Modelos</h3>
-            <div class="product__default--tipo-description">
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/praia-grande3.png" alt="">
-                    <figcaption>Praia Grande</figcaption>
-                </figure>            
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/diamante3.png" alt="">
-                    <figcaption>Diamante</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/jade3.png" alt="">
-                    <figcaption>Jade</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/guarapari3.png" alt="">
-                    <figcaption>Guarapari</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/havai3.png" alt="">
-                    <figcaption>Havai</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/ilha-bela3.png" alt="">
-                    <figcaption>Ilha Bela</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itaipava3.png" alt="">
-                    <figcaption>Itaipava</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itaparica3.png" alt="">
-                    <figcaption>Itaparica</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itapoa3.png" alt="">
-                    <figcaption>Itapoa</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/rubi3.png" alt="">
-                    <figcaption>Rubi</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/angra3.png" alt="">
-                    <figcaption>Angra</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/feijao3.png" alt="">
-                    <figcaption>Feijao</figcaption>
-                </figure>
+        <section class="product__default--modelos">
+                <h2>2º Definição do formato e tamanho</h2>
+                <fieldset class="product__default--modelos-container">
 
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/pop3.png" alt="">
-                    <figcaption>Pop</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/isa3.png" alt="">
-                    <figcaption>Isa</figcaption>
-                </figure>
-            </div>
+                         <legend>Modelos Infantis</legend>
+                    <div class="product__default--modelos-infantil">
 
-            <div class="product__default--instalation">
-                <h3>Instalação</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
-            </div>
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/pop.png" alt="">
+                            <figcaption>Pop</figcaption>
+                        </figure>
 
-        </div>
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/rubi.png" alt="">
+                            <figcaption>Rubi</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/feijao.png" alt="">
+                            <figcaption>Feijao</figcaption>
+                        </figure>
+
+
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/isa.png" alt="">
+                            <figcaption>Isa</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/itapoa.png" alt="">
+                            <figcaption>Itapoa</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/angra.png" alt="">
+                            <figcaption>Angra</figcaption>
+                        </figure>
+
+                    </div>
+                    </fieldset>    
+                    
+                    <fieldset>    
+                     <legend>Modelos Adultos</legend>  
+                    <div class="product__default--modelos-adulto"> 
+
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/guarapari.png" alt="">
+                            <figcaption>Guarapari</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/itaipava.png" alt="">
+                            <figcaption>Itaipava</figcaption>
+                        </figure>
+
+
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/jade.png" alt="">
+                            <figcaption>Jade</figcaption>
+                        </figure>
+
+
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/havai.png" alt="">
+                            <figcaption>Havai</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/diamante.png" alt="">
+                            <figcaption>Diamante</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/ilha-bela.png" alt="">
+                            <figcaption>Ilha Bela</figcaption>
+                        </figure>
+
+                          <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/praia-grande.png" alt="">
+                            <figcaption>Praia Grande</figcaption>
+                        </figure>   
+
+
+                        <figure>
+                            <img src="assets/img/produtos/piscinas/formatos_de_piscinas/itaparica.png" alt="">
+                            <figcaption>Itaparica</figcaption>
+                        </figure>
+
+                    </div>
+                </fieldset>
+        </section>
         
+        <div class="product__default--estampa">            
+            <h3>3ª Escolha da Estampa <span>(para piscinas de vinil)<span></h3>
+            <article>
+            </article>
+        </div>
+
+         <div class="product__default--visita">            
+            <h3>4ª Visita de Verificação</h3>
+            <article>
+            </article>
+        </div>
+
+        <div class="product__default--instalacao">            
+            <h3>5ª Instalação</h3>
+            <article>
+            </article>
+        </div>
     </section>
 </div>

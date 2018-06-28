@@ -1,6 +1,7 @@
 <section class="home">
     <section class="home__carrossel"> 
         <h1>Piscinas de Vinil, Fibra e Azulejo</h1>  
+        <img src="assets/img/produtos/pronto" alt="">
         <a href="index.php?pagina=includes/product-information/product-pool.php" class="button-green home__carrossel--submit">Saiba mais...</a>
         <ul class="home__carrossel--items">
             <li id="home__carrossel--piscina"></li>

@@ -41,7 +41,7 @@
         <div class="product__default--description">
             <figure class="product__default--figure">
                 <figcaption>
-                <img src="assets/img/produtos/piscina_azulejo.jpg">
+                <img src="assets/img/produtos/piscinas/tipos_de_piscinas/piscina_azulejo.jpg">
                  Piscinas de concreto armado são as mais robustas. Se você quer uma piscina  desse tipo saiba tudo ao respeito  o assunto neste artigo. Todos. os tipos de piscina  podem ter mais de uma alternativa  de revestimento, as de concreto  armado não são heterogêneos, podem ser revestidas com azulejo, por exemplo. A. durabilidade de uma piscina  desse tipo é melhor  aos outros tipos, a sua o seu alicerce  é para a vida toda. A piscina é feita  com o concreto armado  e varias camadas de impermeabilizante, são aplicados também, blocos  de concreto para auxiliar  ainda mais a armação  da piscina.
 
 As piscinas de concreto  armado possuem um valor  mais alto comparado à piscina  de alvenaria, cada esquema  faz seu custo modificar. O projeto determina o molde, tamanho e o acabamento  da construção, que são decisórios  para fechar seu seu custo.
@@ -62,76 +62,17 @@ As piscinas de concreto  armado possuem um valor  mais alto comparado à piscina
                 <li>Azulejo</li>
             </ul>
         </div>
-        
-        <div class="product__default--modelos">
-            <h3>Modelos</h3>
-            <div class="product__default--tipo-description">
-                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/praia-grande3.png" alt="">
-                    <figcaption>Praia Grande</figcaption>
-                </figure>            
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/diamante3.png" alt="">
-                    <figcaption>Diamante</figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/jade3.png" alt="">
-                    <figcaption>Jade</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/guarapari3.png" alt="">
-                    <figcaption>Guarapari</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/havai3.png" alt="">
-                    <figcaption>Havai</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/ilha-bela3.png" alt="">
-                    <figcaption>Ilha Bela</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itaipava3.png" alt="">
-                    <figcaption>Itaipava</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itaparica3.png" alt="">
-                    <figcaption>Itaparica</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/itapoa3.png" alt="">
-                    <figcaption>Itapoa</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/rubi3.png" alt="">
-                    <figcaption>Rubi</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/angra3.png" alt="">
-                    <figcaption>Angra</figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/feijao3.png" alt="">
-                    <figcaption>Feijao</figcaption>
-                </figure>
 
+        <div class="product__default--casos">
+            <h2 class="product__default--caso-titulo">Instalações Realizadas</h2>
+            <figure class="product__default--caso-image_default">
+                <img src="assets/img/produtos/piscinas/instalacoes_realizadas/azulejo1.jpg" alt="">
+            </figure>
+            <section class="product__default--caso-images">
                 <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/pop3.png" alt="">
-                    <figcaption>Pop</figcaption>
+                    <img src="assets/img/produtos/piscinas/instalacoes_realizadas/azulejo2.jpg" alt="">
                 </figure>
-                
-                <figure>
-                    <img src="assets/img/produtos/tipos_de_piscinas/isa3.png" alt="">
-                    <figcaption>Isa</figcaption>
-                </figure>
-            </div>
-
-            <div class="product__default--instalation">
-                <h3>Instalação</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
-            </div>
-
+            </section>
         </div>
         
     </section>

@@ -10,6 +10,11 @@
     </a>
     </div>
     <div class="menu">
+    <!--Colocar horário e dias de atendimento e endereço-->
+        <nav class="menu__office-hour">   
+            <a id="menu__office-hour--middle-week" href="">Segunda à sexta de 8h às 18h</a>
+            <a id="menu__office-hour--weekend" href="">Sábado de 8h às 12h</a>
+        </nav>
         <nav class="menu__contacts">   
             <a id="menu__contacts--email" href="">contato@novacasadapiscina.com.br</a>
             <a id="menu__contacts--fixo" href="">(31)3599-3764</a>
