@@ -1,15 +1,5 @@
 <div class="product__container">
-   <aside class="product__menu">
-        <div class="product__menu--tipo">
-                <!--
-            <h3>Tipos</h3>
-            <ul>
-                <li><a href="index.php?pagina=includes/product-information/product-spa.php">Tipo1</a></li>
-                <li><a href="index.php?pagina=includes/product-information/product-spa.php">Tipo2</a></li>
-                <li><a href="index.php?pagina=includes/product-information/product-spa.php">Tipo3</a></li>
-                
-            </ul>-->
-        </div>
+    <aside class="product__menu">
         
         <div class="product__menu--acabamento">
             <h3>Veja também</h3>
@@ -44,104 +34,20 @@
                 <figcaption>
                 <img src="assets/img/produtos/spa/spa.png">
                  <b>Hidroterapia:</b>
-Uma terapia muito usada em hospitais, profissionais da área, fisioterapeutas  e em SPAS totalmente  no mudo todo, é designada  de hidroterapia, que faz o uso da água para resguardar  e auxiliar no medicação  de doenças.
+                Uma terapia muito usada em hospitais, profissionais da área, fisioterapeutas  e em SPAS totalmente  no mudo todo, é designada  de hidroterapia, que faz o uso da água para resguardar  e auxiliar no medicação  de doenças.
 
-<b>Descansa o corpo:</b> Um banho de banheira garante  vários benefícios bem como de aliviar  o corpo, o submersão  na água reduz o peso corpóreo  até 85%, os esguichos  possuem uma ação massageadora, que suaviza a pressão  nos nervos e nas juntas, contribuindo também para o alívio  dos músculos.
+                <b>Descansa o corpo:</b> Um banho de banheira garante  vários benefícios bem como de aliviar  o corpo, o submersão  na água reduz o peso corpóreo  até 85%, os esguichos  possuem uma ação massageadora, que suaviza a pressão  nos nervos e nas juntas, contribuindo também para o alívio  dos músculos.
 
-<b>Relaxa a mente:</b> Não existe um lugar melhor  para fechar os olhos, libertar a mente, afinar  os sentidos e relaxar  do que um bom banho  de banheira. Esse lavagem  relaxa a mente e o físico, estando relaxado você liberta  os seus pensamentos, dá espaço  e tempo para que apareçam  boas e novas ideias. <b>Melhora o sono:</b>
-A imersão na água ao escurecer  ou no inicio da noite  é um horário certo  para o banho de banheira. Possuindo o efeito relaxante  que aclama as tensões, ao deitar você aproveitará  um sono mais profundo  e restaurador e ao despertar  notará que dormiu com mais facilidade. <b>Beneficia o relacionamento:</b>
-Atualmente sabemos e vemos  o quanto está difícil  ter tempo de qualidade  para dividir com o (a) companheiro  (a) as ocorrências do nosso  dia a dia. Uma banheira  cria uma perfeita oportunidade  para dialogar e sentir-se  mais próximo do (a) companheiro  (a).
+                <b>Relaxa a mente:</b> Não existe um lugar melhor  para fechar os olhos, libertar a mente, afinar  os sentidos e relaxar  do que um bom banho  de banheira. Esse lavagem  relaxa a mente e o físico, estando relaxado você liberta  os seus pensamentos, dá espaço  e tempo para que apareçam  boas e novas ideias. <b>Melhora o sono:</b>
+                A imersão na água ao escurecer  ou no inicio da noite  é um horário certo  para o banho de banheira. Possuindo o efeito relaxante  que aclama as tensões, ao deitar você aproveitará  um sono mais profundo  e restaurador e ao despertar  notará que dormiu com mais facilidade. <b>Beneficia o relacionamento:</b>
+                Atualmente sabemos e vemos  o quanto está difícil  ter tempo de qualidade  para dividir com o (a) companheiro  (a) as ocorrências do nosso  dia a dia. Uma banheira  cria uma perfeita oportunidade  para dialogar e sentir-se  mais próximo do (a) companheiro  (a).
 
 
-<b>Muito mais benefícios:</b>
-Ajuda a diminuir  o stress, minimiza as dores  musculares e das articulações, ameniza as dores da artrite, ajuda a controlar a diabete, ajuda no tratamento de transtornos  cardiovasculares e muitos outros  benefícios.</figcaption>
+                <b>Muito mais benefícios:</b>
+                Ajuda a diminuir  o stress, minimiza as dores  musculares e das articulações, ameniza as dores da artrite, ajuda a controlar a diabete, ajuda no tratamento de transtornos  cardiovasculares e muitos outros  benefícios.</figcaption>
             </figure>
         </div>
 
-        <div class="product__default--projeto">
-            <h3>Projeto</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
-        </div>
-        
-         <!--
-        <div class="product__default--tipos">
-       
-            <h3>Tipos</h3>
-            <ul>
-                <li>Tipo 1</li>
-                <li>Tipo 2</li>
-                <li>Tipo 3</li>
-            </ul>
-        </div>
-        
-        <div class="product__default--modelos">
-            <h3>Modelos</h3>
-            <div class="product__default--tipo-description">
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>            
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption> </figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-            </div>-->
-
-            <div class="product__default--instalation">
-                <h3>Instalação</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
-            </div>
 
         </div>
         

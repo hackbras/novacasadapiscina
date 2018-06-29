@@ -35,103 +35,15 @@
         </div>
     </aside>
     <section class="product__default">
-            <h1 class="product__default--title">Aquecedor a Gás</h1>  
+        <h1 class="product__default--title">Aquecedor de água à Gás</h1>  
         <div class="product__default--description"> 
             <figure class="product__default--figure">
                 <figcaption>
-                <img src="assets/img/produtos/pronto/produto-aquecimento-gas.png">
+                <img src="assets/img/produtos/aquecimento-gas2.jpg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.</figcaption>
             </figure>
-        </div>
-
-        <div class="product__default--projeto">
-            <h3>Projeto</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
-        </div>
-        
-       <!--
-        <div class="product__default--tipos">
-       
-            <h3>Tipos</h3>
-            <ul>
-                <li>Tipo 1</li>
-                <li>Tipo 2</li>
-                <li>Tipo 3</li>
-            </ul>
-        </div>-->
-        
-        <div class="product__default--modelos">
-            <h3>Modelos</h3>
-            <div class="product__default--tipo-description">
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>            
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-            
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption> </figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="assets/img/no-image.png" alt="">
-                    <figcaption></figcaption>
-                </figure>
-            </div>
-
-            <div class="product__default--instalation">
-                <h3>Instalação</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
-            </div>
-
-        </div>
-        
+        </div>        
     </section>
 </div>

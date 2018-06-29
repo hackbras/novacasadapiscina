@@ -892,7 +892,7 @@ form input[type=submit] {
     text-align:center;
 }
 .product__default--caso-image_default img{
-    width:93%;
+    height:540px;
 }
 .product__default--caso-images{
     width: 10px;
@@ -900,6 +900,11 @@ form input[type=submit] {
 }
 .product__default--casos{
     padding:10px;
+}
+.product__default--casos img{
+    padding:7px;
+     border: 1px solid #757575;
+    border-radius:5px;
 }
 .product__default--caso-titulo{
     padding:10px;
@@ -1098,6 +1103,8 @@ form input[type=submit] {
 .about__mission--figure,
 .about__vision--figure,
 .about__values--figure {
+    justify-content:space-evenly;
+    height:30%;
     font-size: 20px;
     display: flex;
     padding: 39px 50px;
@@ -1112,7 +1119,7 @@ form input[type=submit] {
 .about__mission--figure figcaption,
 .about__vision--figure figcaption,
 .about__values--figure figcaption {
-    font-size: 14px;
+    font-size: 24px;
     padding: 20px 61px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -1133,8 +1140,8 @@ form input[type=submit] {
 }
 
 .about__vision--figure img {
-    width: 160%;
-    height: 160%;
+    width: 30%;
+    height: 30%;
 }
 
 .about__values--figure img {
