@@ -40,9 +40,34 @@
             <figure class="product__default--figure">
                 <figcaption>
                 <img src="assets/img/produtos/aquecimento-gas2.jpg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.</figcaption>
+                 Com a chegada do frio, nada mais prazeroso do que tomar  um banho quentinho, acima de tudo  se a água for aquecida  
+                com um equipamento adequado, como os aquecedores de água a gás. Os aquecedores a gás tem mais escoamento de água, permite um banho  mais agradável e um ótimo controle da temperatura. Nossos  aquecedores a gás possuem  o Selo Conpet e um time  especializado para fazer a instalação, 
+                garantindo assim a sua segurança  e de sua família. 
+                <br>
+                <b>Vantagens do aquecedor a gás:</b> 
+                <ol>
+                    <li>O aparelho pode ser usado  em casas ou apartamentos;</li>
+                    <li>Os aparelhos são compactos, com peso de até 20 kilos;</li>
+                    <li> Não ocupa muito espaço e é fixado  geralmente na parede da área de serviço; </li>
+                    <li>De fácil remoção, o aquecedor  pode ser retirado para eventuais  reparos;</li>
+                    <li>O acendimento do aquecedor  é automático e imediato;</li>
+                    <li>Não  existe a necessidade de aguardar  o aquecimento de reservatórios, e nem risco da água quente  acabar em meio à utilização;</li> 
+                    <li>Os equipamentos são muito seguros  com sensor corta gás, caso aconteça  algum tipo de problema;</li>
+                    <li>O aparelho trabalha com baixa  pressão de gás;</li>
+                    <li>O aquecedor  pode ser utilizado conjuntamente  em vários pontos de consumo  de água quente;</li>
+                    <li>Por não ter  reservatórios, a durabilidade do equipamento  gira em torno de 10 a 15 anos;</li> 
+                </ol>
+                <br>
+                <b>Desvantagens do aquecedor a gás:</b> 
+                <ol>
+                    <li>O aparelho necessita de pressão  em torno de 5 a 10 metros  de coluna de água (mca)) para o funcionamento em plena  capacidade;</li>
+                    <li>Por ser considerado como aquecedor  de passagem, a água pode prolongar-se  um pouco para esquentar;</li>
+                    <li> O equipamento pode não ser uma opção  tão "verde" quanto o aquecimento  solar;</li>
+                    <li>Para instalar o aquecedor  em uma residência é necessário  ter uma hidráulica adequada, com tubulação para água fria, para água quente e para o gás que vai abastecer  o aquecedor, que pode ser GLP (gás liquefeito  de petróleo) ou GN (gás natural);</li>
+                    <li>O equipamento precisa passar por manutenção, no mínimo, anual. No entanto, este procedimento deve ser efetivado  por uma assistência especializada  autorizada pelo fabricante;</li>
+                    <li>A seleção  do aquecedor deve ser baseada  nos pontos de consumo, tais como duchas, torneiras, banheiras, etc;</li>
+                </ol>
+                </figcaption>
             </figure>
         </div>        
     </section>

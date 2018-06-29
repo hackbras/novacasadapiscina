@@ -704,6 +704,9 @@ form input[type=submit] {
     padding:8px 0px;
     color:#55b2c8;
 }
+.product__default--figure figcaption ol{
+    padding:0px 0px 0px 20px;
+}
 
 .product__piscina--title {
     text-align: center;
