@@ -15,12 +15,7 @@
                 <ul class="store__menu--product-sub-item">
                     <li><a href="index.php?pagina=includes/store/products/aquecedor-eletrico.php">Aquecedor Solar Elétrico</a></li>
                     <li><a href="index.php?pagina=includes/store/products/aquecedor-gas.php">Aquecedor a Gás</a></li>
-                </ul></li>
-            <li class="store__menu--product-item menu__item--contrast">Limpeza
-                <ul class="store__menu--product-sub-item">
-                    <li><a href="index.php?pagina=includes/store/products/limpeza-produtos.php">Produtos Químicos</a></li>
-                    <li><a href="index.php?pagina=includes/store/products/limpeza-kit-limpeza.php">Kit de Limpeza</a></li>
-                </ul></li>
+                </ul></li>            
             <li class="store__menu--product-item"><a href="index.php?pagina=includes/store/products/espreguicadeira.php">Espreguiçadeira</a></li>
         </ul>
     </fieldset>
@@ -42,12 +37,23 @@
             <li class="store__menu--accessories-item"><a href="index.php?pagina=includes/store/acessorios/filtros.php">Filtros</a></li>
         </ul>
     </fieldset>
+    <fieldset class="store__menu--quimic">
+        <legend class="store__menu--quimic-title">Química</legend>
+            <ul class="store__menu--product-options menu__item--contrast">Limpeza
+                <li><a href="index.php?pagina=includes/store/products/limpeza-produtos.php">Produtos Químicos</a></li>
+                <li><a href="index.php?pagina=includes/store/products/limpeza-kit-limpeza.php">Kit de Limpeza</a></li>
+            </ul>
+    </fieldset>
 
     <fieldset class="store__menu--services">
         <legend class="store__menu--services-title">Serviços</legend>
         <ul class="store__menu--services-options">
             <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/acabamento.php">Acabamento</a></li>
             <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/impermeabilizacao.php">Impermeabilização</a></li>
+                        <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/acabamento.php">Remoção de Vazamentos</a></li>
+            <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/impermeabilizacao.php">Manutenção de Piscinas</a></li>
+                        <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/acabamento.php">Restauração de Piscinas</a></li>
+            <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/impermeabilizacao.php">Pintura de Piscinas</a></li>
         </ul>
     </fieldset>
 </aside>

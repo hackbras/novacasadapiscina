@@ -18,8 +18,29 @@
         <figure class="promotion__one--body">
             <img class="promotion__one--image" src="assets/img/inverno2.png" alt="">
             <div class="promotion__one--description">
-                <figcaption>           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. 
-                 Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</figcaption>        
+                <figcaption> 
+                  <p>A vantagem de se construir  no inverno está no custo  da obra,
+                alguns tipos  de piscinas, por exemplo, fica de 5% a 15% mais baratas. claro que o desconto pode alternar  de região para região. 
+                O valor pode ser parcelado. Ainda pode-se aproveitar e adquirir  tambem os acessórios da piscina, como o filtro, a bomba, o sistema de iluminação  e de limpeza.
+                </p>
+                 <p>
+                Neste época  de pouca chuva, finalizar  a obra sem os imprevistos  das águas que atrasam  o término da construção  é outra vantagem. 
+                Sem chuva, uma piscina pode ficar  pronta em menos de um mês. Mas, se for um Projeto  mais sofisticado, a obra pode durar  mais tempo.
+                </p>
+                 <p>
+                O momento inclusive  é oportuno para negociar  com calma e atenção. Inclusive, investir num projeto  de piscina com mais conforto  e maior 
+                opção de lazer: pode ser um spa, hidromassagem, sauna e iluminação. Tudo isso é possível! Se  começar o investimento já no inverno, terá tempo de sobra  até o verão para planejar  e executar a obra sem deixar  nada 
+                para ser feito  no calor. As mais bonitas  piscinas são construídas com antecedência  e planejamento. 
+                E o retorno  financeiro é maior. Uma casa com uma piscina  bem projetada 
+                pode se valorizar  em até 20%. Investir  na área de lazer  sem planejamento pode causar  uma decepção 
+                ao término, seja ela financeira, por não ter posto  no papel os valores  da compra e o gasto  final sair diferente do que se imaginou  
+                ou, até mesmo, pelo fato de a piscina  não ter ficado da forma  como se previa, tudo devido a pressa. 
+                </p>
+                 <p>
+                Bem, a dica é não perder  tempo, aproveite a nossa  promossão de inverno, é sem dúvida, a melhor época para tornar  o sonho real e mais completo. Mas atenção: 
+                é importante  consultar um de nossos  consultores para que saiba  mais de todos os processos. Quando o verão chegar, a área toda ficará  prontinha e bem feita  para receber a família  e os amigos. 
+                 </p>
+                </figcaption>        
                 <input type="submit" value="PARTICIPE">
             </div>
         </figure>
@@ -40,8 +61,26 @@
         <h2 class="promotion__two--subtitle">Dia das Crianças</h2>
         <figure class="promotion__two--body">
             <div class="promotion__two--description">
-                <figcaption>           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. 
-             Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</figcaption>        
+                <figcaption>   
+                <p>
+                Sol, piscina, brincadeiras e muita  diversão marcam o dia das crianças, pois, o que elas mais desejam  é poder jogar, brincar  ao ar livre e se divertir  o dia todo com os amiguinhos. À partir dos três anos de idade  já é possível realizar  atividades de recreação.
+                Para as crianças  na idade de seis anos é o ideal  para que iniciem essas  brincadeiras.
+                Essa é a faixa  etária indicada, por causa  do raciocínio e pela devida  característica de saber divertir-se  de maneira competitiva.
+                </p><p>
+                Mas é indispensável  sempre ter por próximo  um adulto proporcionando toda segurança  e diversão
+                necessária, para que cada criança  possa viver da melhor  maneira esse dia e
+                precavendo  acidentes desagradáveis.
+                </p><p>
+                Além do entretimento  que proporciona a criançada, a piscina também pode ser, por meio de brincadeiras, 
+                um espaço para aperfeiçoar  algumas aptidões. Nela podem  ser desenvolvidas habilidades como a manejo  de objetos, percepção corporal, coordenação, e o equilíbrio, além de habilidades  cognitivas, que fazem parte  da formação da criança, como a distinção de cores  e quantidades, 
+                e a adaptação  aquática, como respiração, mergulho, flutuação, deslize, saltos e movimentos. 
+                </p><p>
+                O feriado ensolarado acaba  também se tornando um momento  nostalgico para os adultos, ao ver as crianças  aproveitarem
+                a mesma diversão  que tiveram quando pequenos. 
+                <p><p>
+                Então não perca  tempo e aproveite nossa  promoção exclusiva para o dia das crianças.
+                </p>
+                </figcaption>        
                 <input type="submit" value="PARTICIPE">
             </div>
             <img class="promotion__two--image" src="assets/img/children-pool-party4.png" alt="">   

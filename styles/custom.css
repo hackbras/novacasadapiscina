@@ -1431,6 +1431,7 @@ form input[type=submit] {
 }
 
 .promotion__one--image {
+    padding:50px 0px 0px 40px;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
@@ -1469,6 +1470,11 @@ form input[type=submit] {
     padding: 35px 0px 0px 0px;
     font-size: 20px;
 }
+.promotion__one--description figcaption p,
+.promotion__two--description figcaption p{
+    padding: 15px 0px 0px 0px;
+    font-size: 15px;
+}
 
 
 /*Store*/
@@ -1481,13 +1487,13 @@ form input[type=submit] {
 }
 
 .store__menu {
-    margin-top:113px;
+    margin-top:13px;
     background-color: #adebf9;
     padding: 0px 7px;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     border-radius: 5px;
-    height: 650px;
+    height: 770px;
 }
 
 .store__products {
@@ -1503,23 +1509,28 @@ form input[type=submit] {
 
 .store__menu--product,
 .store__menu--accessories,
+.store__menu--quimic,
 .store__menu--services {
     border: 0.5px solid #bdc5c5;
 }
 
 .store__menu--product li,
 .store__menu--accessories li,
+.store__menu--quimic li,
 .store__menu--services li {
     list-style-type: none;
     cursor: pointer;
 }
 .store__menu--product a,
 .store__menu--accessories a,
+.store__menu--quimic a,
 .store__menu--services a {
-    color:#55b2c8;    
+    color:#55b2c8;   
+    font-weight:normal; 
 }
 .store__menu--product a:hover,
 .store__menu--accessories a:hover,
+.store__menu--quimic a:hover,
 .store__menu--services a:hover {
     background-color:#adebf9;
     color:gray;    
@@ -1540,6 +1551,7 @@ form input[type=submit] {
 
 .store__menu--product-title,
 .store__menu--accessories-title,
+.store__menu--quimic-title,
 .store__menu--services-title {
     background-color: #d8f3fc;
     padding: 1px 7px;
