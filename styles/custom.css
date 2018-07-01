@@ -18,6 +18,14 @@ a {
     padding:5px 25px;
     margin:2px 0px;
 }
+.button-small-white{    
+    background-color:rgba(255, 255, 255, 0.2);
+    color:#55b2c8;
+    font-weight:bold;
+    border: 5px solid #55b2c8;
+    padding:5px 15px;
+    margin:2px 0px;
+}
 .button-green{    
     background-color:rgba(255, 255, 255, 0.2);
     color:#fff;
@@ -44,6 +52,7 @@ a {
     border:0.5px solid #b5afaf;
     border-radius:3px;
     margin:2px 0px;
+    color:#55b2c8;
 }
 .textarea__green::placeholder{
     color:#55b2c8;
@@ -60,6 +69,12 @@ a {
 }
 input:invalid { 
     border: 2px solid red;
+}
+.fieldset__gray{
+    border: 0.5px solid #bdc5c5;
+}
+.legend__black{
+    color: #5e6061;
 }
 
 /*body*/
@@ -2077,6 +2092,81 @@ form input[type=submit] {
     text-align:right;
 }
 
+/*Administration Page*/
+.administracao{
+    padding:50px 50px 30px 30px;
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap:10px 10px;
+}
+.administracao__menu{
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+}
+
+#administracao__categoria{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+#administracao__servico{
+    grid-column: 2 / 5;
+    grid-row: 3 / 4;
+}
+#administracao__tipo{
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+}
+#administracao__faq{
+    grid-column: 3 / 5;
+    grid-row: 4 / 5;
+}
+#administracao__medida{
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+}
+#administracao__produto{
+    grid-column: 3 / 5;
+    grid-row: 5 / 6;
+}
+#administracao__modelo{
+    grid-column: 1 / 3;
+    grid-row: 6 / 7;
+}
+#administracao__informacoes{
+    grid-column: 3 / 5;
+    grid-row: 6 / 7;
+}
+.administracao__categoria{
+    padding:10px;
+    border-radius:5px;
+}
+.administracao__categoria--title{
+    font-weight:bold;
+}
+.administracao__categoria--body{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-gap:0px 10px;
+}
+.administracao__categoria--values{
+    grid-column:1 / 2;
+}
+.administracao__categoria--cadastro{
+    grid-column:2 / 3;
+}
+.administracao__categoria--values-campos{
+    width:100%;
+    height:34px;
+
+}
+.administracao__categoria--cadastro input{
+    width:100%;
+}
+.administracao__categoria--option{
+    margin:5px 0px 0px 0px;
+    float:right;
+}
 /*Footer*/
 
 .footer {

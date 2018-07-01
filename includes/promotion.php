@@ -77,7 +77,7 @@
                 </p><p>
                 O feriado ensolarado acaba  também se tornando um momento  nostalgico para os adultos, ao ver as crianças  aproveitarem
                 a mesma diversão  que tiveram quando pequenos. 
-                <p><p>
+                </p><p>
                 Então não perca  tempo e aproveite nossa  promoção exclusiva para o dia das crianças.
                 </p>
                 </figcaption>        
