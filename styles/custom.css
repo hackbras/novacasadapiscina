@@ -2182,11 +2182,13 @@ form input[type=submit] {
 }
 
 .footer__logo {
-    padding: 2%;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    padding: 3% 5%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align:center;
+}
+.footer__logo span{
+    font-weight:bold;
 }
 
 .payment__methods {

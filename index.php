@@ -8,7 +8,7 @@
 	<script src="scripts/main.js"></script>
 </head>
 
-<body>
+<body onload="onload()">
 	<?php 		
 		include "includes/header.php";
 	?>

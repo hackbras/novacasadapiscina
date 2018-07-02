@@ -1,6 +1,7 @@
 <footer class="footer">
     <div class="footer__logo">
         <img  class="logo footer__logo" src="assets/img/logo3-1.png" alt=""> 
+        <p><span>CNPJ:</span> 30.492.390/0001-25</p>
     </div>
 
     <div class="payment__methods">        
