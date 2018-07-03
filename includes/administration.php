@@ -1,4 +1,6 @@
 <div class="administracao">
+    
+    
     <nav class="administracao__menu">
         <a href="" alt="">Cadastro</a>
         <a href="" alt="">Compra</a>
@@ -338,6 +340,4 @@
             <input class="button-white" type="submit" value="Deletar">
         </div>
     </fieldset>
-
-    <div id="id01"></div>
 </div>

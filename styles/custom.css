@@ -1653,6 +1653,23 @@ form input[type=submit] {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
+.store__product--no-freight {
+    margin-left:46%;
+    padding:1px 0px;
+    width:66px;
+    height:45px;
+    border:3px solid transparent;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;    
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    color:#55b2c8;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
 
 .store__product--discount {
     margin-left:59%;
@@ -1660,6 +1677,20 @@ form input[type=submit] {
     width:48px;
     height:16px;
     border:3px solid #fe0505;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;    
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    color:#fe0505;
+    border-bottom-left-radius:8px;
+}
+.store__product--no-discount {
+    margin-left:59%;
+    padding:1px 0px;
+    width:48px;
+    height:16px;
+    border:3px solid transparent;
     font-size:14px;
     font-weight:bold;
     text-align:center;    
