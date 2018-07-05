@@ -6,13 +6,13 @@
     <section class="store__products">
         <h1 class="store__products--title">Produtos</h1>
         <h2 class="store__products--subtitle">Piscina de Azulejo</h2>
-        <div id="id01" class="store__products--articles">    
+        <div id="store__product--piscina-azulejo" class="store__products--articles">    
         </div>
     </section>
 
     <section class="store__pagination">
         <div class="store__pagination--options">
-            <a href=""href=""> << </a>
+            <a href=""> << </a>
             <a href="">1</a>
             <a href="">2</a>
             <a href="">3</a>

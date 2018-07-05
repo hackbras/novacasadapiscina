@@ -15,7 +15,7 @@
 	?>
 
 	<?php
-		include "includes/conexao.php";
+		/*include "includes/conexao.php";
 
 		$consulta="select * from ".$tabela;
 		$query = mysql_query($consulta);
@@ -25,7 +25,7 @@
 			$whatsapp=$resultado->whatsapp;
 			$telefone=$resultado->celular;
 			$email=$resultado->email;
-		}/**/
+		}*/
 	?>
 
 	<?php

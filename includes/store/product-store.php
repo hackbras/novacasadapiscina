@@ -6,7 +6,7 @@
     <section class="store__products">
         <h1 class="store__products--title">Produtos e Acessórios</h1>
         <h2 class="store__products--subtitle">PISCINA</h2>
-        <div class="store__products--articles">
+        <div id="store__product--home" class="store__products--articles">
             <article>
                 <span class="store__product--freight">FRETE GRÁTIS</span>
                 <span class="store__product--discount">-20</span>
