@@ -52,10 +52,10 @@
         <ul class="store__menu--services-options">
             <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/acabamento.php">Acabamento</a></li>
             <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/impermeabilizacao.php">Impermeabilização</a></li>
-                        <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/acabamento.php">Remoção de Vazamentos</a></li>
-            <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/impermeabilizacao.php">Manutenção de Piscinas</a></li>
-                        <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/acabamento.php">Restauração de Piscinas</a></li>
-            <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/impermeabilizacao.php">Pintura de Piscinas</a></li>
+                        <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/remocao_vazamentos.php">Remoção de Vazamentos</a></li>
+            <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/manutencao_piscinas.php">Manutenção de Piscinas</a></li>
+                        <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/restauracao_piscinas.php">Restauração de Piscinas</a></li>
+            <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/pintura_piscinas.php">Pintura de Piscinas</a></li>
         </ul>
     </fieldset>
 </aside>
