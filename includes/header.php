@@ -27,7 +27,7 @@
             <a href="index.php?pagina=includes/product-information/product-spa.php">Spa</a>
             <a href="index.php?pagina=includes/contact.php">Contatos</a>
             <a href="index.php?pagina=includes/about.php">Sobre</a>
-            <a href="index.php?pagina=includes/faq.php">Dúvidas Frequêntes</a>
+            <a href="index.php?pagina=includes/faq.php">Dúvidas Frequentes</a>
             <a id="menu__main--store" class="menu__main--store menu__main--tag" href="index.php?pagina=includes/store/product-store.php" onmouseover="document.getElementById('menu__store--view').style.visibility = 'visible';" >LOJA VIRTUAL</a>
             <a class="menu__main--tag " href="index.php?pagina=includes/promotion.php">PROMOÇÕES</a>           
         </nav>

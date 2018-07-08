@@ -1,0 +1,41 @@
+[{
+        "secao": "acessorios",
+        "pagina": "filtros",
+        "modelo_produto": "",
+        "modelo": "caixa de passagem tampa inox veico",
+        "valor": "39,90",
+        "parcelamento": "",
+        "valor_parcelamento": "",
+        "frete": "",
+        "desconto": "",
+        "imagem": "assets/img/no-image.png",
+        "imagem_alt": "",
+        "un_estoque": "",
+        "observacao": "",
+
+        "nome_servico": "",
+        "descricao_servico": "",
+        "categoria": "",
+
+        "especificacoes": "",
+        "tipo_produto": "",
+        "produto": "filtro",
+        "capacidade_pessoas": "",
+        "litros": "",
+        "un_jatos_ar": "",
+        "voltagem": "",
+        "potencia_nominal": "",
+        "aquecedor": "",
+        "cumprimento_cabo": "",
+        "revestimento_externo": "",
+        "instalacao": "",
+        "descricao": "",
+        "projeto": "",
+        "nome_categoria": "",
+
+        "medida_produto": "",
+        "diametro_exterior": "",
+        "diametro_interior": "",
+        "altura": ""
+    }
+]

@@ -49,7 +49,7 @@
     <section class="promotion__subscription">
         <form class="promotion__subscription--form">
             <h2 class="promotion__subscription--form-title">Fique por dentro!</h2>
-            <h4 class="promotion__subscription--form-subtitle">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promossões</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h4>
+            <h4 class="promotion__subscription--form-subtitle">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promoções</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h4>
             <input type="text" placeholder="Nome:">
             <input type="text" placeholder="E-mail ou Telefone:">
             <input class="button-green" type="submit" value="Enviar">

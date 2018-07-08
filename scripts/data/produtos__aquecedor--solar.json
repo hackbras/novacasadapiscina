@@ -1,5 +1,5 @@
 [{
-        "secao": "acessorios",
+        "secao": "produtos",
         "pagina": "filtro",
         "modelo_produto": "",
         "modelo": "Filtro Dancor piscina DRF 12",
@@ -39,7 +39,7 @@
         "altura": ""
     },
     {
-        "secao": "acessorios",
+        "secao": "produtos",
         "pagina": "bomba",
         "modelo_produto": "",
         "modelo": "Bomba Dancor PF17PRATIKA1/3mono 110 220 254 v",
@@ -79,7 +79,7 @@
         "altura": ""
     },
     {
-        "secao": "acessorios",
+        "secao": "produtos",
         "pagina": "cascata-fibra",
         "modelo_produto": "",
         "modelo": "cascata bico de pato",

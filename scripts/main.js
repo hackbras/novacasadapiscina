@@ -142,12 +142,26 @@ function toggle__image(id_default, id_atual) {
 
 //Criar modal página promoções
 
-//criar cadastro de perguntas dinâmicamente pelo json com ajax
 
-//codigo pagseguro
+/*var url = "http://localhost:8080/api/v1/users";
 
+var data = {};
+data.firstname = "John";
+data.lastname  = "Snow";
+var json = JSON.stringify(data);
 
-//cadastro json
+var xhr = new XMLHttpRequest();
+xhr.open("POST", url, true);
+xhr.setRequestHeader('Content-type','application/json; charset=utf-8');
+xhr.onload = function () {
+	var users = JSON.parse(xhr.responseText);
+	if (xhr.readyState == 4 && xhr.status == "201") {
+		console.table(users);
+	} else {
+		console.error(users);
+	}
+}
+xhr.send(json);*/
 
 //atualiza json
 

@@ -1,5 +1,157 @@
-<div class="administracao">
+<?php 
+    /*  */
+    // Array com dados
+    /*
+    $cliente1 = array(
+        'codigo2'   => '001',
+        'nome2'     => 'William',
+        'telefone2' => '012 9999-6352'
+    );
     
+    $cliente2 = array(
+        'codigo2'   => '002',
+        'nome2'     => 'Adriano',
+        'telefone2' => '012 8888-4452'
+    );
+    
+    $cliente3 = array(
+        'codigo2'   => '003',
+        'nome2'     => 'Maria',
+        'telefone2' => '013 3434-4444'
+    );*/
+    
+    $cliente1 = array(
+        'codigo'   => '004',
+        'nome'     => 'William2',
+        'telefone' => '012 9999-6352'
+    );
+     
+    $cliente2 = array(
+        'codigo'   => '005',
+        'nome'     => 'Adriano',
+        'telefone' => '012 8888-4452'
+    );
+     
+    $cliente3 = array(
+        'codigo'   => '005',
+        'nome'     => 'Maria',
+        'telefone' => '013 3434-4444'
+    );
+    
+    /*
+     * fopen
+     r = reading
+     r+ = reading/writing
+     
+     w = writing
+     w+ =writing/reading, create file
+     
+     a = append
+     a+ =
+     
+     x =
+     x+ =
+     */
+     
+    // Cria o arquivo cadastro.json
+    // O parâmetro "a" indica que o arquivo será aberto para escrita   
+    
+    $file = "scripts/service.json";
+    
+    //abrir o arquivo
+    $fp = fopen($file, "a");
+    
+    //$content = file_get_contents($file);
+    
+    
+    $content= file($file);
+    /*$message = file($file);
+     echo "<script type='text/javascript'>alert('$message');</script>";
+   
+    
+    //apagar arquivo json
+    //excluirArquivo($file);
+     
+    /**/
+     
+    //remover caracter /n
+    /*$fixed_content = str_replace("\n","",$content,$count);    
+    $content = $fixed_content;
+    
+    //remover caracter /r
+    $fixed_content = str_replace("\r","",$content,$count);
+    $content = $fixed_content;
+    
+    //remover caracter /
+    $fixed_content = str_replace('\"','"',$content,$count);
+    $content = $fixed_content;
+    
+    //remover espaços
+    $fixed_content = trim($content);
+    $content = $fixed_content;
+    
+    $fixed_content = trim($content);
+    $content =$fixed_content;*/
+    //$content = $fixed_content;
+    
+    /*function excluirArquivo($arquivo){
+        if( file_exists( $arquivo ) )
+            unlink( $arquivo );
+            return $arquivo;
+    } 
+    
+     
+   
+    
+    // Tranforma o array $dados em JSON
+    
+    $dados_json = $fixed_content;*/
+    
+    //$dados_json = json_encode($content);
+           
+    // Escreve o conteúdo JSON no arquivo
+    //$escreve = fwrite($fp,  $dados_json);
+    //file_put_contents($file, $dados_json);
+    
+   
+    
+    // Atribui os 3 arrays para apenas um array
+    $dados = array($content,$cliente1,$cliente2,$cliente3);
+    $novos_dados_json = json_encode($dados);
+    
+    //$dados_json.concat($novos_dados_json);
+    //$join_json = $dados_json.$dados_json;
+    
+    //novos dados
+    file_put_contents($file, $novos_dados_json);
+    
+    // Fecha o arquivo
+    fclose($fp);
+  
+/*Código de teste e serve apenas para arquivos de log, 
+ * pois atualizatodo o documento ao inves de adicionar um novo ou alterar o existente.
+ * 
+ * $mobiles = array('name'    => 'Mukesh Chapagain2',
+    'address2'    => 'Kathmandu, Nepa2l',
+    'website2'    => 'http://blog.chapagain.com.np2',
+    'mobiles2'     => array('Samsung', 'Apple', 'Nokia', 'Sony', 'LG'),
+    'furniture2' => array('Chair', 'Couch', 'Ottoman'),
+    'camera2'    => array('Canon', 'Nikon')    
+);
+    $jsonMobiles = json_encode($mobiles);
+    file_put_contents('scripts/service.json', $jsonMobiles);
+
+
+    $fileName = 'mobiles.json';
+    $data = file_get_contents($fileName);
+    $phpMobiles = json_decode($data);
+    print_r($phpMobiles);
+*/
+
+?>
+
+
+<div class="administracao">    
     
     <nav class="administracao__menu">
         <a href="" alt="">Cadastro</a>
