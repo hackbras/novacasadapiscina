@@ -58,86 +58,86 @@ function onload() {
 
             //se for da pagina y  
             //if (ourData[i].pagina == namePage) {
-                var produto = CElement("article");
-                //var catalogo =     
+            var produto = CElement("article");
+            //var catalogo =     
 
-                AddChild(catalogo, produto);
+            AddChild(catalogo, produto);
 
-                //produto 1
-                var frete = CElement("span");
-                if (ourData[i].frete == 0 || ourData[i].frete == "") {
-                    addAttr(frete, 'class', 'store__product--no-freight');
-                } else {
-                    addAttr(frete, 'class', 'store__product--freight');
-                }
-                CText(frete, ourData[i].frete);
-                AddChild(produto, frete);
-                if (value, ourData[i].valor == "Solicitar Orçamento")
-                    frete.style.visibility = "hidden";
+            //produto 1
+            var frete = CElement("span");
+            if (ourData[i].frete == 0 || ourData[i].frete == "") {
+                addAttr(frete, 'class', 'store__product--no-freight');
+            } else {
+                addAttr(frete, 'class', 'store__product--freight');
+            }
+            CText(frete, ourData[i].frete);
+            AddChild(produto, frete);
+            if (value, ourData[i].valor == "Solicitar Orçamento")
+                frete.style.visibility = "hidden";
 
-                //produto 2           
-                var desconto = CElement("span");
-                if (desconto, ourData[i].desconto == 0 || desconto, ourData[i].desconto == "") {
-                    addAttr(desconto, 'class', 'store__product--no-discount');
-                } else {
-                    addAttr(desconto, 'class', 'store__product--discount');
-                }
-                CText(desconto, ourData[i].desconto);
-                AddChild(produto, desconto);
-                if (value, ourData[i].valor == "Solicitar Orçamento")
-                    desconto.style.visibility = "hidden";
+            //produto 2           
+            var desconto = CElement("span");
+            if (desconto, ourData[i].desconto == 0 || desconto, ourData[i].desconto == "") {
+                addAttr(desconto, 'class', 'store__product--no-discount');
+            } else {
+                addAttr(desconto, 'class', 'store__product--discount');
+            }
+            CText(desconto, ourData[i].desconto);
+            AddChild(produto, desconto);
+            if (value, ourData[i].valor == "Solicitar Orçamento")
+                desconto.style.visibility = "hidden";
 
-                //produto 3
-                var figure = CElement("figure");
-                addAttr(figure, 'class', 'store__product--description');
-                AddChild(produto, figure);
+            //produto 3
+            var figure = CElement("figure");
+            addAttr(figure, 'class', 'store__product--description');
+            AddChild(produto, figure);
 
-                //produto 3-1      
-                var imagem = CElement("img");
-                addAttr(imagem, 'src', ourData[i].imagem);
-                addAttr(imagem, 'alt', ourData[i].imagem_alt);
-                AddChild(figure, imagem);
+            //produto 3-1      
+            var imagem = CElement("img");
+            addAttr(imagem, 'src', ourData[i].imagem);
+            addAttr(imagem, 'alt', ourData[i].imagem_alt);
+            AddChild(figure, imagem);
 
-                //produto 3-2
-                var nome_produto = CElement("figcaption");
-                CText(nome_produto, ourData[i].modelo);
-                AddChild(figure, nome_produto);
+            //produto 3-2
+            var nome_produto = CElement("figcaption");
+            CText(nome_produto, ourData[i].modelo);
+            AddChild(figure, nome_produto);
 
-                //produto 4
-                var value = CElement("span");
-                addAttr(value, "class", "store__product--values-or-status");
-                CText(value, ourData[i].valor);
-                AddChild(produto, value);
+            //produto 4
+            var value = CElement("span");
+            addAttr(value, "class", "store__product--values-or-status");
+            CText(value, ourData[i].valor);
+            AddChild(produto, value);
 
-                //produto 5  
-                var botton_detalhe = CElement("a");
-                addAttr(botton_detalhe, "class", "store__product--details");
-                addAttr(botton_detalhe, "href", "index.php?pagina=includes/store/product-description.php");
-                AddChild(produto, botton_detalhe);
+            //produto 5  
+            var botton_detalhe = CElement("a");
+            addAttr(botton_detalhe, "class", "store__product--details");
+            addAttr(botton_detalhe, "href", "index.php?pagina=includes/store/product-description.php");
+            AddChild(produto, botton_detalhe);
 
-                //produto 5-1
-                var input_detalhe = CElement("input");
-                addAttr(input_detalhe, "type", "submit");
-                addAttr(input_detalhe, "value", "DETALHES");
-                AddChild(botton_detalhe, input_detalhe);
-                if (value, ourData[i].valor == "Solicitar Orçamento")
-                    input_detalhe.style.visibility = "hidden";
+            //produto 5-1
+            var input_detalhe = CElement("input");
+            addAttr(input_detalhe, "type", "submit");
+            addAttr(input_detalhe, "value", "DETALHES");
+            AddChild(botton_detalhe, input_detalhe);
+            //if (value, ourData[i].valor == "Solicitar Orçamento")
+            //input_detalhe.style.visibility = "hidden";
 
-                //produto 6
-                var botton_comprar = CElement("a");
-                addAttr(botton_comprar, "class", "store__product--to-buy");
-                addAttr(botton_comprar, "href", "index.php?pagina=includes/store/product-store-car.php");
-                AddChild(produto, botton_comprar);
+            //produto 6
+            var botton_comprar = CElement("a");
+            addAttr(botton_comprar, "class", "store__product--to-buy");
+            addAttr(botton_comprar, "href", "index.php?pagina=includes/store/product-store-car.php");
+            AddChild(produto, botton_comprar);
 
-                //produto 6-1
-                var input_comprar = CElement("input");
-                addAttr(input_comprar, "type", "submit");
-                addAttr(input_comprar, "value", "COMPRAR");
-                AddChild(botton_comprar, input_comprar);
-                if (value, ourData[i].valor == "Solicitar Orçamento")
-                    input_comprar.style.visibility = "hidden";
-                console.log("Foi criado o produto: " + ourData[i].modelo);
-                //insert_json();
+            //produto 6-1
+            var input_comprar = CElement("input");
+            addAttr(input_comprar, "type", "submit");
+            addAttr(input_comprar, "value", "COMPRAR");
+            AddChild(botton_comprar, input_comprar);
+            if (value, ourData[i].valor == "Solicitar Orçamento")
+                input_comprar.style.visibility = "hidden";
+            console.log("Foi criado o produto: " + ourData[i].modelo);
+            //insert_json();
             //}
         }
 
@@ -181,6 +181,13 @@ function onload() {
     //cadastro json
     // Post data json
 
+    /*Página de descrição do produto
+    window.location.assign("index.php?pagina=includes/store/product-description.php");
+    */
+
+
+
+    //remover produto
 
     function setPage(name_page) {
         switch (name_page) {
@@ -341,6 +348,18 @@ function onload() {
     }
 }
 
+//adicionar produto
+function add_product(id_un) {
+    var un = document.getElementById(id_un);
+    un.value = parseInt(un.value) + 1;
+}
+
+function remove_product(id_un) {
+    var un = document.getElementById(id_un);
+    if(parseInt(un.value)>0){       
+       un.value = parseInt(un.value) - 1; 
+    }    
+}
 /*unction insert_json() {
     // Post a user
     var url = "scripts/data/produtos.json";
@@ -457,7 +476,9 @@ function onload() {
     }
     xhr.send(json);
     console.log("Read state:" + xhr.readyState + " status: " + xhr.status);
-}*/
+}
+
+*/
 /*
 Event name	          Interface	Dispatched when…
 readystatechange	      Event	The readyState attribute changes value, except when it changes to UNSENT.

@@ -134,6 +134,7 @@ function toggle__image(id_default, id_atual) {
     document.getElementById(id_atual).src = src_default;
 }
 
+
 //Criar carrossel
 
 //criar efeito sanfona menu da loja

@@ -1518,6 +1518,7 @@ form input[type=submit] {
 }
 
 .store__pagination {
+    display:none;
     text-align: center;
     grid-column: 2 / 3;
     grid-row: 2 / 3;

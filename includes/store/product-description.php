@@ -44,9 +44,9 @@
         </div>
 
         <div class="description__cost--button-count">
-            <input type="number" value="1">
-            <button type="submit" class="description__cost--button-plus">+</button>
-            <button type="submit" class="description__cost--button-minus">-</button>
+            <input id="description__cost--un" type="number" value="1">
+            <button type="submit" class="description__cost--button-plus" onclick="add_product('description__cost--un')">+</button>
+            <button type="submit" class="description__cost--button-minus" onclick="remove_product('description__cost--un')">-</button>
         </div>
         <a href="index.php?pagina=includes/store/product-store-car.php">
             <input class="description__cost--button-buy button-white" type="submit" value="COMPRAR">

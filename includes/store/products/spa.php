@@ -1,4 +1,4 @@
-<div class="store">
+<div class="store"  onload="onload()">
     <?php
         include "includes/store/product-menu.php";
     ?>
