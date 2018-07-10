@@ -1,169 +1,171 @@
 //listar json
 function onload() {
+    var url = window.location.href;
+    if (url.substring(61, 66) == "store") {
+        /*Teste 1*/
 
-    /*Teste 1*/
+        /*objeto XMLHttpRequest */
+        /*Properties                                    methods */
+        //.withCredentials  //.ontimeout                //.open*
+        //.upload           //.onreadystatechange*      //.send*
+        //.UNSENT           //.onprogress               //.removeEventListener
+        //.timeout          //.onloadstart              //.overrideMimeType
+        //.statusText       //.onloadend                //.setRequestHeader
+        //.status*          //.onload                   //.msCachingEnabled
+        //.responseXML      //.onerror                  //.getResponseHeader
+        //.responseURL      //.onabort                  //.getAllResponseHeaders
+        //.responseType     //.msCaching                //.dispatchEvent
+        //.responseText*    //.LOADING                  //.addEventListener
+        //.response         //.HEADERS_RECEIVED         //.abort
+        //.readyState*      //.DONE
+        //.OPENED             
 
-    /*objeto XMLHttpRequest */
-    /*Properties                                    methods */
-    //.withCredentials  //.ontimeout                //.open*
-    //.upload           //.onreadystatechange*      //.send*
-    //.UNSENT           //.onprogress               //.removeEventListener
-    //.timeout          //.onloadstart              //.overrideMimeType
-    //.statusText       //.onloadend                //.setRequestHeader
-    //.status*          //.onload                   //.msCachingEnabled
-    //.responseXML      //.onerror                  //.getResponseHeader
-    //.responseURL      //.onabort                  //.getAllResponseHeaders
-    //.responseType     //.msCaching                //.dispatchEvent
-    //.responseText*    //.LOADING                  //.addEventListener
-    //.response         //.HEADERS_RECEIVED         //.abort
-    //.readyState*      //.DONE
-    //.OPENED             
+        //const path = "https://hackbras.github.io/novacasadapiscina/scripts/produtos.txt";
+        var namePage = getNamePage();
+        const path = setJson(namePage);
+        const xhttp = new XMLHttpRequest();
+        xhttp.open("GET", path, true);
 
-    //const path = "https://hackbras.github.io/novacasadapiscina/scripts/produtos.txt";
-    var namePage = getNamePage();
-    const path = setJson(namePage);
-    const xhttp = new XMLHttpRequest();
-    xhttp.open("GET", path, true);
-
-    xhttp.onreadystatechange = function() {
-        if (this.status === 200) {
-            if (this.readyState == 0) {
-                console.log('Não iniciado');
-            } else if (this.readyState == 1) {
-                console.log('carregando');
-            } else if (this.readyState == 2) {
-                console.log('carregado');
-            } else if (this.readyState == 3) {
-                console.log('interativo');
-            } else if (this.readyState == 4) {
-                console.log('completo');
-            }
-        } else if (this.status === 404) {
-            console.error('Page not found:' + path);
-        } else {
-            console.error('Error undefined');
-        }
-
-    }
-
-    /* Create elements dynamically with ajax and json*/
-    xhttp.onload = function() {
-
-        const ourData = JSON.parse(xhttp.responseText);
-
-        for (i = 0; i < ourData.length; i++) {
-            //produto
-            var namePage = getNamePage();
-            var catalogo = setPage(namePage)
-
-            //se for da pagina y  
-            //if (ourData[i].pagina == namePage) {
-            var produto = CElement("article");
-            //var catalogo =     
-
-            AddChild(catalogo, produto);
-
-            //produto 1
-            var frete = CElement("span");
-            if (ourData[i].frete == 0 || ourData[i].frete == "") {
-                addAttr(frete, 'class', 'store__product--no-freight');
+        xhttp.onreadystatechange = function() {
+            if (this.status === 200) {
+                if (this.readyState == 0) {
+                    console.log('Não iniciado');
+                } else if (this.readyState == 1) {
+                    console.log('carregando');
+                } else if (this.readyState == 2) {
+                    console.log('carregado');
+                } else if (this.readyState == 3) {
+                    console.log('interativo');
+                } else if (this.readyState == 4) {
+                    console.log('completo');
+                }
+            } else if (this.status === 404) {
+                console.error('Page not found:' + path);
             } else {
-                addAttr(frete, 'class', 'store__product--freight');
+                console.error('Error undefined');
             }
-            CText(frete, ourData[i].frete);
-            AddChild(produto, frete);
-            if (value, ourData[i].valor == "Solicitar Orçamento")
-                frete.style.visibility = "hidden";
 
-            //produto 2           
-            var desconto = CElement("span");
-            if (desconto, ourData[i].desconto == 0 || desconto, ourData[i].desconto == "") {
-                addAttr(desconto, 'class', 'store__product--no-discount');
-            } else {
-                addAttr(desconto, 'class', 'store__product--discount');
+        }
+
+        /* Create elements dynamically with ajax and json*/
+        xhttp.onload = function() {
+
+            const ourData = JSON.parse(xhttp.responseText);
+
+            for (i = 0; i < ourData.length; i++) {
+                //produto
+                var namePage = getNamePage();
+                var catalogo = setPage(namePage)
+
+                //se for da pagina y  
+                //if (ourData[i].pagina == namePage) {
+                var produto = CElement("article");
+                //var catalogo =     
+
+                AddChild(catalogo, produto);
+
+                //produto 1
+                var frete = CElement("span");
+                if (ourData[i].frete == 0 || ourData[i].frete == "") {
+                    addAttr(frete, 'class', 'store__product--no-freight');
+                } else {
+                    addAttr(frete, 'class', 'store__product--freight');
+                }
+                CText(frete, ourData[i].frete);
+                AddChild(produto, frete);
+                if (value, ourData[i].valor == "Solicitar Orçamento")
+                    frete.style.visibility = "hidden";
+
+                //produto 2           
+                var desconto = CElement("span");
+                if (desconto, ourData[i].desconto == 0 || desconto, ourData[i].desconto == "") {
+                    addAttr(desconto, 'class', 'store__product--no-discount');
+                } else {
+                    addAttr(desconto, 'class', 'store__product--discount');
+                }
+                CText(desconto, ourData[i].desconto);
+                AddChild(produto, desconto);
+                if (value, ourData[i].valor == "Solicitar Orçamento")
+                    desconto.style.visibility = "hidden";
+
+                //produto 3
+                var figure = CElement("figure");
+                addAttr(figure, 'class', 'store__product--description');
+                AddChild(produto, figure);
+
+                //produto 3-1      
+                var imagem = CElement("img");
+                addAttr(imagem, 'src', ourData[i].imagem);
+                addAttr(imagem, 'alt', ourData[i].imagem_alt);
+                AddChild(figure, imagem);
+
+                //produto 3-2
+                var nome_produto = CElement("figcaption");
+                CText(nome_produto, ourData[i].modelo);
+                AddChild(figure, nome_produto);
+
+                //produto 4
+                var value = CElement("span");
+                addAttr(value, "class", "store__product--values-or-status");
+                CText(value, ourData[i].valor);
+                AddChild(produto, value);
+
+                //produto 5  
+                var botton_detalhe = CElement("a");
+                addAttr(botton_detalhe, "class", "store__product--details");
+                addAttr(botton_detalhe, "href", "index.php?pagina=includes/store/product-description.php");
+                AddChild(produto, botton_detalhe);
+
+                //produto 5-1
+                var input_detalhe = CElement("input");
+                addAttr(input_detalhe, "type", "submit");
+                addAttr(input_detalhe, "value", "DETALHES");
+                AddChild(botton_detalhe, input_detalhe);
+                //if (value, ourData[i].valor == "Solicitar Orçamento")
+                //input_detalhe.style.visibility = "hidden";
+
+                //produto 6
+                var botton_comprar = CElement("a");
+                addAttr(botton_comprar, "class", "store__product--to-buy");
+                addAttr(botton_comprar, "href", "index.php?pagina=includes/store/product-store-car.php");
+                AddChild(produto, botton_comprar);
+
+                //produto 6-1
+                var input_comprar = CElement("input");
+                addAttr(input_comprar, "type", "submit");
+                addAttr(input_comprar, "value", "COMPRAR");
+                AddChild(botton_comprar, input_comprar);
+                if (value, ourData[i].valor == "Solicitar Orçamento")
+                    input_comprar.style.visibility = "hidden";
+                console.log("Foi criado o produto: " + ourData[i].modelo);
+                //insert_json();
+                //}
             }
-            CText(desconto, ourData[i].desconto);
-            AddChild(produto, desconto);
-            if (value, ourData[i].valor == "Solicitar Orçamento")
-                desconto.style.visibility = "hidden";
 
-            //produto 3
-            var figure = CElement("figure");
-            addAttr(figure, 'class', 'store__product--description');
-            AddChild(produto, figure);
-
-            //produto 3-1      
-            var imagem = CElement("img");
-            addAttr(imagem, 'src', ourData[i].imagem);
-            addAttr(imagem, 'alt', ourData[i].imagem_alt);
-            AddChild(figure, imagem);
-
-            //produto 3-2
-            var nome_produto = CElement("figcaption");
-            CText(nome_produto, ourData[i].modelo);
-            AddChild(figure, nome_produto);
-
-            //produto 4
-            var value = CElement("span");
-            addAttr(value, "class", "store__product--values-or-status");
-            CText(value, ourData[i].valor);
-            AddChild(produto, value);
-
-            //produto 5  
-            var botton_detalhe = CElement("a");
-            addAttr(botton_detalhe, "class", "store__product--details");
-            addAttr(botton_detalhe, "href", "index.php?pagina=includes/store/product-description.php");
-            AddChild(produto, botton_detalhe);
-
-            //produto 5-1
-            var input_detalhe = CElement("input");
-            addAttr(input_detalhe, "type", "submit");
-            addAttr(input_detalhe, "value", "DETALHES");
-            AddChild(botton_detalhe, input_detalhe);
-            //if (value, ourData[i].valor == "Solicitar Orçamento")
-            //input_detalhe.style.visibility = "hidden";
-
-            //produto 6
-            var botton_comprar = CElement("a");
-            addAttr(botton_comprar, "class", "store__product--to-buy");
-            addAttr(botton_comprar, "href", "index.php?pagina=includes/store/product-store-car.php");
-            AddChild(produto, botton_comprar);
-
-            //produto 6-1
-            var input_comprar = CElement("input");
-            addAttr(input_comprar, "type", "submit");
-            addAttr(input_comprar, "value", "COMPRAR");
-            AddChild(botton_comprar, input_comprar);
-            if (value, ourData[i].valor == "Solicitar Orçamento")
-                input_comprar.style.visibility = "hidden";
-            console.log("Foi criado o produto: " + ourData[i].modelo);
-            //insert_json();
-            //}
+            // Create a <p> element
+            function CElement(element) {
+                return document.createElement(element);
+            }
+            // Create a text node
+            function CText(element, text) {
+                var t = document.createTextNode(text);
+                element.appendChild(t);
+            }
+            // Append  child
+            function AddChild(element, child) {
+                element.appendChild(child);
+            }
+            //create attibute
+            function addAttr(element, attribute, value) {
+                var att = document.createAttribute(attribute);
+                att.value = value
+                element.setAttributeNode(att);
+            }
         }
 
-        // Create a <p> element
-        function CElement(element) {
-            return document.createElement(element);
-        }
-        // Create a text node
-        function CText(element, text) {
-            var t = document.createTextNode(text);
-            element.appendChild(t);
-        }
-        // Append  child
-        function AddChild(element, child) {
-            element.appendChild(child);
-        }
-        //create attibute
-        function addAttr(element, attribute, value) {
-            var att = document.createAttribute(attribute);
-            att.value = value
-            element.setAttributeNode(att);
-        }
 
+        xhttp.send();
     }
-
-    xhttp.send();
 
     function getNamePage() {
         //current page 
@@ -356,9 +358,9 @@ function add_product(id_un) {
 
 function remove_product(id_un) {
     var un = document.getElementById(id_un);
-    if(parseInt(un.value)>0){       
-       un.value = parseInt(un.value) - 1; 
-    }    
+    if (parseInt(un.value) > 0) {
+        un.value = parseInt(un.value) - 1;
+    }
 }
 /*unction insert_json() {
     // Post a user
