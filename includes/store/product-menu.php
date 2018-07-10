@@ -47,7 +47,7 @@
             </ul>
     </fieldset>
 
-    <fieldset class="store__menu--services">
+    <!--<fieldset class="store__menu--services">
         <legend class="store__menu--services-title">Serviços</legend>
         <ul class="store__menu--services-options">
             <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/acabamento.php">Acabamento</a></li>
@@ -57,5 +57,5 @@
                         <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/restauracao_piscinas.php">Restauração de Piscinas</a></li>
             <li class="store__menu--services-item"><a href="index.php?pagina=includes/store/servicos/pintura_piscinas.php">Pintura de Piscinas</a></li>
         </ul>
-    </fieldset>
+    </fieldset>-->
 </aside>

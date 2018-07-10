@@ -74,7 +74,7 @@ function onload() {
                 CText(frete, ourData[i].frete);
                 AddChild(produto, frete);
                 if (value, ourData[i].valor == "Solicitar Orçamento")
-                    frete.style.visibility = "hidden";
+                    frete.style.display = "none";
 
                 //produto 2           
                 var desconto = CElement("span");
@@ -86,7 +86,7 @@ function onload() {
                 CText(desconto, ourData[i].desconto);
                 AddChild(produto, desconto);
                 if (value, ourData[i].valor == "Solicitar Orçamento")
-                    desconto.style.visibility = "hidden";
+                    desconto.style.display = "none";
 
                 //produto 3
                 var figure = CElement("figure");
