@@ -1,16 +1,138 @@
-/*Carrossel */
+function set_image() {
 
-function next_image(image) {
-    switch (image) {
-        case "piscina":
-            document.querySelector(".home__carrossel").style.backgroundImage = "url('../assets/img/carrossel/piscina-carrossel1.jpg')";
-        case "spa":
-            document.querySelector(".home__carrossel").style.backgroundImage = "url('../assets/img/carrossel/spa.png')";
-        case "aquecedor":
-            document.querySelector(".home__carrossel").style.backgroundImage = "url('../assets/img/carrossel/aquecedor-solar-up-1196x600.png')";
+    var image = document.getElementById("home__carrossel--image");
+
+    switch (image.class) {
+        case "home__carrossel--default-image":
+            next_image("home__carrossel--second-image");
             break;
-        default:
-            document.querySelector(".home__carrossel").style.backgroundImage = "url('../assets/img/carrossel/piscina-carrossel1.jpg')";
+
+        case "home__carrossel--second-image":
+            next_image("home__carrossel--third-image");
+            break;
+
+        case "home__carrossel--third-image":
+            next_image("home__carrossel--fourth-image");
+            break;
+
+        case "home__carrossel--fourth-image":
+            next_image("home__carrossel--default-image");
+            break;
+    }
+    var t = setTimeout(function() {
+        set_image()
+    }, 5000);
+
+}
+/*
+function myFunction() {
+	alert('teste');
+    setTimeout(function(){ myFunction() ; }, 3000);
+}
+*/
+function setStyleItemCarrossel(id_element) {
+    var element = document.getElementById(id_element);
+
+    switch (id_element) {
+        case "home__carrossel--piscina":
+            element.style.backgroundColor = "#757575";
+            document.getElementById("home__carrossel--aquecedor-agua-solar").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--aquecedor-solar").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--spa").style.backgroundColor = "#fff";
+            /*document.getElementById("home__carrossel--aquecedor-sauna").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--aquecedor-gas").style.backgroundColor = "#fff";*/
+
+            break;
+
+        case "home__carrossel--aquecedor-agua-solar":
+            element.style.backgroundColor = "#757575";
+            document.getElementById("home__carrossel--aquecedor-solar").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--piscina").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--spa").style.backgroundColor = "#fff";
+            /*document.getElementById("home__carrossel--aquecedor-sauna").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--aquecedor-gas").style.backgroundColor = "#fff";*/
+
+            break;
+
+        case "home__carrossel--spa":
+            element.style.backgroundColor = "#757575";
+            document.getElementById("home__carrossel--piscina").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--aquecedor-solar").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--aquecedor-agua-solar").style.backgroundColor = "#fff";
+            /*document.getElementById("home__carrossel--aquecedor-sauna").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--aquecedor-gas").style.backgroundColor = "#fff";*/
+
+            break;
+
+        case "home__carrossel--aquecedor-solar":
+            element.style.backgroundColor = "#757575";
+            document.getElementById("home__carrossel--piscina").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--aquecedor-agua-solar").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--spa").style.backgroundColor = "#fff";
+            /*document.getElementById("home__carrossel--aquecedor-sauna").style.backgroundColor = "#fff";
+            document.getElementById("home__carrossel--aquecedor-gas").style.backgroundColor = "#fff";*/
+
+            break;
+    }
+}
+
+function next_image(class_image) {
+    //verificar o atual id
+    var image = document.getElementById("home__carrossel--image");
+    var descricao = document.getElementById("home__carrossel--description");
+    var buttom = document.getElementById("home__carrossel--buttom");
+
+
+    //pegar o id do parametro e colocar a imagem no id atual de acordo com o parametro
+    switch (class_image) {
+        case "home__carrossel--default-image":
+            image.src = "assets/img/carrossel/piscina-carrossel1.jpg";
+            image.class = "home__carrossel--default-image";
+            descricao.innerHTML = "Piscinas de Vinil, Fibra e Azulejo";
+            buttom.href = "index.php?pagina=includes/product-information/product-pool.php";
+            setStyleItemCarrossel("home__carrossel--piscina");
+            break;
+
+            //aquecedor de água solar
+        case "home__carrossel--second-image":
+            image.src = "assets/img/carrossel/aquecedor-solar-up-1196x600.png";
+            image.class = "home__carrossel--second-image";
+            descricao.innerHTML = "Aquecedor de água solar";
+            buttom.href = "index.php?pagina=includes/product-information/product-others-aquecedor-solar.php";
+            setStyleItemCarrossel("home__carrossel--aquecedor-agua-solar");
+            break;
+
+        case "home__carrossel--third-image":
+            image.src = "assets/img/carrossel/spa.png";
+            image.class = "home__carrossel--third-image";
+            descricao.innerHTML = "SPA e banheira de Hidromassagem";
+            buttom.href = "index.php?pagina=includes/product-information/product-spa.php";
+            setStyleItemCarrossel("home__carrossel--spa");
+            break;
+
+            //Painel de energia solar
+        case "home__carrossel--fourth-image":
+            image.src = "assets/img/carrossel/aquecedor-solar.jpg";
+            image.class = "home__carrossel--fourth-image";
+            descricao.innerHTML = "Painel de energia solar";
+            buttom.href = "index.php?pagina=includes/product-information/product-others-aquecedor-solar.php";
+            setStyleItemCarrossel("home__carrossel--aquecedor-solar");
+
+            /*case "home__carrossel--fifth-image":
+                image.src = "assets/img/carrossel/sauna.png";
+                image.class = "home__carrossel--fifth-image";
+                descricao.innerHTML = "Sauna";
+                buttom.href="index.php?pagina=includes/product-information/product-sauna.php";
+                setStyleItemCarrossel("home__carrossel--aquecedor-sauna");
+                break;*/
+
+            /*case "home__carrossel--sixth-image":
+              image.src = "assets/img/carrossel/aquecedor-gas.png";
+              image.class = "home__carrossel--sixth-image";
+              descricao.innerHTML = "Aquecedor de água à Gás";
+              buttom.href="index.php?pagina=includes/product-information/product-others-aquecedor-gas.php";
+              setStyleItemCarrossel("home__carrossel--aquecedor-gas");
+              break;*/
     }
 }
 
@@ -135,7 +257,7 @@ function toggle__image(id_default, id_atual) {
 }
 
 
-//Criar carrossel
+
 
 //criar efeito sanfona menu da loja
 

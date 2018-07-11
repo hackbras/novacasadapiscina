@@ -156,6 +156,11 @@
         <div class="product__default--estampa">            
             <h3>3ª Escolha da Estampa <span>(para piscinas de vinil)<span></h3>
             <article>
+                <span id="product__default--estampa-before">-</span>
+                <img id="product__default--estampa-first" src="assets/img/produtos/piscinas/estampas/first.png" alt="">
+                <img id="product__default--estampa-second" src="assets/img/produtos/piscinas/estampas/second.png" alt="">
+                <img id="product__default--estampa-third" src="assets/img/produtos/piscinas/estampas/third.png" alt="">
+                <span id="product__default--estampa-after">+</span>
             </article>
         </div>
 

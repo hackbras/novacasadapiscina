@@ -1,12 +1,17 @@
 <section class="home">
     <section class="home__carrossel"> 
-        <h1>Piscinas de Vinil, Fibra e Azulejo</h1>  
-        <img src="assets/img/produtos/pronto" alt="">
-        <a href="index.php?pagina=includes/product-information/product-pool.php" class="button-green home__carrossel--submit">Saiba mais...</a>
+        <!--<h1>Piscinas de Vinil, Fibra e Azulejo</h1>-->  
+        <figure>
+            <img id="home__carrossel--image" class="home__carrossel--default-image" src="assets/img/carrossel/piscina-carrossel1.jpg" alt="">
+            <figcaption  id="home__carrossel--description">Piscinas de Vinil, Fibra e Azulejo</figcaption>
+        </figure>
+        
+        <a id="home__carrossel--buttom" href="index.php?pagina=includes/product-information/product-pool.php" class="button-green home__carrossel--submit">Saiba mais...</a>
         <ul class="home__carrossel--items">
-            <li id="home__carrossel--piscina"></li>
-            <li id="home__carrossel--spa"></li>
-            <li id="home__carrossel--aquecedor"></li>
+            <li id="home__carrossel--piscina" onclick="next_image('home__carrossel--default-image')"></li>
+            <li id="home__carrossel--aquecedor-agua-solar" onclick="next_image('home__carrossel--second-image')"></li>
+            <li id="home__carrossel--spa" onclick="next_image('home__carrossel--third-image')"></li>
+            <li id="home__carrossel--aquecedor-solar" onclick="next_image('home__carrossel--fourth-image')"></li>
         </ul>
     </section>
 
