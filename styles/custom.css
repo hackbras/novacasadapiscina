@@ -1072,7 +1072,304 @@ form input[type=submit] {
 .product__default--modelos-adulto figure {
     text-align: center;
 }
+/*Estampas*/
+.product__default--estampa-container{
+    display:grid;
+    grid-template-columns:700px auto;
+    grid-template-rows:50px 445px;
+    grid-gap:0px 10px;    
+}
+.product__default--estampa-titulo{
+    grid-column:1 / 3;
+    grid-row:1 / 2;
+}
+.product__default--estampas{
+    grid-column:1 / 2;
+    grid-row:2 / 3;
+    justify-content: space-evenly;    
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;    
+    overflow-y: auto;
+}
+.product__default--estampas div{
+    margin:5px 2px;
+}
+.product__default--estampas-zoom{
+    text-align:center;
+    grid-column:2 / 3;
+    grid-row:2 / 3;
+}
+#product__default--estampas-zoom-imagem{
+    border-radius:45px;
+}
+.product__default--estampa1{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa1full.png') no-repeat 0 0;
+	width: 150px;
+	height: 120px;
+	/*width: 237px;
+	height: 414px;*/
+}
+.product__default--estampa2{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa1full.png') no-repeat -259px -1px;
+	width: 150px;
+	height: 120px;
+	/*width: 233px;
+	height: 413px;*/
+}
+.product__default--estampa3{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa1full.png')no-repeat -514px 0;
+	width: 150px;
+	height: 120px;
+	/*width: 230px;
+	height: 433px;*/
+}
+.product__default--estampa4{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa1full.png') no-repeat -3px -528px;
+	width: 150px;
+	height: 120px;
+	/*width: 234px;
+	height: 414px;*/
+}
+.product__default--estampa5{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa1full.png') no-repeat -263px -528px;
+	width: 150px;
+	height: 120px;
+	/*width: 231px;
+	height: 414px;*/
+}
+.product__default--estampa6{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa2full.png') no-repeat 0 -2px;
+	width: 150px;
+	height: 120px;
+	/*width: 232px;
+	height: 416px;*/
+}
+.product__default--estampa7{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa2full.png') no-repeat -254px -1px;
+	width: 150px;
+	height: 120px;
+	/*width: 234px;
+	height: 417px;*/
+}
+.product__default--estampa8{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa2full.png') no-repeat -509px -3px;
+	width: 150px;
+	height: 120px;
+	/*width: 236px;
+	height: 415px;*/
+}
+.product__default--estampa9{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa2full.png') no-repeat 0 -525px;
+	width: 150px;
+	height: 120px;
+	/*width: 234px;
+	height: 415px;*/
+}
+.product__default--estampa10{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa2full.png') no-repeat -254px -525px;
+	width: 150px;
+	height: 120px;
+	/*width: 238px;
+	height: 415px;*/
+}
+.product__default--estampa11{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -1px -1px;
+	width: 150px;
+	height: 120px;
+	/*width: 174px;
+	height: 341px;*/
+}
+.product__default--estampa12{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -187px -1px;
+	width: 150px;
+	height: 120px;
+	/*width: 184px;
+	height: 341px;*/
+}
+.product__default--estampa13{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -383px -1px;
+	width: 150px;
+	height: 120px;
+	/*width: 184px;
+	height: 341px;*/
+}
+.product__default--estampa14{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -579px 0;
+	width: 150px;
+	height: 120px;
+	/*width: 177px;
+	height: 342px;*/
+}
+.product__default--estampa15{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat 0 -424px;
+	width: 150px;
+	height: 120px;
+	/*width: 176px;
+	height: 336px;*/
+}
+.product__default--estampa16{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -186px -425px;
+	width: 150px;
+	height: 120px;
+	/*width: 185px;
+	height: 335px;*/
+}
+.product__default--estampa17{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -384px -424px;
+	width: 150px;
+	height: 120px;
+	/*width: 184px;
+	height: 336px;*/
+}
+.product__default--estampa18{
+    border-radius   :30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -579px -424px;
+	width: 150px;
+	height: 120px;
+	/*width: 174px;
+	height: 336px;*/
+}
+.product__default--estampa19{
+    border-radius   :30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa1full.png') no-repeat -509px -530px;
+	width: 150px;
+	height: 120px;
+}
+#product__default--estampas-zoom-title{
+    text-align:center;
+    font-size:26px;
+    font-weight:bold;
+    color:#55b2c8;
+}
 
+/*ZOOM
+.product__default--zoom-estampa1{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa1full.png') no-repeat 0 0;
+	width: 237px;
+	height: 414px;
+}
+.product__default--zoom-estampa2{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa1full.png') no-repeat -259px -1px;
+	width: 233px;
+	height: 413px;
+}
+.product__default--zoom-estampa3{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa1full.png')no-repeat -514px 0;
+	width: 230px;
+	height: 433px;
+}
+.product__default--zoom-estampa4{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa1full.png') no-repeat -3px -528px;
+	width: 234px;
+	height: 414px;
+}
+.product__default--zoom-estampa5{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa1full.png') no-repeat -263px -528px;
+	width: 231px;
+	height: 414px;
+}
+.product__default--zoom-estampa6{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa2full.png') no-repeat 0 -2px;
+	width: 232px;
+	height: 416px;
+}
+.product__default--zoom-estampa7{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa2full.png') no-repeat -254px -1px;
+	width: 234px;
+	height: 417px;
+}
+.product__default--zoom-estampa8{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa2full.png') no-repeat -509px -3px;
+	width: 236px;
+	height: 415px;
+}
+.product__default--zoom-estampa9{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa2full.png') no-repeat 0 -525px;
+	width: 234px;
+	height: 415px;
+}
+.product__default--zoom-estampa10{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa2full.png') no-repeat -254px -525px;
+	width: 238px;
+	height: 415px;
+}
+.product__default--zoom-estampa11{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -1px -1px;
+	width: 174px;
+	height: 341px;
+}
+.product__default--zoom-estampa12{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -187px -1px;
+	width: 184px;
+	height: 341px;
+}
+.product__default--zoom-estampa13{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -383px -1px;
+	width: 184px;
+	height: 341px;
+}
+.product__default--zoom-estampa14{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -579px 0;
+	width: 177px;
+	height: 342px;
+}
+.product__default--zoom-estampa15{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat 0 -424px;
+	width: 176px;
+	height: 336px;
+}
+.product__default--zoom-estampa16{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -186px -425px;
+	width: 185px;
+	height: 335px;
+}
+.product__default--zoom-estampa17{
+    border-radius:30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -384px -424px;
+	width: 184px;
+	height: 336px;
+}
+.product__default--zoom-estampa18{
+    border-radius   :30px;
+    background: url('../assets/img/produtos/piscinas/estampas/estampa3full.png') no-repeat -579px -424px;
+	width: 174px;
+	height: 336px;
+}*/
 .product__default--caso-image_default img {
     height: 540px;
 }

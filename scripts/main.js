@@ -1,3 +1,132 @@
+function change__image(image) {
+    var zoom__image = document.getElementById('product__default--estampas-zoom-imagem');
+    var image__legend = document.getElementById('product__default--estampas-zoom-title');
+
+    var img1 = "assets/img/produtos/piscinas/estampas/estampa1.png";
+    var img2 = "assets/img/produtos/piscinas/estampas/estampa2.png";
+    var img3 = "assets/img/produtos/piscinas/estampas/estampa3.png";
+    var img4 = "assets/img/produtos/piscinas/estampas/estampa4.png";
+    var img5 = "assets/img/produtos/piscinas/estampas/estampa5.png";
+    var img6 = "assets/img/produtos/piscinas/estampas/estampa7.png";
+
+    var img7 = "assets/img/produtos/piscinas/estampas/estampa8.png";;
+    var img8 = "assets/img/produtos/piscinas/estampas/estampa9.png";
+    var img9 = "assets/img/produtos/piscinas/estampas/estampa10.png";
+    var img10 = "assets/img/produtos/piscinas/estampas/estampa11.png";
+    var img11 = "assets/img/produtos/piscinas/estampas/estampa12.png";
+
+    var img12 = "assets/img/produtos/piscinas/estampas/estampa13.png";
+    var img13 = "assets/img/produtos/piscinas/estampas/estampa14.png";
+    var img14 = "assets/img/produtos/piscinas/estampas/estampa15.png";
+    var img15 = "assets/img/produtos/piscinas/estampas/estampa16.png";
+    var img16 = "assets/img/produtos/piscinas/estampas/estampa17.png";
+    var img17 = "assets/img/produtos/piscinas/estampas/estampa19.png";
+    var img18 = "assets/img/produtos/piscinas/estampas/estampa18.png";
+    var img19 = "assets/img/produtos/piscinas/estampas/estampa6.png";
+
+    switch (image) {
+        case "1":
+            zoom__image.src = img1;
+            image__legend.innerHTML = "Nº1";
+            break;
+
+        case "2":
+            zoom__image.src = img2;
+            image__legend.innerHTML = "Nº2";
+            break;
+
+        case "3":
+            zoom__image.src = img3;
+            image__legend.innerHTML = "Nº3";
+            break;
+
+        case "4":
+            zoom__image.src = img4;
+            image__legend.innerHTML = "Nº4";
+            break;
+
+        case "5":
+            zoom__image.src = img5;
+            image__legend.innerHTML = "Nº5";
+            break;
+
+        case "6":
+            zoom__image.src = img6;
+            image__legend.innerHTML = "Nº6";
+            break;
+
+        case "7":
+            zoom__image.src = img7;
+            image__legend.innerHTML = "Nº7";
+            break;
+
+        case "8":
+            zoom__image.src = img8;
+            image__legend.innerHTML = "Nº8";
+            break;
+
+        case "9":
+            zoom__image.src = img9;
+            image__legend.innerHTML = "Nº9";
+            break;
+
+        case "10":
+            zoom__image.src = img10;
+            image__legend.innerHTML = "Nº10";
+            break;
+
+        case "11":
+            zoom__image.src = img11;
+            image__legend.innerHTML = "Nº11";
+            break;
+
+        case "12":
+            zoom__image.src = img12;
+            image__legend.innerHTML = "Nº12";
+            break;
+
+        case "13":
+            zoom__image.src = img13;
+            image__legend.innerHTML = "Nº13";
+            break;
+
+        case "14":
+            zoom__image.src = img14;
+            image__legend.innerHTML = "Nº14";
+            break;
+
+        case "15":
+            zoom__image.src = img15;
+            image__legend.innerHTML = "Nº15";
+            break;
+
+        case "16":
+            zoom__image.src = img16;
+            image__legend.innerHTML = "Nº16";
+            break;
+
+        case "17":
+            zoom__image.src = img17;
+            image__legend.innerHTML = "Nº17";
+            break;
+
+        case "18":
+            zoom__image.src = img18;
+            image__legend.innerHTML = "Nº18";
+            break;
+        
+        case "19":
+            zoom__image.src = img19;
+            image__legend.innerHTML = "Nº19";
+            break;
+
+        default:
+            zoom__image.src = img1;
+            image__legend.innerHTML = "Nº1";
+            break;
+    }
+}
+
 function set_image() {
 
     var image = document.getElementById("home__carrossel--image");
