@@ -79,27 +79,27 @@
         </div>
 
         <nav class="home__accessories--menu">   
-            <a class="home__accessories--menu-bicos-hidromassagem" href="" onmouseover="show__element('home__accessories--container-bicos-hidromassagem','a')" >Bicos de Hidromassagem</a>
+            <!--<a class="home__accessories--menu-bicos-hidromassagem" href="" onmouseover="show__element('home__accessories--container-bicos-hidromassagem','a')" >Bicos de Hidromassagem</a>
             <a class="home__accessories--menu-capa-piscina" href="" onmouseover="show__element('home__accessories--container-capa-piscina','a')" >Capa de piscina</a>
-            <a class="home__accessories--menu-casa-maquinas" href="" onmouseover="show__element('home__accessories--container-casa-maquinas','a')" >Casa de Máquinas</a>
+            <a class="home__accessories--menu-casa-maquinas" href="" onmouseover="show__element('home__accessories--container-casa-maquinas','a')" >Casa de Máquinas</a>-->
             <a class="home__accessories--menu-inox" href="" onmouseover="show__element('home__accessories--container-inox','a')" >Cascata Inox</a>
             <a class="home__accessories--menu-cascata-fibra" href="" onmouseover="show__element('home__accessories--container-cascata-fibra','a')" >Cascata de Fibra</a>
-            <a class="home__accessories--menu-refletores-led" href="" onmouseover="show__element('home__accessories--container-refletores-led','a')" >Refletores de Led</a>
-            <!--<a class="home__accessories--menu-bomba" href="" onmouseover="show__element('home__accessories--container-bomba','a')" >Bomba</a>-->
-            <a class="home__accessories--menu-filtro" href="" onmouseover="show__element('home__accessories--container-filtro','a')" >Filtro e bomba</a>
+            <!--<a class="home__accessories--menu-refletores-led" href="" onmouseover="show__element('home__accessories--container-refletores-led','a')" >Refletores de Led</a>-->
+            <a class="home__accessories--menu-bomba" href="" onmouseover="show__element('home__accessories--container-bomba','a')" >Bomba</a>
+            <a class="home__accessories--menu-filtro" href="" onmouseover="show__element('home__accessories--container-filtro','a')" >Filtro</a>
         </nav>
         
         <div class="home__accessories--container">
             <article id="home__accessories--container-bicos-hidromassagem">
                 <div id="home__accessories--content-bicos-hidromassagem" class="home__accessories--text">
                     <div class="home__accessories--image" >        
-                        <img src="assets/img/acessorios/prontos/bicos-jato-de-hidromassagem.png" alt="" width="220px">
+                        <img src="assets/img/acessorios/prontos/cascata-inox.png" alt="" width="220px">
                     </div>
 
                     <p class="home__accessories--description">
-                        Dispositivo de Hidromassagem para Piscinas, Banheiras e spa.    
+                        Diversão para toda a família, com design moderno e material inoxidável, valoriza, decora e embeleza sua área de lazer. Todos vão te elogiar pelo maravilhoso investimento.  
                     </p>
-                    <a href="index.php?pagina=includes/store/acessorios/bicos-hidromassagem.php" class="button-green home__accessories--submit">Saiba mais...</a>
+                    <a href="index.php?pagina=includes/store/acessorios/cascata-inox.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
             </article>
 
@@ -171,7 +171,7 @@ Sinta a relaxante massagem provocada pela sua queda d'agua.
                 </div>
             </article>
 
-             <!--<article id="home__accessories--container-bomba">
+             <article id="home__accessories--container-bomba">
                 <div id="home__accessories--content-Bomba" class="home__accessories--text">
                 <div class="home__accessories--image" >        
                     <img src="assets/img/acessorios/prontos/bomba.png" alt="" width="220px">
@@ -182,12 +182,12 @@ Sinta a relaxante massagem provocada pela sua queda d'agua.
                 </p>
                 <a href="index.php?pagina=includes/store/acessorios/bombas.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
-            </article>-->
+            </article>
 
              <article id="home__accessories--container-filtro">
                 <div id="home__accessories--content-filtro" class="home__accessories--text">
                 <div class="home__accessories--image" >        
-                    <img src="assets/img/acessorios/prontos/filtro-pra-piscina1.png" alt="" width="220px">
+                    <img src="assets/img/acessorios/prontos/filtro-pra-piscina2.png" alt="" width="220px">
                 </div>
 
                 <p class="home__accessories--description">

@@ -24,16 +24,23 @@
             <h2>Loja</h2>
             <h3>Acessórios</h3>
             <ul>
-                <li><a href="index.php?pagina=includes/store/acessorios/refletores-led.php">Refletor Led</a></li>
+                <!--<li><a href="index.php?pagina=includes/store/acessorios/refletores-led.php">Refletor Led</a></li>
                 <li><a href="index.php?pagina=includes/store/acessorios/bicos-hidromassagem.php">Bicos de Hidromassagem</a></li>
                 <li><a href="index.php?pagina=includes/store/acessorios/capa-piscina.php">Capa de Piscina</a></li>
-                <li><a href="index.php?pagina=includes/store/acessorios/casa-maquinas.php">Casa de Máquinas</a></li>
+                <li><a href="index.php?pagina=includes/store/acessorios/casa-maquinas.php">Casa de Máquinas</a></li>-->
                 <li><a href="index.php?pagina=includes/store/acessorios/cascata-inox.php">Cascata Inox</a></li>
                 <li><a href="index.php?pagina=includes/store/acessorios/cascata-fibra.php">Cascata de Fibra</a></li>
-                <li><a href="index.php?pagina=includes/store/acessorios/bombas.php.php">Bomba de Água</a></li>
+                <li><a href="index.php?pagina=includes/store/acessorios/bombas.php">Bomba de Água</a></li>
                 <li><a href="index.php?pagina=includes/store/acessorios/filtros.php">Filtro</a></li>
+                <li><a href="index.php?pagina=includes/store/acessorios/acessorios-outros.php">Outros acessórios</a></li>
+            </ul>
+            <h3>Química</h3>
+            <ul>
+                <li><a href="index.php?pagina=includes/store/quimica/limpeza-produtos.php">Produtos de Limpeza</a></li>
+                <li><a href="index.php?pagina=includes/store/quimica/limpeza-kit-limpeza.php">Kit de limpeza</a></li>
+                <li><a href="index.php?pagina=includes/store/quimica/quimica-outros.php">Outros produtos químicos</a></li>
             </ul>            
-            <a class="label__black"  href="index.php?pagina=includes/store/product-store.php">Outros Proutos</a>
+            <a class="label__black" href="index.php?pagina=includes/store/products/produtos-outros.php">Outros Proutos</a>
         </div>
     </aside>
     <section class="product__default">

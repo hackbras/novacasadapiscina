@@ -802,6 +802,7 @@ form input[type=submit] {
 }
 
 .home__accessories--menu {
+    text-align:center;
     padding: 10px;
     background-color: #000;
     opacity: 0.6;

@@ -114,7 +114,7 @@ function change__image(image) {
             zoom__image.src = img18;
             image__legend.innerHTML = "Nº18";
             break;
-        
+
         case "19":
             zoom__image.src = img19;
             image__legend.innerHTML = "Nº19";
@@ -275,7 +275,6 @@ function show__element(id_element, option) {
     if (option == 'a') {
         hide__accessories(id_element);
     }
-
 }
 
 function hide__accessories(id_element) {
@@ -295,7 +294,7 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            //hide__element(bomba);
+            hide__element(bomba);
             hide__element(filtro);
             break;
         case "home__accessories--container-capa-piscina":
@@ -304,7 +303,7 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            // hide__element(bomba);
+            hide__element(bomba);
             hide__element(filtro);
             break;
         case "home__accessories--container-casa-maquinas":
@@ -313,7 +312,7 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            //hide__element(bomba);
+            hide__element(bomba);
             hide__element(filtro);
             break;
         case "home__accessories--container-inox":
@@ -322,7 +321,7 @@ function hide__accessories(id_element) {
             hide__element(hidro);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            //hide__element(bomba);            
+            hide__element(bomba);
             hide__element(filtro);
             break;
         case "home__accessories--container-cascata-fibra":
@@ -331,7 +330,7 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(hidro);
             hide__element(refletorled);
-            //hide__element(bomba);
+            hide__element(bomba);
             hide__element(filtro);
             break;
         case "home__accessories--container-refletores-led":
@@ -340,25 +339,25 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(hidro);
-            //hide__element(bomba);
+            hide__element(bomba);
             hide__element(filtro);
             break;
-            /*case "home__accessories--container-bomba":
-                hide__element(capa);
-                hide__element(casamaquina);
-                hide__element(cascatainox);
-                hide__element(cascatafibra);
-                hide__element(refletorled);
-                hide__element(hidro);
-                hide__element(filtro);
-                break;*/
+        case "home__accessories--container-bomba":
+            hide__element(capa);
+            hide__element(casamaquina);
+            hide__element(cascatainox);
+            hide__element(cascatafibra);
+            hide__element(refletorled);
+            hide__element(hidro);
+            hide__element(filtro);
+            break;
         case "home__accessories--container-filtro":
             hide__element(capa);
             hide__element(casamaquina);
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            //hide__element(bomba);
+            hide__element(bomba);
             hide__element(hidro);
             break;
         default:
@@ -367,7 +366,7 @@ function hide__accessories(id_element) {
             hide__element(cascatainox);
             hide__element(cascatafibra);
             hide__element(refletorled);
-            //hide__element(bomba);
+            hide__element(bomba);
             hide__element(filtro);
     }
 }
