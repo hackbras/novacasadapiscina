@@ -7,12 +7,14 @@
                 <h2>Fique por dentro de nossas promoções e descontos</h2>
             </div>
             <img class="promotion__banner--image-sun" src="assets/img/gifs/sun.gif" alt="">
+            <span class="promotion__modal"></span>
         </div>
     </section>
 
     <h2 class="promotion__title">Promoções em Andamento</h2>
 
-    <section class="promotion__one">
+    <section class="promotion__one">        
+
         <h3 class="promotion__one--title">Setembro</h3>
         <h2 class="promotion__one--sutitle">Inverno</h2>
         <figure class="promotion__one--body">

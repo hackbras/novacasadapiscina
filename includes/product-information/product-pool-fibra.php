@@ -55,15 +55,6 @@
                 </figcaption>
             </figure>
         </div>
-        
-        <div class="product__default--tipos">
-            <h3>Tipos</h3>
-            <ul>
-                <li>Vinil</li>
-                <li>Fibra</li>
-                <li>Azulejo</li>
-            </ul>
-        </div>
 
         <div class="product__default--casos">
             <h2 class="product__default--caso-titulo">Instalações Realizadas</h2>
@@ -71,6 +62,10 @@
                 <img id="product__default--caso-image_default-fibra" src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra1.jpg" alt="">
             </figure>
             <section class="product__default--caso-images">
+
+                <figure>
+                    <img id="product__default--caso-fibra0" src="assets/img/produtos/piscinas/instalacoes_realizadas/vinil2.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
+                </figure>
                 <figure>
                     <img id="product__default--caso-fibra1"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra2.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
                 </figure>

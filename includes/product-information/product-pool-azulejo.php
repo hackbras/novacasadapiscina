@@ -58,16 +58,6 @@ As piscinas de concreto  armado possuem um valor  mais alto comparado à piscina
             </figure>
         </div>
 
-        
-        <div class="product__default--tipos">
-            <h3>Tipos</h3>
-            <ul>
-                <li>Vinil</li>
-                <li>Fibra</li>
-                <li>Azulejo</li>
-            </ul>
-        </div>
-
         <div class="product__default--casos">
             <h2 class="product__default--caso-titulo">Instalações Realizadas</h2>
             <figure class="product__default--caso-image_default">

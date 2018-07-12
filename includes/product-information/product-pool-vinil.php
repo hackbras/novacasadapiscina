@@ -44,50 +44,63 @@
         </div>
     </aside>
     <section class="product__default">
-            <h1 class="product__default--title">Piscinas de Vinil</h1>   
-        <div class="product__default--description">
-            <figure class="product__default--figure">
-                
-                <figcaption>
-                <!--<img src="assets/img/produtos/piscinas/tipos_de_piscinas/piscina_vinil.png">-->
-                <div class="product__default--image-vinil"></div>
-                  A piscina de vinil proporciona  grandes vantagens, sua edificação  em alvenaria é bastante  robusta e resistente, por isso a piscina  não será danificada, ainda  que por eventualidade ocorra  trincas e rachaduras na estrutura, uma vez que o cobertura  em vinil é um material  muito resistente e maleável, ela possui alta resistência  e impermeabilização. Por isso a cobertura  de vinil também é bastante  utilizado para conserto de piscinas  de azulejo e pastilhas.
-                   <b>Empermeabilidade: </b>O bolsão de vinil é inteiramente  impermeável, ou seja, não há Nenhum  risco de vazamento de água em caso de furo  ou fissura na armação  de concreto da piscina. Por isso o a cobertura  de vinil também é imensamente  utilizado no conserto de piscinas  de azulejo quando começam  apresentar vazamentos.
+        <h1 class="product__default--title">Piscinas de Vinil</h1>   
+        <div class="product__default--description-vinil">
+            <!--figure class="product__default--figure-">-->
+            <!--<img class="product__default--image-vinil" src="assets/img/produtos/piscinas/tipos_de_piscinas/piscina_vinil.png">-->
+            <div class="product__default--image-vinil"></div>
+            <p class="product__default--texto-vinil">                
+                A piscina de vinil proporciona  grandes vantagens, sua edificação  em alvenaria é bastante  robusta e resistente, por isso a piscina  não será danificada, ainda  que por eventualidade ocorra  trincas e rachaduras na estrutura, uma vez que o cobertura  em vinil é um material  muito resistente e maleável, ela possui alta resistência  e impermeabilização. Por isso a cobertura  de vinil também é bastante  utilizado para conserto de piscinas  de azulejo e pastilhas.
+                <b>Empermeabilidade: </b>O bolsão de vinil é inteiramente  impermeável, ou seja, não há Nenhum  risco de vazamento de água em caso de furo  ou fissura na armação  de concreto da piscina. Por isso o a cobertura  de vinil também é imensamente  utilizado no conserto de piscinas  de azulejo quando começam  apresentar vazamentos.
                 <b>Estética e Personalização:</b> As piscinas com cobertura  de vinil são inteiramente  flexíveis ao projeto, desenvolvidas  sob medida e customizadas  ao gosto do cliente, contam com uma diversidade  de estampas e barrados  que proporcionam um acabamento  estético muito sofisticado as piscinas. <b>Higiene e Segurança:</b> Proporcionando higiene  à piscina e segurança  para sua família e/ou estabelecimento, o vinil recebe tratamento  específico que inibi a ação de bactérias, microorganismos, algas e fungos.
                             <b>Economia:</b>
                 A piscina de vinil é mais econômica  que as convencionais em azulejo  ou pastilhas. Com método  construtivo mais rápido, o custo  benefício é muito mais sedutor, pois não há necessidade  de um grande aplicação  em materiais para uma imaginação  robusta, economia em impermeabilizantes  e mão de obra para posicionamento  dos azulejos, pastilhas e condução.
                 <b>Durabilidade:</b>
                 A piscina em vinil tem ótima  durabilidade, sua vida útil dura  durar até 10 anos tendo  cuidados simples de conservação. Além disso, o método  de reforma é básico, basta trocar o bolsão  de vinil e a piscina  estará nova. Muitas vezes  a reforma é requisitada  antes mesmo do período  de validade apenas por estética, já que o vinil  apresenta variedade de desenhos  o cliente pode constantemente  estar renovando o visual  da sua piscina.
-                <b>Manutenção:</b> A manutenção  das piscinas de vinil  é mínima, o procedimento  de limpeza é bastante  simples, o vinil tem  superfície lisa evitando a concentração  de sujeitas nas paredes  da piscina. Os cuidados  são apenas para preservação.</figcaption>
+                <b>Manutenção:</b> A manutenção  das piscinas de vinil  é mínima, o procedimento  de limpeza é bastante  simples, o vinil tem  superfície lisa evitando a concentração  de sujeitas nas paredes  da piscina. Os cuidados  são apenas para preservação.
+            </p>
             
-                  
-            </figure>
-        </div>
-        
-        <div class="product__default--tipos">
-            <h3>Tipos</h3>
-            <ul>
-                <li>Vinil</li>
-                <li>Fibra</li>
-                <li>Azulejo</li>
-            </ul>
-        </div>
-        
-        <div class="product__default--casos">
-            <h2 class="product__default--caso-titulo">Instalações Realizadas</h2>
-            <figure class="product__default--caso-image_default">
-                <img id="product__default--caso-image_default-vinil" src="assets/img/produtos/piscinas/instalacoes_realizadas/vinil1.jpg" alt="">
-            </figure>
-            <section class="product__default--caso-images">
-                <figure>
-                    <img id="product__default--caso-vinil1" src="assets/img/produtos/piscinas/instalacoes_realizadas/vinil2.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-vinil',this.id)" >
-                </figure>
-                <figure>
-                    <img id="product__default--caso-vinil2" src="assets/img/produtos/piscinas/instalacoes_realizadas/vinil3.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-vinil',this.id)" >
-                </figure>
-            </section>
-        </div>
+            <div class="product__default--estampa-container">            
+                <h3 class="product__default--estampa-titulo">Estampas</h3>
+                <article class="product__default--estampas">
+                    <div class="product__default--estampa1" onmouseover="change__image('1')"></div>
+                    <div class="product__default--estampa2" onmouseover="change__image('2')"></div>
+                    <div class="product__default--estampa3" onmouseover="change__image('3')"></div>
+                    <div class="product__default--estampa4" onmouseover="change__image('4')"></div>
+                    <div class="product__default--estampa5" onmouseover="change__image('5')"></div>
+                    <div class="product__default--estampa6" onmouseover="change__image('6')"></div>
+                    <div class="product__default--estampa7" onmouseover="change__image('7')"></div>
+                    <div class="product__default--estampa8" onmouseover="change__image('8')"></div>
+                    <div class="product__default--estampa9" onmouseover="change__image('9')"></div>
+                    <div class="product__default--estampa10" onmouseover="change__image('10')"></div>
+                    <div class="product__default--estampa11" onmouseover="change__image('11')"></div>
+                    <div class="product__default--estampa12" onmouseover="change__image('12')"></div>
+                    <div class="product__default--estampa13" onmouseover="change__image('13')"></div>
+                    <div class="product__default--estampa14" onmouseover="change__image('14')"></div>
+                    <div class="product__default--estampa15" onmouseover="change__image('15')"></div>
+                    <div class="product__default--estampa16" onmouseover="change__image('16')"></div>
+                    <div class="product__default--estampa17" onmouseover="change__image('17')"></div>
+                    <div class="product__default--estampa18" onmouseover="change__image('18')"></div>
+                    <div class="product__default--estampa19" onmouseover="change__image('19')"></div>
+                    
+                </article>
 
+                <figure class="product__default--estampas-zoom">
+                    <figcaption  id="product__default--estampas-zoom-title">Nº1</figcaption>
+                    <img id="product__default--estampas-zoom-imagem" src="assets/img/produtos/piscinas/estampas/estampa1.png" alt="">                    
+                </figure>
+            </div>
+            <!--</figure>-->
+        </div>
+        
+
+        <div class="product__default--instalation">
+            <h2 class="product__default--instalation-title">Confira uma de nossas instalações</h2>
+            <video class="product__default--instalation-video" onmouseover="toggle__image('product__default--caso-image_default-vinil',this.id)" controls>
+                <source src="assets/img/produtos/piscinas/instalacao_piscina_vinil.mp4" type="video/mp4" >
+                Your browser does not support the video tag.
+            </video>
+        </div>
         <div class="product__default--steps">  
            <svg
                                        xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -659,5 +672,17 @@
 
         </div>
         
+
+            <div class="product__default--casos">
+            <h2 class="product__default--caso-titulo">Instalações Realizadas</h2>
+            <figure class="product__default--caso-image_default">
+                <img id="product__default--caso-image_default-vinil" src="assets/img/produtos/piscinas/instalacoes_realizadas/vinil1.jpg" alt="">
+            </figure>
+            <section class="product__default--caso-images">
+                <figure>
+                    <img id="product__default--caso-vinil2" src="assets/img/produtos/piscinas/instalacoes_realizadas/vinil3.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-vinil',this.id)" >
+                </figure>
+            </section>
+        </div>
     </section>
 </div>

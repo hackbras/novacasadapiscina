@@ -161,35 +161,9 @@
                 </fieldset>
         </section>
         
-        <div class="product__default--estampa-container">            
-            <h3 class="product__default--estampa-titulo">3ª Escolha da Estampa <span>(para piscinas de vinil)<span></h3>
-            <article class="product__default--estampas">
-                <div class="product__default--estampa1" onmouseover="change__image('1')"></div>
-                <div class="product__default--estampa2" onmouseover="change__image('2')"></div>
-                <div class="product__default--estampa3" onmouseover="change__image('3')"></div>
-                <div class="product__default--estampa4" onmouseover="change__image('4')"></div>
-                <div class="product__default--estampa5" onmouseover="change__image('5')"></div>
-                <div class="product__default--estampa6" onmouseover="change__image('6')"></div>
-                <div class="product__default--estampa7" onmouseover="change__image('7')"></div>
-                <div class="product__default--estampa8" onmouseover="change__image('8')"></div>
-                <div class="product__default--estampa9" onmouseover="change__image('9')"></div>
-                <div class="product__default--estampa10" onmouseover="change__image('10')"></div>
-                <div class="product__default--estampa11" onmouseover="change__image('11')"></div>
-                <div class="product__default--estampa12" onmouseover="change__image('12')"></div>
-                <div class="product__default--estampa13" onmouseover="change__image('13')"></div>
-                <div class="product__default--estampa14" onmouseover="change__image('14')"></div>
-                <div class="product__default--estampa15" onmouseover="change__image('15')"></div>
-                <div class="product__default--estampa16" onmouseover="change__image('16')"></div>
-                <div class="product__default--estampa17" onmouseover="change__image('17')"></div>
-                <div class="product__default--estampa18" onmouseover="change__image('18')"></div>
-                <div class="product__default--estampa19" onmouseover="change__image('19')"></div>
-                
-            </article>
-
-            <figure class="product__default--estampas-zoom">
-                <figcaption  id="product__default--estampas-zoom-title">Nº1</figcaption>
-                <img id="product__default--estampas-zoom-imagem" src="assets/img/produtos/piscinas/estampas/estampa1.png" alt="">                    
-            </figure>
+        <div class="product__default--estampa">            
+            <h3 class="product__default--estampa-titulo">3ª Escolha da Estampa <span>(Só para piscinas de vinil)<span></h3>
+           
         </div>
 
          <div class="product__default--visita">            
