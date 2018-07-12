@@ -40,17 +40,20 @@
             <h1 class="product__default--title">Piscinas de Vinil</h1>   
         <div class="product__default--description">
             <figure class="product__default--figure">
+                
                 <figcaption>
-                <img src="assets/img/produtos/piscinas/tipos_de_piscinas/piscina_vinil.png">
-                  A piscina de vinil proporciona  grandes vantagens, sua edificação  em alvenaria é bastante  robusta e resistente, por isso a piscina  não será danificada, ainda  que por eventualidade ocorra  trincas e rachaduras na estrutura, uma vez que o cobertura  em vinil é um material  muito resistente e maleável, ela possui alta resistência  e impermeabilização. Por isso a cobertura  de vinil também é bastante  utilizado para conserto de piscinas  de azulejo e pastilhas.</figcaption>
-            
+                <!--<img src="assets/img/produtos/piscinas/tipos_de_piscinas/piscina_vinil.png">-->
+                <div class="product__default--image-vinil"></div>
+                  A piscina de vinil proporciona  grandes vantagens, sua edificação  em alvenaria é bastante  robusta e resistente, por isso a piscina  não será danificada, ainda  que por eventualidade ocorra  trincas e rachaduras na estrutura, uma vez que o cobertura  em vinil é um material  muito resistente e maleável, ela possui alta resistência  e impermeabilização. Por isso a cobertura  de vinil também é bastante  utilizado para conserto de piscinas  de azulejo e pastilhas.
                    <b>Empermeabilidade: </b>O bolsão de vinil é inteiramente  impermeável, ou seja, não há Nenhum  risco de vazamento de água em caso de furo  ou fissura na armação  de concreto da piscina. Por isso o a cobertura  de vinil também é imensamente  utilizado no conserto de piscinas  de azulejo quando começam  apresentar vazamentos.
-<b>Estética e Personalização:</b> As piscinas com cobertura  de vinil são inteiramente  flexíveis ao projeto, desenvolvidas  sob medida e customizadas  ao gosto do cliente, contam com uma diversidade  de estampas e barrados  que proporcionam um acabamento  estético muito sofisticado as piscinas. <b>Higiene e Segurança:</b> Proporcionando higiene  à piscina e segurança  para sua família e/ou estabelecimento, o vinil recebe tratamento  específico que inibi a ação de bactérias, microorganismos, algas e fungos.
-             <b>Economia:</b>
-A piscina de vinil é mais econômica  que as convencionais em azulejo  ou pastilhas. Com método  construtivo mais rápido, o custo  benefício é muito mais sedutor, pois não há necessidade  de um grande aplicação  em materiais para uma imaginação  robusta, economia em impermeabilizantes  e mão de obra para posicionamento  dos azulejos, pastilhas e condução.
- <b>Durabilidade:</b>
-A piscina em vinil tem ótima  durabilidade, sua vida útil dura  durar até 10 anos tendo  cuidados simples de conservação. Além disso, o método  de reforma é básico, basta trocar o bolsão  de vinil e a piscina  estará nova. Muitas vezes  a reforma é requisitada  antes mesmo do período  de validade apenas por estética, já que o vinil  apresenta variedade de desenhos  o cliente pode constantemente  estar renovando o visual  da sua piscina.
-<b>Manutenção:</b> A manutenção  das piscinas de vinil  é mínima, o procedimento  de limpeza é bastante  simples, o vinil tem  superfície lisa evitando a concentração  de sujeitas nas paredes  da piscina. Os cuidados  são apenas para preservação.
+                <b>Estética e Personalização:</b> As piscinas com cobertura  de vinil são inteiramente  flexíveis ao projeto, desenvolvidas  sob medida e customizadas  ao gosto do cliente, contam com uma diversidade  de estampas e barrados  que proporcionam um acabamento  estético muito sofisticado as piscinas. <b>Higiene e Segurança:</b> Proporcionando higiene  à piscina e segurança  para sua família e/ou estabelecimento, o vinil recebe tratamento  específico que inibi a ação de bactérias, microorganismos, algas e fungos.
+                            <b>Economia:</b>
+                A piscina de vinil é mais econômica  que as convencionais em azulejo  ou pastilhas. Com método  construtivo mais rápido, o custo  benefício é muito mais sedutor, pois não há necessidade  de um grande aplicação  em materiais para uma imaginação  robusta, economia em impermeabilizantes  e mão de obra para posicionamento  dos azulejos, pastilhas e condução.
+                <b>Durabilidade:</b>
+                A piscina em vinil tem ótima  durabilidade, sua vida útil dura  durar até 10 anos tendo  cuidados simples de conservação. Além disso, o método  de reforma é básico, basta trocar o bolsão  de vinil e a piscina  estará nova. Muitas vezes  a reforma é requisitada  antes mesmo do período  de validade apenas por estética, já que o vinil  apresenta variedade de desenhos  o cliente pode constantemente  estar renovando o visual  da sua piscina.
+                <b>Manutenção:</b> A manutenção  das piscinas de vinil  é mínima, o procedimento  de limpeza é bastante  simples, o vinil tem  superfície lisa evitando a concentração  de sujeitas nas paredes  da piscina. Os cuidados  são apenas para preservação.</figcaption>
+            
+                  
             </figure>
         </div>
         

@@ -1003,11 +1003,59 @@ form input[type=submit] {
     grid-gap: 15px 20px;
     padding: 10px;
 }
-
+.product__default--figure{
+    display:grid;   
+    grid-template-columns:auto auto;
+    grid-gap:0px 20px;
+    column-count:2;
+}/*
 .product__default--description {
     column-count: 2;
+}*/
+.product__default--image-sauna,
+.product__default--image-spa,
+.product__default--image-vinil,
+.product__default--image-aquecedor-gas,
+.product__default--image-fibra,
+.product__default--image-azulejo{
+    border-radius:10px;
+    outline-style: solid;
+    outline-color: #757575;
+    outline-width: 0.1px;
+    outline-offset: 6px;
 }
 
+.product__default--image-sauna{
+    background: url('../assets/img/imagens.png') no-repeat -9px -951px;
+	width: 451px;
+	height: 301px;
+}
+.product__default--image-spa{
+    background: url('../assets/img/imagens.png') no-repeat -524px -1072px;
+	width: 451px;
+	height: 288px;
+}
+.product__default--image-vinil{
+    background: url('../assets/img/imagens.png') no-repeat -513px -361px;
+	width: 600px;
+	height: 401px;
+}
+.product__default--image-aquecedor-gas{
+    background: url('../assets/img/imagens.png') no-repeat -550px -1379px;
+	width: 425px;
+	height: 302px;
+}
+.product__default--image-fibra{
+    background: url('../assets/img/imagens.png') no-repeat -524px -784px;
+	width: 451px;
+	height: 271px;
+}
+
+.product__default--image-azulejo{
+    background: url('../assets/img/imagens.png') no-repeat -7px -372px;
+	width: 379px;
+	height: 282px;
+}
 .product__default--tipo-description figure {
     padding: : 10px;
 }
@@ -1016,6 +1064,7 @@ form input[type=submit] {
     height: 112px;
     border-radius: 5px;
 }
+
 
 
 /*
@@ -1072,6 +1121,13 @@ form input[type=submit] {
 .product__default--modelos-adulto figure {
     text-align: center;
 }
+.product__default--image-child{
+    background: url('../assets/img/imagens.png') no-repeat -12px -672px;
+	width: 482px;
+	height: 254px;
+    
+}
+
 /*Estampas*/
 .product__default--estampa-container{
     display:grid;

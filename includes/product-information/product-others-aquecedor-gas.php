@@ -38,8 +38,9 @@
         <h1 class="product__default--title">Aquecedor de água à Gás</h1>  
         <div class="product__default--description"> 
             <figure class="product__default--figure">
-                <figcaption>
                 <img src="assets/img/produtos/aquecimento-gas2.jpg">
+                <!--<div class="product__default--image-aquecedor-gas"></div>-->
+                <figcaption>
                  Com a chegada do frio, nada mais prazeroso do que tomar  um banho quentinho, acima de tudo  se a água for aquecida  
                 com um equipamento adequado, como os aquecedores de água a gás. Os aquecedores a gás tem mais escoamento de água, permite um banho  mais agradável e um ótimo controle da temperatura. Nossos  aquecedores a gás possuem  o Selo Conpet e um time  especializado para fazer a instalação, 
                 garantindo assim a sua segurança  e de sua família. 

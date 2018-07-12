@@ -30,8 +30,9 @@
         <h1 class="product__default--title">Sauna</h1> 
         <div class="product__default--description">     
             <figure class="product__default--figure">
+                <!--img src="assets/img/produtos/sauna/sauna.jpg">-->
+                <div class="product__default--image-sauna"></div>
                 <figcaption>
-                <img src="assets/img/produtos/sauna/sauna.jpg">
                 Utilizar uma sauna regularmente  traz diversos benefícios a sua saúde, como prevenção de dificuldades  respiratórios 
             desobstrui os poros, hidrata o corpo e relaxa  os musculos. Além de ser 
             uma rotina  saudável, ainda é higiênica  e relaxadora. 

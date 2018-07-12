@@ -40,8 +40,10 @@
             <h1 class="product__default--title">Piscinas de Azulejo</h1>   
         <div class="product__default--description">
             <figure class="product__default--figure">
+                <!--<img src="assets/img/produtos/piscinas/tipos_de_piscinas/piscina_azulejo.jpg">-->
+                <div class="product__default--image-azulejo"></div>
                 <figcaption>
-                <img src="assets/img/produtos/piscinas/tipos_de_piscinas/piscina_azulejo.jpg">
+                
                  Piscinas de concreto armado são as mais robustas. Se você quer uma piscina  desse tipo saiba tudo ao respeito  o assunto neste artigo. Todos. os tipos de piscina  podem ter mais de uma alternativa  de revestimento, as de concreto  armado não são heterogêneos, podem ser revestidas com azulejo, por exemplo. A. durabilidade de uma piscina  desse tipo é melhor  aos outros tipos, a sua o seu alicerce  é para a vida toda. A piscina é feita  com o concreto armado  e varias camadas de impermeabilizante, são aplicados também, blocos  de concreto para auxiliar  ainda mais a armação  da piscina.
 
 As piscinas de concreto  armado possuem um valor  mais alto comparado à piscina  de alvenaria, cada esquema  faz seu custo modificar. O projeto determina o molde, tamanho e o acabamento  da construção, que são decisórios  para fechar seu seu custo.

@@ -31,8 +31,9 @@
             <h1 class="product__default--title">SPA</h1> 
         <div class="product__default--description">  
             <figure class="product__default--figure">
-                <figcaption>
-                <img src="assets/img/produtos/spa/spa.png">
+                <!--<img src="assets/img/produtos/spa/spa.png">-->
+                <div class="product__default--image-spa"></div>
+                <figcaption>                
                  <b>Hidroterapia:</b>
                 Uma terapia muito usada em hospitais, profissionais da área, fisioterapeutas  e em SPAS totalmente  no mudo todo, é designada  de hidroterapia, que faz o uso da água para resguardar  e auxiliar no medicação  de doenças.
 

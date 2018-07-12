@@ -38,8 +38,9 @@
         <h1 class="product__default--title">Aquecedor Solar Elétrico</h1> 
         <div class="product__default--description">  
             <figure class="product__default--figure">
-                <figcaption>
                 <img src="assets/img/produtos/aquecedor-solar.jpg">
+                <!--<div class="product__default--image-aquecedor-solar"></div>-->
+                <figcaption>
                  Usar um aquecedor solar para esquentar  a água do chuveiro  e das torneiras em casa é sustentável  e pode trazer muitas  vantagens e também desvantagens. 
 
                 O aquecedor solar é um método  de aquecimento de água que trabalha  a base da energia  solar. Composto de chapas  coletoras solares e um tanque  térmico, 

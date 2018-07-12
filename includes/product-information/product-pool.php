@@ -40,9 +40,10 @@
             <h1 class="product__default--title">Piscinas</h1> 
         <div class="product__default--description">  
             <figure class="product__default--figure">
-                <figcaption>
-                <img src="assets/img/child.png">
-                 Toda a família se reune  e mergulha em um ambiente  de sensações e experiências. 
+                <!--<img src="assets/img/child.png">-->
+                <div class="product__default--image-child"></div>
+                <figcaption>                
+                Toda a família se reune  e mergulha em um ambiente  de sensações e experiências. 
                 Cada modelo se combina  a uma necessidade ímpar  adequando-se perfeitamente ao 
                 seu propósito. Você vai   as diferenças básicas nos  os
                 principais tipos de piscinas. Nós asseguramos que seja qual for o tipo,

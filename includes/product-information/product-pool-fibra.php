@@ -40,8 +40,10 @@
         <h1 class="product__default--title">Piscinas de Fibra</h1>   
         <div class="product__default--description">
             <figure class="product__default--figure">
+                <!--<img src="assets/img/produtos/piscinas/tipos_de_piscinas/pool3-2.jpg">-->
+                <div class="product__default--image-fibra"></div>
                 <figcaption>
-                <img src="assets/img/produtos/piscinas/tipos_de_piscinas/pool3-2.jpg">
+                
                 As piscinas de fibra começaram  a ser fabricadas nos anos 50, uma reflexão  que surgiu da manufatura  de barcos com este elemento. Tanto piscinas quanto barcos  são fabricados utilizando procedimentos  e matérias-primas similares. Além de barcos, existem vários outros produtos  que são fabricados com fibra  de vidro, tais como pás de helicóptero, equipamentos médicos e estruturas  de aviões, exatamente por ser um material  altamente resistente a transformações  de temperatura e pressão. A piscina de fibra  é a que tem  maior durabilidade entre todos  os tipos de piscinas, é também a que precisa  de menos tempo para ser instalada.
                 </figcaption>
             </figure>
