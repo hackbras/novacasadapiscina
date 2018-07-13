@@ -13,7 +13,6 @@
 
     <section class="services">
         <h1 class="services__main--title">Serviços</h1>
-        <span class="services__main--modal"></span>
 
         <div class="services__articles">
             <article class="services__article services__article--left" id="services__acabamento">
@@ -43,11 +42,12 @@
             <article class="services__article services__article--left" id="services__remove">
                 <h2 class="services__title">Remoção de Vazamentos</h2>
                 <figure class="services__figure">
-                <img class="services__imagem" src="assets/img/servicos/vazamento-piscina.JPG" alt="">
-                <figcaption class="services__description">Fazemos remoção de vazamentos de Piscinas e SPA's.
-                    <br>
-                    <input class="button-gray" type="submit" value="Solicitar um orçamento">
-                </figcaption>
+                    <img class="services__imagem" src="assets/img/servicos/vazamento-piscina.JPG" alt="">
+                    <figcaption class="services__description">
+                        Fazemos remoção de vazamentos de Piscinas e SPA's.
+                        <br>
+                        <input class="button-gray" type="submit" value="Solicitar um orçamento">
+                    </figcaption>
                 </figure>
             
             </article>
@@ -91,3 +91,5 @@
 
     </section>
 </div>
+ 
+<span class="services__main--modal"></span>

@@ -1,5 +1,17 @@
 <?php 
-    /*  */
+    /* 
+    append 
+    save
+    remove array
+
+    1º pegar novo dado no formulário
+    2º cadastrar no banco mysql novos dados    
+    3º pegar histórico no mysql
+    4º reescrever com php respectivo 
+    arquivo json adicionando os novos dados (inserts)
+    ou alterações(updates e delets)
+
+     */
     // Array com dados
     /*
     $cliente1 = array(
@@ -54,7 +66,7 @@
      */
      
     // Cria o arquivo cadastro.json
-    // O par�metro "a" indica que o arquivo ser� aberto para escrita   
+    // O parâmetro "a" indica que o arquivo será aberto para escrita   
     
     $file = "scripts/service.json";
     
@@ -86,7 +98,7 @@
     $fixed_content = str_replace('\"','"',$content,$count);
     $content = $fixed_content;
     
-    //remover espa�os
+    //remover espa�os
     $fixed_content = trim($content);
     $content = $fixed_content;
     
@@ -109,7 +121,7 @@
     
     //$dados_json = json_encode($content);
            
-    // Escreve o conte�do JSON no arquivo
+    // Escreve o conte�do JSON no arquivo
     //$escreve = fwrite($fp,  $dados_json);
     //file_put_contents($file, $dados_json);
     
@@ -128,7 +140,7 @@
     // Fecha o arquivo
     fclose($fp);
   
-/*C�digo de teste e serve apenas para arquivos de log, 
+/*Código de teste e serve apenas para arquivos de log, 
  * pois atualizatodo o documento ao inves de adicionar um novo ou alterar o existente.
  * 
  * $mobiles = array('name'    => 'Mukesh Chapagain2',
@@ -141,15 +153,12 @@
     $jsonMobiles = json_encode($mobiles);
     file_put_contents('scripts/service.json', $jsonMobiles);
 
-
     $fileName = 'mobiles.json';
     $data = file_get_contents($fileName);
     $phpMobiles = json_decode($data);
     print_r($phpMobiles);
 */
-
 ?>
-
 
 <div class="administracao">    
     
@@ -159,7 +168,7 @@
         <a href="" alt="">Produto</a>
     </nav>
 
-    <fieldset id="administracao__categoria"  class="administracao__categoria fieldset__gray">
+    <fieldset id="administracao__categoria"  class="administracao__categoria">
         <legend class="administracao__categoria--title legend__black">Categoria</legend>
         <article class="administracao__categoria--body" class="administracao__categoria--body">
             <div class="administracao__categoria--values">
@@ -182,7 +191,7 @@
         </div>
     </fieldset>
 
-    <fieldset id="administracao__servico"  class="administracao__categoria fieldset__gray">
+    <fieldset id="administracao__servico"  class="administracao__categoria">
         <legend class="administracao__categoria--title legend__black">Serviço</legend>
         <article class="administracao__categoria--body">
             <div class="administracao__categoria--values">
@@ -210,7 +219,7 @@
         </div>
     </fieldset>
 
-    <fieldset id="administracao__tipo"  class="administracao__categoria fieldset__gray">
+    <fieldset id="administracao__tipo"  class="administracao__categoria">
         <legend class="administracao__categoria--title legend__black">Tipo de Produto</legend>
         <article class="administracao__categoria--body">
             <div class="administracao__categoria--values">
@@ -243,7 +252,7 @@
         </div>
     </fieldset>
 
-    <fieldset id="administracao__faq"  class="administracao__categoria fieldset__gray">
+    <fieldset id="administracao__faq"  class="administracao__categoria">
         <legend class="administracao__categoria--title legend__black">Faq Perguntas</legend>
         <article class="administracao__categoria--body">
             <div class="administracao__categoria--values">
@@ -281,7 +290,7 @@
         </div>
     </fieldset>
 
-    <fieldset id="administracao__medida"  class="administracao__categoria fieldset__gray">
+    <fieldset id="administracao__medida"  class="administracao__categoria">
         <legend class="administracao__categoria--title legend__black">Medida Produto</legend>
         <article class="administracao__categoria--body">
             <div class="administracao__categoria--values">
@@ -319,7 +328,7 @@
         </div>
     </fieldset>
 
-    <fieldset id="administracao__produto"  class="administracao__categoria fieldset__gray">
+    <fieldset id="administracao__produto"  class="administracao__categoria">
         <legend class="administracao__categoria--title legend__black">Produto</legend>
         <article class="administracao__categoria--body">
             <div class="administracao__categoria--values">
@@ -362,7 +371,7 @@
         </div>
     </fieldset>
 
-    <fieldset id="administracao__modelo"  class="administracao__categoria fieldset__gray">
+    <fieldset id="administracao__modelo"  class="administracao__categoria">
         <legend class="administracao__categoria--title legend__black">Modelo Produto</legend>
         <article class="administracao__categoria--body">
             <div class="administracao__categoria--values">
@@ -420,7 +429,7 @@
         </div>
     </fieldset>
 
-    <fieldset id="administracao__informacoes"  class="administracao__categoria fieldset__gray">
+    <fieldset id="administracao__informacoes"  class="administracao__categoria">
         <legend class="administracao__categoria--title legend__black">Informações Técnicas</legend>
         <article class="administracao__categoria--body">
             <div class="administracao__categoria--values">

@@ -7,7 +7,6 @@
                 <h2>Fique por dentro de nossas promoções e descontos</h2>
             </div>
             <img class="promotion__banner--image-sun" src="assets/img/gifs/sun.gif" alt="">
-            <span class="promotion__modal"></span>
         </div>
     </section>
 
@@ -90,3 +89,5 @@
     </section>
 
 </div>
+
+<span class="promotion__modal"></span>
