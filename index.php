@@ -17,7 +17,7 @@
 	<?php
 		/*include "includes/conexao.php";
 
-		$consulta="select * from ".$tabela;
+		$consulta = "select * from ".$tabela;
 		$query = mysql_query($consulta);
 
 		while ($resultado=mysql_fetch_object($query)) 

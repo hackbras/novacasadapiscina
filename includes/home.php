@@ -74,7 +74,7 @@
 
     <section class="home__accessories">   
         <div class="home__accessories--title">
-            <h1>Conheça nossos Acessórios</h1>
+            <h1>Acessórios</h1>
             <h3>Saiba mais sobre nossos acessórios para sua piscina, sauna ou spa.</h3>
         </div>
 
