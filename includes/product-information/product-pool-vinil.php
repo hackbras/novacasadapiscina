@@ -673,7 +673,7 @@
         </div>
         
 
-            <div class="product__default--casos">
+        <div class="product__default--casos">
             <h2 class="product__default--caso-titulo">Instalações Realizadas</h2>
             <figure class="product__default--caso-image_default">
                 <img id="product__default--caso-image_default-vinil" src="assets/img/produtos/piscinas/instalacoes_realizadas/vinil1.jpg" alt="">
@@ -681,6 +681,9 @@
             <section class="product__default--caso-images">
                 <figure>
                     <img id="product__default--caso-vinil2" src="assets/img/produtos/piscinas/instalacoes_realizadas/vinil3.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-vinil',this.id)" >
+                </figure>
+                <figure>
+                    <img id="product__default--caso-vinil3"  src="assets/img/produtos/piscinas/instalacoes_realizadas/vinil1-1.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
                 </figure>
             </section>
         </div>

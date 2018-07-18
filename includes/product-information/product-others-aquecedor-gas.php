@@ -52,7 +52,7 @@
                 com um equipamento adequado, como os aquecedores de água a gás. Os aquecedores a gás tem mais escoamento de água, permite um banho  mais agradável e um ótimo controle da temperatura. Nossos  aquecedores a gás possuem  o Selo Conpet e um time  especializado para fazer a instalação, 
                 garantindo assim a sua segurança  e de sua família. 
                 <br>
-                <b>Vantagens do aquecedor a gás:</b> 
+                <h3>Vantagens:</h3> 
                 <ol>
                     <li>O aparelho pode ser usado  em casas ou apartamentos;</li>
                     <li>Os aparelhos são compactos, com peso de até 20 kilos;</li>
@@ -66,7 +66,7 @@
                     <li>Por não ter  reservatórios, a durabilidade do equipamento  gira em torno de 10 a 15 anos;</li> 
                 </ol>
                 <br>
-                <b>Desvantagens do aquecedor a gás:</b> 
+                <h3>Desvantagens:</h3> 
                 <ol>
                     <li>O aparelho necessita de pressão  em torno de 5 a 10 metros  de coluna de água (mca)) para o funcionamento em plena  capacidade;</li>
                     <li>Por ser considerado como aquecedor  de passagem, a água pode prolongar-se  um pouco para esquentar;</li>

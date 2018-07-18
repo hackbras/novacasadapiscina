@@ -5,7 +5,7 @@
             <input name="nome" class="text__green" type="text" placeholder="Nome:">
             <input name="email" class="text__green" type="text" placeholder="Email:">
             <input name="assunto" class="text__green" type="text" placeholder="Assunto:">
-            <textarea name="mensagem"  class="text__green" placeholder="Escreva sua mensagem aqui." rows="20">   </textarea>
+            <textarea name="mensagem"  class="textarea__green" placeholder="Escreva sua mensagem aqui." rows="10">   </textarea>
             <input class="button-white" type="submit" value="Enviar">
         </form>
     </section>

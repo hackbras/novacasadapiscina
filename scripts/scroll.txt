@@ -1,0 +1,136 @@
+/*
+    window.onscroll = function() {
+        alert('scrolled');
+    }*/
+    /*window.addEventListener("scroll", function(event) {
+        var scroll = this.scrollY;
+        alert('eventlistner');
+        if(parseint(scroll) >= 100){
+            alert('teste');
+            document.querySelector(".header").style.height="50px";
+            document.querySelector(".menu__contacts").style.display="none";
+            document.querySelector(".menu__office-hour").style.display="none";
+        }else{
+             document.querySelector(".header").style.height="120px";
+            document.querySelector(".menu__contacts").style.display="block";
+            document.querySelector(".menu__office-hour").style.display="block";
+        }
+    });*/
+      /*
+  function scrollFire(){
+         
+         menuFire();
+
+           if(window.scrollY >= 40 && window.scrollY <245 ){
+               document.getElementById("menu").style.position="fixed";     
+               document.getElementById("voltar").style.display="block";          
+               document.getElementById("barra").style.backgroundColor="rgba(0,0,0,0.1)";
+                document.getElementById("icone").style.backgroundColor="rgba(0,0,0,0.1)";
+               document.getElementById("barra").style.borderTop="0px";    
+               document.getElementById("menu").style.marginTop="-30px";
+               document.getElementById("menu").style.width="100%";
+               document.getElementById("menu").style.height="50px";
+               console.log("configurado menu"+window.scrollY);
+           } 
+           /*Transitions Animate CSS*/
+           /*montagem*/
+           else if(window.scrollY >=245 && window.scrollY < 695 ){
+             document.getElementById("montagem").classList.add("slideInRight");
+             console.log("configurado menu"+window.scrollY);
+              }
+
+           /*servicos manutencao*/
+           else if(window.scrollY >=695 && window.scrollY < 1138) {
+             document.getElementById("manutencao-computador").classList.add("slideInLeft");
+             console.log("configurado menu"+window.scrollY);
+              }
+           
+           /*limpeza*/
+           else if(window.scrollY >=1138 && window.scrollY < 1978) {
+             document.getElementById("limpeza").classList.add("slideInRight");
+             console.log("configurado menu"+window.scrollY);
+              }
+           
+           /*formatacao,instalacao*/
+           else if(window.scrollY >=1978 && window.scrollY < 2378) {
+             document.getElementById("formatacao").classList.add("slideInLeft");
+             console.log("configurado menu"+window.scrollY);
+              }
+           
+           /*redes*/
+           else if(window.scrollY >=2378 && window.scrollY < 2738) {
+             document.getElementById("redes").classList.add("slideInRight");
+             console.log("configurado menu"+window.scrollY);
+              }
+           
+           /*impressora*/
+           else if(window.scrollY >=2738 && window.scrollY < 3098) {
+             document.getElementById("impressora").classList.add("slideInLeft");
+             console.log("configurado menu"+window.scrollY);
+              }
+           
+           /*recuperacao de dados*/
+           else if(window.scrollY >=3098 && window.scrollY < 4018){
+             document.getElementById("recuperacao-dados").classList.add("slideInRight");
+             console.log("configurado menu"+window.scrollY);
+              }
+           
+           /*criação de sites*/
+           else if(window.scrollY >=4018 && window.scrollY < 4378) {
+             document.getElementById("criacao-site").classList.add("slideInUp");
+             console.log("configurado menu"+window.scrollY);
+              }
+           
+           /*responsividade*/
+           else if(window.scrollY >=4378 && window.scrollY < 4658) {
+             document.getElementById("responsividade").classList.add("lightSpeedIn");
+             console.log("configurado menu"+window.scrollY);
+              }
+           
+           /*seo*/
+           else if(window.scrollY >=4658) {
+             document.getElementById("seo").classList.add("lightSpeedIn");
+             console.log("configurado menu"+window.scrollY);
+              }
+            
+           
+            else{
+               document.getElementById("menu").style.position="relative";
+               document.getElementById("voltar").style.display="none";            
+               document.getElementById("barra").style.backgroundColor="transparent";
+                document.getElementById("icone").style.backgroundColor="transparent";
+               document.getElementById("barra").style.borderTop="2px solid #fff";
+               document.getElementById("menu").style.marginTop="10px";
+               document.getElementsByClassName("itemMenu")[0].style.color="#fff";
+               document.getElementsByClassName("itemMenu")[1].style.color="#fff";
+               document.getElementsByClassName("itemMenu")[2].style.color="#fff";
+               document.getElementsByClassName("itemMenu")[3].style.color="#fff";
+               document.getElementsByClassName("itemMenu")[4].style.color="#fff";
+               document.getElementsByClassName("itemMenu")[5].style.color="#fff";
+
+               document.getElementsByClassName("itemMenu")[0].style.padding="5px 0px 5px 0px";
+               document.getElementsByClassName("itemMenu")[1].style.padding="5px 0px 5px 0px";
+               document.getElementsByClassName("itemMenu")[2].style.padding="5px 0px 5px 0px";
+               document.getElementsByClassName("itemMenu")[3].style.padding="5px 0px 5px 0px";
+               document.getElementsByClassName("itemMenu")[4].style.padding="5px 0px 5px 0px";
+               document.getElementsByClassName("itemMenu")[5].style.padding="5px 0px 5px 0px";
+               console.log("Menu retorna a posição normal.");
+           }    
+
+
+
+           function menuFire(){
+
+             if (window.scrollY >= 620 ){
+                document.getElementsByClassName("itemMenu")[0].style.color="#000"
+                document.getElementsByClassName("itemMenu")[1].style.color="#000"
+                document.getElementsByClassName("itemMenu")[2].style.color="#000"
+                document.getElementsByClassName("itemMenu")[3].style.color="#000"
+                document.getElementsByClassName("itemMenu")[4].style.color="#000"
+                document.getElementsByClassName("itemMenu")[5].style.color="#000"
+
+               console.log("configurado menu"+window.scrollY);
+            }         
+
+           }  
+        }*/

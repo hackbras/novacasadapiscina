@@ -1,6 +1,7 @@
 //listar json
 function onload() {
 
+
     var url = window.location.href;
     //if (url.substring(61, 66) == "store") {
     /*Teste 1*/
@@ -171,6 +172,7 @@ function onload() {
     next_image("home__carrossel--second-image");
 }
 
+
 function getNamePage() {
     //current page 
     var url = window.location.href;
@@ -180,7 +182,10 @@ function getNamePage() {
     return set_path;
 }
 
-//criar cadastro de perguntas dinâmicamente pelo json com ajax
+window.scrollY = function() {
+        alert(this.value);
+    }
+    //criar cadastro de perguntas dinâmicamente pelo json com ajax
 
 //codigo pagseguro
 

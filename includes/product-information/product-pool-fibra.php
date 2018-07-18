@@ -59,30 +59,24 @@
         <div class="product__default--casos">
             <h2 class="product__default--caso-titulo">Instalações Realizadas</h2>
             <figure class="product__default--caso-image_default">
-                <img id="product__default--caso-image_default-fibra" src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra1.jpg" alt="">
+                <img id="product__default--caso-image_default-fibra" src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra2.jpg" alt="">
             </figure>
             <section class="product__default--caso-images">
 
                 <figure>
-                    <img id="product__default--caso-fibra0" src="assets/img/produtos/piscinas/instalacoes_realizadas/vinil2.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
+                    <img id="product__default--caso-fibra3" src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra3.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
                 </figure>
                 <figure>
-                    <img id="product__default--caso-fibra1"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra2.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
+                    <img id="product__default--caso-fibra4"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra4.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
                 </figure>
                 <figure>
-                    <img id="product__default--caso-fibra2" src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra3.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
+                    <img id="product__default--caso-fibra5"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra5.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
                 </figure>
                 <figure>
-                    <img id="product__default--caso-fibra3"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra4.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
+                    <img id="product__default--caso-fibra7"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra7.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
                 </figure>
                 <figure>
-                    <img id="product__default--caso-fibra4"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra5.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
-                </figure>
-                <figure>
-                    <img id="product__default--caso-fibra5"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra7.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
-                </figure>
-                <figure>
-                    <img id="product__default--caso-fibra6"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra9.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
+                    <img id="product__default--caso-fibra9"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra9.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
                 </figure>
             </section>
         </div>

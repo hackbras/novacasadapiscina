@@ -172,6 +172,19 @@ body {
     top: 0px;
     z-index: 1;
 }
+.header__scroll {
+    padding: 10px 0px;
+    /*background-image: url("../assets/img/wave-menu2.png");*/
+    background-color: rgba(0, 0, 0, 0.63);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
 
 .header-home {
     padding: 10px 0px;
@@ -184,7 +197,7 @@ body {
 
 .header__logo {
     padding: 2% 0% 2% 2%;
-    width: 10%;
+    width: 7%;
 }
 
 .logo {
@@ -192,11 +205,17 @@ body {
 }
 
 .menu {
-    padding: 1%;
+    padding-top:1%;
     width: 90%;
     float: right;
 }
-
+.menu__contacts--slim{
+    margin-top:-20px;
+    padding-left:15px;
+    text-align:right;
+    display:none;
+    float:right;
+}
 .menu__office-hour {
     text-align: right;
 }
@@ -695,16 +714,24 @@ borda laterais 0.5 757575
     padding: 8% 0px;
     text-align: center;
     font-size: 14px;
+    background-image:url('../assets/img/produtos/piscina4.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    text-align:center;
 }
 
 .home__subscription h1 {
     font-size: 26px;
-    color: #55b2c8;
+    color: #fff;
 }
 
 .home__subscription h2 {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 21px;
+    color:#000;
 }
 
 .form input[type=text],
@@ -1665,22 +1692,34 @@ form input[type=submit] {
 
 /*Contact*/
 
-.contact {
-    display: grid;
-    grid-template-areas: auto auto;
-    grid-gap: 15px 30px;
-    width: 100%;
-}
-
 .contact__title {
     margin: 3% 12%;
     text-align: left;
     color: #55b2c8;
 }
+.contact {
+    display: grid;
+    grid-template-areas: auto auto;
+    grid-template-rows:auto auto;
+    grid-gap: 15px 30px;
+    width: 100%;
+}
 
 .contact__email {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    width:100%;
+}
+.contact__address {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    width:100%;
+}
+.contact__map {
+    padding:0px 9%;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    text-align:center;
 }
 
 .contact__email--form {
@@ -1706,21 +1745,15 @@ form input[type=submit] {
     border: 6px solid #55b2c8;
 }*/
 
-.contact__address {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
 
+.contact__email--form .button-white{
+    float:right;
+}
 .contact__address--data {
     float: left;
     padding-right: 0px;
 }
 
-.contact__map {
-    grid-column: 1 / 3;
-    grid-row: 2 / 3;
-    text-align: center;
-}
 
 .contact__map--image {
     width: 100%;
@@ -2198,6 +2231,12 @@ form input[type=submit] {
 .promotion__subscription {
     background-color: #55b2c8;
     text-align: center;
+    background-image:url('../assets/img/produtos/piscina4.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align:center;
 }
 
 .promotion__subscription--form-title {
@@ -2396,8 +2435,8 @@ form input[type=submit] {
 .store__menu--product,
 .store__menu--accessories,
 .store__menu--services {
-    margin: 10px 0px;
-    padding: 10px 7px;
+    margin: 3px 0px;
+    padding: 3px 7px;
     background-color: #d8f3fc;
     border-radius: 4px;
 }
@@ -2414,7 +2453,7 @@ form input[type=submit] {
 /*Store Products*/
 
 .store__products--title {
-    margin: 30px 0px 30px 0px;
+    margin: 30px 0px 8px 0px;
     text-align: center;
     color: #55b2c8;
     font-size: 28px;

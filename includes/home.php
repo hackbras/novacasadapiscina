@@ -68,7 +68,7 @@
 
             <input class="form-text text__green"  type="text" placeholder="E-mail ou Telefone:">
 
-            <input class="form-submit button-white" type="submit" value="enviar">
+            <input class="form-submit button-green" type="submit" value="enviar">
         </form>
     </div>  
 
@@ -207,7 +207,7 @@ Sinta a relaxante massagem provocada pela sua queda d'agua.
 
             <input class="form-text text__green"  type="text" placeholder="E-mail ou Telefone:">
 
-            <input class="form-submit button-white" type="submit" value="enviar">
+            <input class="form-submit button-green" type="submit" value="enviar">
         </form>
     </div>  
 

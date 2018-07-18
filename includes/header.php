@@ -20,7 +20,7 @@
             <a id="menu__contacts--fixo" href="">(31)3599-3764</a>
             <a id="menu__contacts--celular1" href="">(31)9 9951-1854</a>
             <a id="menu__contacts--celular2" href="">(31)9 9290-2814</a>
-        </nav>
+        </nav>        
         <nav class="menu__main">   
             <a href="index.php?pagina=includes/product-information/product-pool.php">Piscina</a>
             <a href="index.php?pagina=includes/product-information/product-sauna.php">Sauna</a>
@@ -30,7 +30,12 @@
             <a href="index.php?pagina=includes/faq.php">Dúvidas</a>
             <a href="index.php?pagina=includes/services.php">Serviços</a>
             <a id="menu__main--store" class="menu__main--store menu__main--tag" href="index.php?pagina=includes/store/products/produtos-outros.php" onmouseover="document.getElementById('menu__store--view').style.visibility = 'visible';" >LOJA VIRTUAL</a>
-            <a class="menu__main--tag " href="index.php?pagina=includes/promotion.php">PROMOÇÕES</a>           
+            <a class="menu__main--tag " href="index.php?pagina=includes/promotion.php">PROMOÇÕES</a>    
+                <nav class="menu__contacts--slim">               
+                    <a id="menu__office-hour--middle-week" href="">Segunda à sexta de 8h às 18h</a><br>
+                    <a id="menu__office-hour--weekend" href="">Sábado de 8h às 12h</a><br>
+                    <a id="menu__contacts--fixo" href="">(31)3599-3764</a>
+                </nav>       
         </nav>
 
         <article id="menu__store--view" onmouseleave="document.getElementById('menu__store--view').style.visibility = 'hidden';">
@@ -64,3 +69,31 @@
         </article>
     </div>
 </header>
+
+<script>
+
+window.addEventListener("scroll", function(event) {
+        var scroll = this.scrollY;
+        //alert(scroll);
+        if(window.pageYOffset >= 100){
+            //alert('teste');
+            document.querySelector(".header").style.height="50px";
+            document.querySelector(".menu__contacts").style.display="none";
+            document.querySelector(".menu__office-hour").style.display="none";
+            document.querySelector(".header__logo").style.zoom="70%"
+            document.querySelector(".header__logo").style.paddingTop="0%"
+            document.querySelector(".menu").style.paddingTop="0%"
+            document.querySelector(".menu__contacts--slim").style.display="block";
+        }else{
+             document.querySelector(".header").style.height="120px";
+            document.querySelector(".menu__contacts").style.display="block";
+            document.querySelector(".menu__office-hour").style.display="block";
+            document.querySelector(".header__logo").style.zoom="100%"
+            document.querySelector(".header__logo").style.paddingTop="2%"
+            document.querySelector(".menu").style.paddingTop="1%"
+            document.querySelector(".menu__contacts--slim").style.display="none";
+        }
+    });
+
+
+</script>
