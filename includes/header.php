@@ -3,7 +3,7 @@
     $pgatual= strtolower(end($pagina));
 ?>
 
-<header class="header">
+<header id="head" class="header">
     <div class="header__logo">
     <a href="index.php?pagina=includes/home.php">        
         <img class="logo" src="assets/img/logo3-1.png" alt="" >
@@ -68,15 +68,15 @@
             </div>
         </article>
     </div>
+
+    <a class="footer__top" href="#head" onclick="window.scrollTo(0,0)"></a>
 </header>
 
 <script>
 
-window.addEventListener("scroll", function(event) {
+    window.addEventListener("scroll", function(event) {
         var scroll = this.scrollY;
-        //alert(scroll);
         if(window.pageYOffset >= 100){
-            //alert('teste');
             document.querySelector(".header").style.height="50px";
             document.querySelector(".menu__contacts").style.display="none";
             document.querySelector(".menu__office-hour").style.display="none";
@@ -84,6 +84,7 @@ window.addEventListener("scroll", function(event) {
             document.querySelector(".header__logo").style.paddingTop="0%"
             document.querySelector(".menu").style.paddingTop="0%"
             document.querySelector(".menu__contacts--slim").style.display="block";
+            document.querySelector(".footer__top").style.display="block";
         }else{
              document.querySelector(".header").style.height="120px";
             document.querySelector(".menu__contacts").style.display="block";
@@ -92,6 +93,7 @@ window.addEventListener("scroll", function(event) {
             document.querySelector(".header__logo").style.paddingTop="2%"
             document.querySelector(".menu").style.paddingTop="1%"
             document.querySelector(".menu__contacts--slim").style.display="none";
+            document.querySelector(".footer__top").style.display="none";
         }
     });
 

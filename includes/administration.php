@@ -64,22 +64,6 @@
      x =
      x+ =
      */
-     
-    // Cria o arquivo cadastro.json
-    // O parâmetro "a" indica que o arquivo será aberto para escrita   
-    
-    $file = "scripts/service.json";
-    
-    //abrir o arquivo
-    $fp = fopen($file, "a");
-    
-    //$content = file_get_contents($file);
-    
-    
-    $content= file($file);
-    /*$message = file($file);
-     echo "<script type='text/javascript'>alert('$message');</script>";
-   
     
     //apagar arquivo json
     //excluirArquivo($file);
@@ -112,9 +96,6 @@
             return $arquivo;
     } 
     
-     
-   
-    
     // Tranforma o array $dados em JSON
     
     $dados_json = $fixed_content;*/
@@ -125,15 +106,44 @@
     //$escreve = fwrite($fp,  $dados_json);
     //file_put_contents($file, $dados_json);
     
-   
-    
-    // Atribui os 3 arrays para apenas um array
-    $dados = array($content,$cliente1,$cliente2,$cliente3);
-    $novos_dados_json = json_encode($dados);
-    
     //$dados_json.concat($novos_dados_json);
     //$join_json = $dados_json.$dados_json;
+    //
+        
+    // Cria o arquivo cadastro.json
+    // O parâmetro "a" indica que o arquivo será aberto para escrita   
+    $file = "scripts/service.json";
     
+    //abrir o arquivo
+    $fp = fopen($file, "a");
+    
+    $content_file = file_get_contents($file);
+
+    $json_arr = json_decode($content_file, true);
+    
+    //pegar dados novos
+    // Atribui os 3 arrays para apenas um array
+    $json_arr[] = array($cliente1,$cliente2,$cliente3);
+
+    file_put_contents($file, json_encode($json_arr));
+
+    //$content_file =  $novos_dados;
+
+    //$atualiza_dados_json = json_encode($content_file);
+    
+    //novos dados
+    //file_put_contents($file, $atualiza_dados_json);
+    
+    // Fecha o arquivo
+    fclose($fp);
+    
+    //$content= file($file);
+    /*$message = file($file);
+     echo "<script type='text/javascript'>alert('$message');</script>";
+
+    $fileName = 'mobiles.json';
+    $data = file_get_contents($fileName);
+
     //novos dados
     file_put_contents($file, $novos_dados_json);
     

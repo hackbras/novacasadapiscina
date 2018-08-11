@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+</head>
+    <meta charset="utf-8">
+    <title>HTML Tutorial</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/custom.css">
+	<script src="scripts/main.js"></script>
+	<script src="scripts/load.js"></script>
+</head>
+
+<body onload="onload()">
+	
+<header class="header">
+    <div class="header__logo">
+    <a href="index.php?pagina=includes/home.php">        
+        <img class="logo" src="assets/img/logo3-1.png" alt="" >
+    </a>
+    </div>
+    <div class="menu">
+    <!--Colocar horário e dias de atendimento e endereço-->
+        <nav class="menu__office-hour">   
+            <a id="menu__office-hour--middle-week" href="">Segunda à sexta de 8h às 18h</a>
+            <a id="menu__office-hour--weekend" href="">Sábado de 8h às 12h</a>
+        </nav>
+        <nav class="menu__contacts">   
+            <a id="menu__contacts--email" href="">contato@novacasadapiscina.com.br</a>
+            <a id="menu__contacts--fixo" href="">(31)3599-3764</a>
+            <a id="menu__contacts--celular1" href="">(31)9 9951-1854</a>
+            <a id="menu__contacts--celular2" href="">(31)9 9290-2814</a>
+        </nav>        
+        <nav class="menu__main">   
+            <a href="index.php?pagina=includes/product-information/product-pool.php">Piscina</a>
+            <a href="index.php?pagina=includes/product-information/product-sauna.php">Sauna</a>
+            <a href="index.php?pagina=includes/product-information/product-spa.php">Spa</a>
+            <a href="index.php?pagina=includes/contact.php">Contatos</a>
+            <a href="index.php?pagina=includes/about.php">Sobre</a>
+            <a href="index.php?pagina=includes/faq.php">Dúvidas</a>
+            <a href="index.php?pagina=includes/services.php">Serviços</a>
+            <a id="menu__main--store" class="menu__main--store menu__main--tag" href="index.php?pagina=includes/store/products/produtos-outros.php" onmouseover="document.getElementById('menu__store--view').style.visibility = 'visible';" >LOJA VIRTUAL</a>
+            <a class="menu__main--tag " href="index.php?pagina=includes/promotion.php">PROMOÇÕES</a>    
+                <nav class="menu__contacts--slim">               
+                    <a id="menu__office-hour--middle-week" href="">Segunda à sexta de 8h às 18h</a><br>
+                    <a id="menu__office-hour--weekend" href="">Sábado de 8h às 12h</a><br>
+                    <a id="menu__contacts--fixo" href="">(31)3599-3764</a>
+                </nav>       
+        </nav>
+
+        <article id="menu__store--view" onmouseleave="document.getElementById('menu__store--view').style.visibility = 'hidden';">
+            <div class="menu__store">
+                <nav class="menu__store--nav">
+                    <a class="menu__store--nav-produto">Produtos</a>
+                    <a class="menu__store--nav-acessorios">Acessórios</a>
+                    <a class="menu__store--nav-servicos">Serviços</a>
+                </nav>
+                <div class="menu__store--options">
+                    <ul class="menu__store--produto">
+                        <li onmouseover="document.getElementsByClassName('menu__store--image')[0].src='http://localhost/novacasadapiscina/assets/img/gifs/sauna.gif';">Saunas</li>
+                        <li>SPAS</li>
+                        <li>Piscina</li>                        
+                        <li>Aquecedor Solar Elétrico e Gás</li>                        
+                        <li>Produtos Químicos</li>
+                    </ul>
+                    <ul class="menu__store--acessorios">
+                        <li>Filtros</li>
+                        <li>Bombas</li>
+                        <li>Iluminação Led</li>
+                        <li>Cascata</li>
+                    </ul>
+                    <ul class="menu__store--servico">
+                        <li>Acabamento</li>
+                        <li>Impermeabilização</li>
+                    </ul>
+                </div>
+                <img class="menu__store--image" src="assets/img/gifs/sauna.gif">
+            </div>
+        </article>
+    </div>
+</header>
+
+<script>
+
+window.addEventListener("scroll", function(event) {
+        var scroll = this.scrollY;
+        //alert(scroll);
+        if(window.pageYOffset >= 100){
+            //alert('teste');
+            document.querySelector(".header").style.height="50px";
+            document.querySelector(".menu__contacts").style.display="none";
+            document.querySelector(".menu__office-hour").style.display="none";
+            document.querySelector(".header__logo").style.zoom="70%"
+            document.querySelector(".header__logo").style.paddingTop="0%"
+            document.querySelector(".menu").style.paddingTop="0%"
+            document.querySelector(".menu__contacts--slim").style.display="block";
+        }else{
+             document.querySelector(".header").style.height="120px";
+            document.querySelector(".menu__contacts").style.display="block";
+            document.querySelector(".menu__office-hour").style.display="block";
+            document.querySelector(".header__logo").style.zoom="100%"
+            document.querySelector(".header__logo").style.paddingTop="2%"
+            document.querySelector(".menu").style.paddingTop="1%"
+            document.querySelector(".menu__contacts--slim").style.display="none";
+        }
+    });
+
+
+</script>
+	
+	<div class="promotion">
+    <section class="promotion__banner--outline">
+        <div class="promotion__banner--base">
+            <img class="promotion__banner--image-tree" src="assets/img/coqueiros.png" alt="">
+            <div class="promotion__banner--title">
+                <h1>Promoções</h1>
+                <h2>Fique por dentro de nossas promoções e descontos</h2>
+            </div>
+            <img class="promotion__banner--image-sun" src="assets/img/gifs/sun2.gif" alt="">
+        </div>
+    </section>
+
+    <h2 class="promotion__title">Promoções em Andamento</h2>
+
+    <section class="promotion__one">        
+
+        <h3 class="promotion__one--title">Setembro</h3>
+        <h2 class="promotion__one--sutitle">Inverno</h2>
+        <figure class="promotion__one--body">
+            <img class="promotion__one--image" src="assets/img/inverno2.png" alt="">
+            <div class="promotion__one--description">
+                <figcaption> 
+                  <p>A vantagem de se construir  no inverno está no custo  da obra,
+                alguns tipos  de piscinas, por exemplo, fica de 5% a 15% mais baratas. claro que o desconto pode alternar  de região para região. 
+                O valor pode ser parcelado. Ainda pode-se aproveitar e adquirir  tambem os acessórios da piscina, como o filtro, a bomba, o sistema de iluminação  e de limpeza.
+                </p>
+                 <p>
+                Neste época  de pouca chuva, finalizar  a obra sem os imprevistos  das águas que atrasam  o término da construção  é outra vantagem. 
+                Sem chuva, uma piscina pode ficar  pronta em menos de um mês. Mas, se for um Projeto  mais sofisticado, a obra pode durar  mais tempo.
+                </p>
+                 <p>
+                O momento inclusive  é oportuno para negociar  com calma e atenção. Inclusive, investir num projeto  de piscina com mais conforto  e maior 
+                opção de lazer: pode ser um spa, hidromassagem, sauna e iluminação. Tudo isso é possível! Se  começar o investimento já no inverno, terá tempo de sobra  até o verão para planejar  e executar a obra sem deixar  nada 
+                para ser feito  no calor. As mais bonitas  piscinas são construídas com antecedência  e planejamento. 
+                E o retorno  financeiro é maior. Uma casa com uma piscina  bem projetada 
+                pode se valorizar  em até 20%. Investir  na área de lazer  sem planejamento pode causar  uma decepção 
+                ao término, seja ela financeira, por não ter posto  no papel os valores  da compra e o gasto  final sair diferente do que se imaginou  
+                ou, até mesmo, pelo fato de a piscina  não ter ficado da forma  como se previa, tudo devido a pressa. 
+                </p>
+                 <p>
+                Bem, a dica é não perder  tempo, aproveite a nossa  promossão de inverno, é sem dúvida, a melhor época para tornar  o sonho real e mais completo. Mas atenção: 
+                é importante  consultar um de nossos  consultores para que saiba  mais de todos os processos. Quando o verão chegar, a área toda ficará  prontinha e bem feita  para receber a família  e os amigos. 
+                 </p>
+                </figcaption>        
+                <input type="submit" value="PARTICIPE">
+            </div>
+        </figure>
+    </section>
+
+    <section class="promotion__subscription">
+        <form class="promotion__subscription--form">
+            <h2 class="promotion__subscription--form-title">Fique por dentro!</h2>
+            <h4 class="promotion__subscription--form-subtitle">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promoções</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h4>
+            <input type="text" placeholder="Nome:">
+            <input type="text" placeholder="E-mail ou Telefone:">
+            <input class="button-green" type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section class="promotion__two">
+        <h3 class="promotion__two--title">10 de Agosto</h3>
+        <h2 class="promotion__two--subtitle">Dia das Crianças</h2>
+        <figure class="promotion__two--body">
+            <div class="promotion__two--description">
+                <figcaption>   
+                <p>
+                Sol, piscina, brincadeiras e muita  diversão marcam o dia das crianças, pois, o que elas mais desejam  é poder jogar, brincar  ao ar livre e se divertir  o dia todo com os amiguinhos. À partir dos três anos de idade  já é possível realizar  atividades de recreação.
+                Para as crianças  na idade de seis anos é o ideal  para que iniciem essas  brincadeiras.
+                Essa é a faixa  etária indicada, por causa  do raciocínio e pela devida  característica de saber divertir-se  de maneira competitiva.
+                </p><p>
+                Mas é indispensável  sempre ter por próximo  um adulto proporcionando toda segurança  e diversão
+                necessária, para que cada criança  possa viver da melhor  maneira esse dia e
+                precavendo  acidentes desagradáveis.
+                </p><p>
+                Além do entretimento  que proporciona a criançada, a piscina também pode ser, por meio de brincadeiras, 
+                um espaço para aperfeiçoar  algumas aptidões. Nela podem  ser desenvolvidas habilidades como a manejo  de objetos, percepção corporal, coordenação, e o equilíbrio, além de habilidades  cognitivas, que fazem parte  da formação da criança, como a distinção de cores  e quantidades, 
+                e a adaptação  aquática, como respiração, mergulho, flutuação, deslize, saltos e movimentos. 
+                </p><p>
+                O feriado ensolarado acaba  também se tornando um momento  nostalgico para os adultos, ao ver as crianças  aproveitarem
+                a mesma diversão  que tiveram quando pequenos. 
+                </p><p>
+                Então não perca  tempo e aproveite nossa  promoção exclusiva para o dia das crianças.
+                </p>
+                </figcaption>        
+                <input type="submit" value="PARTICIPE">
+            </div>
+            <img class="promotion__two--image" src="assets/img/children-pool-party4.png" alt="">   
+        </figure>
+    </section>
+
+</div>
+
+<span class="promotion__modal"></span>
+<footer class="footer">
+    <div class="footer__logo">
+        <img  class="logo footer__logo" src="assets/img/logo3-1.png" alt=""> 
+        <p><span>CNPJ:</span> 30.492.390/0001-25</p>
+    </div>
+
+    <div class="payment__methods">        
+        <img src="assets/img/pagseguro_icon.png" alt="Imagem do Pagseguro com as bandeiras de formas de pagamento">
+    </div>
+
+    <div class="footer__menu"> 
+        <h1> Categorias</h1>  
+        <ul> 
+            <li><a href="index.php?pagina=includes/home.php" >Página Inicial</a></li>
+            <li><a href="index.php?pagina=includes/product-information/product-pool.php" >Piscina</a></li>
+            <li><a href="index.php?pagina=includes/product-information/product-sauna.php" >Sauna</a></li>
+            <li><a href="index.php?pagina=includes/product-information/product-spa.php" >Spa</a></li>
+            <li><a href="index.php?pagina=includes/contact.php" >Contatos</a></li>
+            <li><a href="index.php?pagina=includes/about.php" >Sobre</a></li>
+            <li><a href="index.php?pagina=includes/faq.php" >Dúvidas Frequêntes</a></li>
+            <li><a href="index.php?pagina=includes/store/product-store.php" >Loja Virtual</a></li>
+            <li><a href="index.php?pagina=includes/promotion.php" >Promoções</a></li>
+        </ul>
+    </div>
+
+    <div class="social__networks">
+        <h1>Acompanhe-nos</h1>
+
+        <a href="https://www.instagram.com/novacasadapiscina">
+        <img src="assets/img/icones/instagram.png" alt="Ícone da rede social instagram para que os clientes possam acompanhar nossa página.">
+        </a>
+
+        <a href="https://www.facebook.com/novacasadapiscina/">
+        <img src="assets/img/icones/facebook.png" width="30px" alt="Ícone da rede social facebook para que os clientes possam acompanhar nossa fanpage.">
+        </a>
+    </div>
+
+    <div class="footer__bottom">
+        <addr class="address">Av. São Paulo, 1431 - Centro (macaúbas) CEP 32400191 - IBIRITÈ/MG</addr> 
+        <div class="developer"> 
+            <label>Desenvolvido por:</label> 
+            <span>codeísta.com</span>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

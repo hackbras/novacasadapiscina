@@ -61,12 +61,12 @@
     </section>
 
     <div class="home__subscription">   
-        <h1 class="home__subscription--title">Fique por dentro!</h1>
-        <h2 class="home__subscription--subtitle">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promossões</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h2>
-        <form class="form" action="">
-            <input class="form-text text__green" type="text" placeholder="Nome:">
+        <h1 class="home__subscription--title zoomIn">Fique por dentro!</h1>
+        <h2 class="home__subscription--subtitle zoomin">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promossões</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h2>
+        <form class="form" action="email/notificacao.php" method="post">
+            <input class="form-text text__green"  name="nome" type="text" placeholder="Nome:">
 
-            <input class="form-text text__green"  type="text" placeholder="E-mail ou Telefone:">
+            <input class="form-text text__green"  name="email"  type="text" placeholder="E-mail:">
 
             <input class="form-submit button-green" type="submit" value="enviar">
         </form>
@@ -136,8 +136,7 @@
                 </div>
 
                 <p class="home__accessories--description">
-
-Diversão para toda a família, com design moderno e material inoxidável, valoriza, decora e embeleza sua área de lazer. Todos vão te elogiar pelo maravilhoso investimento.   
+                    Diversão para toda a família, com design moderno e material inoxidável, valoriza, decora e embeleza sua área de lazer. Todos vão te elogiar pelo maravilhoso investimento.   
                 </p>
                 <a href="index.php?pagina=includes/store/acessorios/cascata-inox.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
@@ -150,8 +149,7 @@ Diversão para toda a família, com design moderno e material inoxidável, valor
                 </div>
 
                 <p class="home__accessories--description">
-                    As cascatas agem na oxigenação da água o que auxilia no tratamento.
-Sinta a relaxante massagem provocada pela sua queda d'agua.  
+                    As cascatas agem na oxigenação da água o que auxilia no tratamento.Sinta a relaxante massagem provocada pela sua queda d'agua.  
                 </p>
                 <a href="index.php?pagina=includes/store/acessorios/cascata-fibra.php" class="button-green home__accessories--submit">Saiba mais...</a>
                 </div>
@@ -200,12 +198,12 @@ Sinta a relaxante massagem provocada pela sua queda d'agua.
     </section> 
 
     <div class="home__subscription">   
-        <h1 class="home__subscription--title">Inscreva-se</h1>
-        <h2 class="home__subscription--subtitle">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promossões</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h2>
-        <form class="form" action="">
-            <input class="form-text text__green" type="text" placeholder="Nome:">
+        <h1 class="home__subscription--title zoomIn">Inscreva-se</h1>
+        <h2 class="home__subscription--subtitle zoomin">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promossões</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h2>
+        <form class="form" action="email/notificacao.php" method="post">
+            <input class="form-text text__green"  name="nome" type="text" placeholder="Nome:">
 
-            <input class="form-text text__green"  type="text" placeholder="E-mail ou Telefone:">
+            <input class="form-text text__green"  name="email"  type="text" placeholder="E-mail:">
 
             <input class="form-submit button-green" type="submit" value="enviar">
         </form>
@@ -213,17 +211,17 @@ Sinta a relaxante massagem provocada pela sua queda d'agua.
 
     <section class="orcamento"> 
         <h1 class="orcamento__title" >ORÇAMENTO IMEDIATO</h1>
-        <form class="orcamento__form"  action="">
-            <input class="orcamento__name text__green" type="text" placeholder="Nome:">
+        <form class="orcamento__form" action="email/orcamento.php" method="post">
+            <input class="orcamento__name text__green" type="text" name="nome" placeholder="Nome:">
 
-            <input class="orcamento__subjective  text__green"  type="text" placeholder="Assunto:">
+            <input class="orcamento__subjective  text__green"  type="text" name="subject" placeholder="Assunto:">
 
 
-            <input class="orcamento__email  text__green"  type="text" placeholder="E-mail:">
+            <input class="orcamento__email  text__green"  type="text" name="email" placeholder="E-mail:">
 
-            <textarea class="orcamento__message  textarea__green" placeholder="Escreva sua mensagem aqui:">   </textarea>
+            <textarea class="orcamento__message  textarea__green" name="text" placeholder="Escreva sua mensagem aqui:">   </textarea>
 
-            <input class="orcamento__phone  text__green"  type="text" placeholder="Telefone:">
+            <input class="orcamento__phone  text__green"  type="text" name="phone" placeholder="Telefone:">
 
             <div class="orcamento__char" >
                 <span class="orcamento__char--count" >0 de 250</span>
@@ -235,49 +233,3 @@ Sinta a relaxante massagem provocada pela sua queda d'agua.
         </form>
     </section>
 </section>
-
-<?php
-
-
-
-	function zerar(){		
-
-		unset($email_destino);
-
-		unset($nome);
-
-		unset($email_contato);
-
-		unset($assunto);
-
-		unset($mensagem);
-
-	}
-
-
-
-	$email_destino="contato@novacasadapiscina.com.br";
-
-	$nome=$_POST['nome'];
-
-	$email_contato=$_POST['email'];
-
-	$assunto=$_POST['assunto'];
-
-	$mensagem=$_POST['mensagem'];
-
-	
-
-	if (isset($nome)&& isset($email_contato) && isset($mensagem)
-
-		&& mail($email_destino, $assunto, $mensagem,"from:contato@novacasadapiscina.com.br")){
-
-	echo '<script>alert("'.$nome.'sua mensagem foi enviada com sucesso.");</script>';
-
-	zerar();
-
-	}
-
-
-
-?>

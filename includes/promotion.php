@@ -21,9 +21,9 @@
             <div class="promotion__one--description">
                 <figcaption> 
                   <p>A vantagem de se construir  no inverno está no custo  da obra,
-                alguns tipos  de piscinas, por exemplo, fica de 5% a 15% mais baratas. claro que o desconto pode alternar  de região para região. 
-                O valor pode ser parcelado. Ainda pode-se aproveitar e adquirir  tambem os acessórios da piscina, como o filtro, a bomba, o sistema de iluminação  e de limpeza.
-                </p>
+                    alguns tipos  de piscinas, por exemplo, fica de 5% a 15% mais baratas. claro que o desconto pode alternar  de região para região. 
+                    O valor pode ser parcelado. Ainda pode-se aproveitar e adquirir  tambem os acessórios da piscina, como o filtro, a bomba, o sistema de iluminação  e de limpeza.
+                  </p>
                  <p>
                 Neste época  de pouca chuva, finalizar  a obra sem os imprevistos  das águas que atrasam  o término da construção  é outra vantagem. 
                 Sem chuva, uma piscina pode ficar  pronta em menos de um mês. Mas, se for um Projeto  mais sofisticado, a obra pode durar  mais tempo.
@@ -47,12 +47,12 @@
         </figure>
     </section>
 
-    <section class="promotion__subscription">
+    <section class="promotion__subscription" action="email/notificacao.php" method="post">
         <form class="promotion__subscription--form">
             <h2 class="promotion__subscription--form-title">Fique por dentro!</h2>
             <h4 class="promotion__subscription--form-subtitle">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promoções</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h4>
-            <input type="text" placeholder="Nome:">
-            <input type="text" placeholder="E-mail ou Telefone:">
+            <input type="text" name="nome" placeholder="Nome:">
+            <input type="text" name="email" placeholder="E-mail:">
             <input class="button-green" type="submit" value="Enviar">
         </form>
     </section>

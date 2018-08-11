@@ -2,11 +2,13 @@
 <html>
 </head>
     <meta charset="utf-8">
-    <title>HTML Tutorial</title>
+    <title>Novacasadapiscina</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/custom.css">
+	<link rel="stylesheet" href="styles/animate.css">
 	<script src="scripts/main.js"></script>
 	<script src="scripts/load.js"></script>
+	<link REL="SHORTCUT ICON" HREF="assets/img/logo3-1.png">
 </head>
 
 <body onload="onload()">
