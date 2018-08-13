@@ -1,3 +1,8 @@
+function closeModal() {
+    //document.querySelector(".services__main--modal").style.display = "none";
+    alert('teste fora onload');
+}
+
 function change__image(image) {
     var zoom__image = document.getElementById('product__default--estampas-zoom-imagem');
     var image__legend = document.getElementById('product__default--estampas-zoom-title');

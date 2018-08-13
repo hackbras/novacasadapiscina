@@ -1,5 +1,4 @@
 <?php
-
 	function zerar(){	
 		unset($email_destino);
 		unset($nome);
@@ -21,7 +20,8 @@
 	echo '<script>alert("'.$nome.'sua mensagem foi enviada com sucesso.");</script>';
 
 	zerar();
-
+	
+	
 	}
 
 ?>

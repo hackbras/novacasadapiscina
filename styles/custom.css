@@ -16,6 +16,93 @@
     src: url('../assets/Gloss_And_Bloom.ttf');
 }
 
+.services__main--modal {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+}
+
+.services input[type=text] {
+    width: 100%;
+    height: 28px;
+}
+
+.services__main--container {
+    position: relative;
+    margin: 7% auto;
+    width: 50%;
+    padding: 80px 90px;
+    background-color: rgba(85, 178, 200, 0.55);
+}
+
+#services__main--close {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.services h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.services__char--count {
+    display: block;
+    float: right;
+}
+
+.services__bar--submit {
+    float: right;
+}
+
+services__name {
+    grid-area: name;
+}
+
+.services__email {
+    grid-area: email;
+}
+
+.services__phone {
+    grid-area: phone;
+}
+
+.services__subjective {
+    grid-area: subjective;
+}
+
+.services__message {
+    grid-area: message;
+    width: 100%;
+}
+
+.services__char {
+    grid-area: char;
+}
+
+.services__bar {
+    grid-area: bar;
+}
+
+.services__form {
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-areas: 'name subjective subjective' 'email message message' 'phone message message' 'char char char' 'bar bar bar';
+}
+
+
+/**/
+
 #home__carrossel--description,
 h1,
 legend,
@@ -251,7 +338,7 @@ body {
 
 #menu__store--view {
     visibility: hidden;
-    display:none;
+    display: none;
 }
 
 #menu__contacts--email::before {
@@ -3259,7 +3346,7 @@ form input[type=submit] {
 .footer__top {
     position: fixed;
     background: url('../assets/img/icones/ArrowUp2.png');
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     width: 143px;
     height: 143px;
     zoom: 100%;

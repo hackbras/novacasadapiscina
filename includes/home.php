@@ -63,7 +63,7 @@
     <div class="home__subscription">   
         <h1 class="home__subscription--title zoomIn">Fique por dentro!</h1>
         <h2 class="home__subscription--subtitle zoomin">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promossões</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h2>
-        <form class="form" action="email/notificacao.php" method="post">
+        <form class="form" action="" method="post">
             <input class="form-text text__green"  name="nome" type="text" placeholder="Nome:">
 
             <input class="form-text text__green"  name="email"  type="text" placeholder="E-mail:">
@@ -200,7 +200,7 @@
     <div class="home__subscription">   
         <h1 class="home__subscription--title zoomIn">Inscreva-se</h1>
         <h2 class="home__subscription--subtitle zoomin">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promossões</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h2>
-        <form class="form" action="email/notificacao.php" method="post">
+        <form class="form" action="" method="post">
             <input class="form-text text__green"  name="nome" type="text" placeholder="Nome:">
 
             <input class="form-text text__green"  name="email"  type="text" placeholder="E-mail:">
@@ -211,17 +211,16 @@
 
     <section class="orcamento"> 
         <h1 class="orcamento__title" >ORÇAMENTO IMEDIATO</h1>
-        <form class="orcamento__form" action="email/orcamento.php" method="post">
+        <form class="orcamento__form" action="" method="post">
             <input class="orcamento__name text__green" type="text" name="nome" placeholder="Nome:">
 
-            <input class="orcamento__subjective  text__green"  type="text" name="subject" placeholder="Assunto:">
-
+            <input class="orcamento__subjective  text__green"  type="text" name="assunto" placeholder="Assunto:">
 
             <input class="orcamento__email  text__green"  type="text" name="email" placeholder="E-mail:">
 
-            <textarea class="orcamento__message  textarea__green" name="text" placeholder="Escreva sua mensagem aqui:">   </textarea>
+            <textarea class="orcamento__message  textarea__green" name="mensagem" placeholder="Escreva sua mensagem aqui:">   </textarea>
 
-            <input class="orcamento__phone  text__green"  type="text" name="phone" placeholder="Telefone:">
+            <input class="orcamento__phone  text__green"  type="text" name="telefone" placeholder="Telefone:">
 
             <div class="orcamento__char" >
                 <span class="orcamento__char--count" >0 de 250</span>
@@ -233,3 +232,35 @@
         </form>
     </section>
 </section>
+<?php  
+
+	$email_destino="contato@novacasadapiscina.com";
+	$nome=$_POST['nome'];
+	$email_contato=$_POST['email'];
+	
+
+	if (isset($nome)&& isset($email_contato)
+		&& mail($email_destino, "notification", "Solicitação de notificação","from:".$email_contato)){
+
+	echo '<script>alert("'.$nome.'sua mensagem foi enviada com sucesso.");</script>';
+
+	}
+
+?>
+<?php
+
+	$email_destino="hackbras@outlook.com";
+	$nome=$_POST['nome'];
+	$email_contato=$_POST['email'];
+	$assunto=$_POST['assunto'];
+	$mensagem=$_POST['mensagem'];
+	$telefone=$_POST['telefone'];
+
+	if (isset($nome)&& isset($email_contato) && isset($mensagem)
+		&& mail($email_destino,"Solicitação de orçamento" .$assunto, $mensagem." telefone".$telefone,"from:".$email_contato)){
+
+	echo '<script>alert("'.$nome.'sua mensagem foi enviada com sucesso.");</script>';
+
+	}
+
+?>

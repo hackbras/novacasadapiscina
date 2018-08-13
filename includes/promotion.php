@@ -47,10 +47,10 @@
         </figure>
     </section>
 
-    <section class="promotion__subscription" action="email/notificacao.php" method="post">
-        <form class="promotion__subscription--form">
-            <h2 class="promotion__subscription--form-title">Fique por dentro!</h2>
-            <h4 class="promotion__subscription--form-subtitle">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promoções</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h4>
+    <section class="promotion__subscription" action="" method="post">
+        <h2 class="promotion__subscription--form-title">Fique por dentro!</h2>
+        <h4 class="promotion__subscription--form-subtitle">Inscreva-se para receber <b>descontos</b>, saber sobre <b>promoções</b> e saber sobre as nossas <b>novidades</b> em primeira mão</h4>
+        <form class="promotion__subscription--form" action="" method="post">
             <input type="text" name="nome" placeholder="Nome:">
             <input type="text" name="email" placeholder="E-mail:">
             <input class="button-green" type="submit" value="Enviar">
@@ -91,3 +91,18 @@
 </div>
 
 <span class="promotion__modal"></span>
+<?php  
+
+	$email_destino="contato@novacasadapiscina.com";
+	$nome=$_POST['nome'];
+	$email_contato=$_POST['email'];
+	
+
+	if (isset($nome)&& isset($email_contato)
+		&& mail($email_destino, "notification", "Solicitação de notificação","from:".$email_contato)){
+
+	echo '<script>alert("'.$nome.'sua mensagem foi enviada com sucesso.");</script>';
+
+	}
+
+?>

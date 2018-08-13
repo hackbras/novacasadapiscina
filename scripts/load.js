@@ -1,6 +1,18 @@
+function openModal() {
+    //document.querySelector(".services__main--modal").style.display = "block";
+
+}
+
+function closeModal() {
+    //document.querySelector(".services__main--modal").style.display = "none";
+    alert('teste fora onload');
+}
 //listar json
 function onload() {
-
+    function closeModal() {
+        //document.querySelector(".services__main--modal").style.display = "none";
+        alert('teste dentro onload');
+    }
 
     var url = window.location.href;
     //if (url.substring(61, 66) == "store") {
