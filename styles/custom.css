@@ -2655,12 +2655,16 @@ form input[type=submit] {
 }
 
 .store__product--description {
+    text-align:center;
     grid-column: 1 / 3;
     grid-row: 3 / 4;
 }
 
 .store__product--description img {
-    width: 98%;
+     margin:auto;
+     max-width: 98%;
+     max-height:180px;     
+     min-height:150px;
 }
 
 .store__product--description figcaption {
