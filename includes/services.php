@@ -21,7 +21,7 @@
                 <img class="services__imagem" src="assets/img/servicos/acabamento.jpg" alt="">
                 <figcaption class="services__description">Fazemos todo o acabamento necessário em sua piscina. Enre em contato com um de nossos colaboradores ou solicite um orçamento.
                     <br>
-                    <input class="button-gray" type="submit" value="Solicitar um orçamento" onclick="openModal()">
+                    <input class="button-gray" type="submit" value="Solicitar um orçamento" onclick="openModal('Acabamento')">
                 </figcaption>
                 </figure>
             
@@ -33,7 +33,7 @@
                 <img class="services__imagem" src="assets/img/servicos/impermeabilizacao-piscina.jpg" alt="">
                 <figcaption class="services__description">Refazemos impermeabilização de sua piscina. Entre em contato com um de nossos consultores e faça sua impermeabilização com quem entende.
                     <br>
-                    <input class="button-white" type="submit" value="Solicitar um orçamento" onclick="openModal()">
+                    <input class="button-white" type="submit" value="Solicitar um orçamento" onclick="openModal('Impermeabilização')">
                 </figcaption>
                 </figure>
             
@@ -46,7 +46,7 @@
                     <figcaption class="services__description">
                         Fazemos remoção de vazamentos de Piscinas e SPA's.
                         <br>
-                        <input class="button-gray" type="submit" value="Solicitar um orçamento" onclick="openModal()">
+                        <input class="button-gray" type="submit" value="Solicitar um orçamento" onclick="openModal('Remoção de Vazamentos')">
                     </figcaption>
                 </figure>
             
@@ -58,7 +58,7 @@
                 <img class="services__imagem" src="assets/img/servicos/manutencao-de-piscinas.jpg" alt="">
                 <figcaption class="services__description">Fazemos todo o acabamento necessário em sua piscina. Enre em contato com um de nossos colaboradores ou solicite um orçamento.
                     <br>
-                    <input class="button-white" type="submit" value="Solicitar um orçamento" onclick="openModal()">
+                    <input class="button-white" type="submit" value="Solicitar um orçamento" onclick="openModal('Manutenção de Piscinas')">
                 </figcaption>
                 </figure>
             
@@ -70,7 +70,7 @@
                 <img class="services__imagem" src="assets/img/servicos/restauracao-piscinas.png" alt="">
                 <figcaption class="services__description"> Faça a restauração de sua piscina conosco. Trabalhamos com todos os tipos de piscinas encontrados no mercado.  
                         <br>
-                        <input class="button-gray" type="submit" value="Solicitar um orçamento" onclick="openModal()">
+                        <input class="button-gray" type="submit" value="Solicitar um orçamento" onclick="openModal('Restauração de Piscinas')">
                     </figcaption>
                 </figure>
                 
@@ -82,7 +82,7 @@
                 <img class="services__imagem" src="assets/img/servicos/pintura-piscina.jpg" alt="">
                 <figcaption class="services__description">Pinte sua piscina com quem entende e a deixe com o aspecto de nova.
                     <br>
-                    <input class="button-white" type="submit" value="Solicitar um orçamento" onclick="openModal()">
+                    <input class="button-white" type="submit" value="Solicitar um orçamento" onclick="openModal('Pintura de Piscinas')">
                 </figcaption>
                 </figure>
             
@@ -141,14 +141,15 @@
 	echo '<script>alert("'.$nome.'sua mensagem foi enviada com sucesso.");</script>';
 
 	zerar();
-	
 
 	}
-
 ?>
 <script>
     function closeModal() {
-        //document.querySelector(".services__main--modal").style.display = "none";
-        alert('teste tentro html');
+        document.querySelector('.services__main--modal').style.display='none';
+    }
+    function openModal(value) {
+        document.querySelector('.services__main--modal').style.display='block';
+        document.querySelector('.services__subjective ').value=value;
     }
 </script>

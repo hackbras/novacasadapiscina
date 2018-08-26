@@ -26,6 +26,7 @@
     /* Sit on top */
     left: 0;
     top: 0;
+    cursor:point;
 }
 
 .services input[type=text] {
@@ -47,6 +48,7 @@
     position: absolute;
     color: #fff;
     font-weight: bolder;
+    cursor:point;
 }
 
 .services h1 {
@@ -639,7 +641,7 @@ borda laterais 0.5 757575
     width: 30px;
     height: 30px;
     list-style-type: none;
-    cursor: pointer;
+    cursor: point;
 }
 
 #home__carrossel--piscina {
@@ -2481,7 +2483,7 @@ form input[type=submit] {
 .store__menu--quimic li,
 .store__menu--services li {
     list-style-type: none;
-    cursor: pointer;
+    cursor: point;
 }
 
 .store__menu--product a,

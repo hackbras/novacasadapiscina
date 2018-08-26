@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+
 </head>
     <meta charset="utf-8">
     <title>Novacasadapiscina</title>
@@ -46,4 +46,3 @@
 <?php include "includes/footer.php";?>
 
 </body>
-</html>
