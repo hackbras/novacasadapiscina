@@ -42,7 +42,7 @@
                 é importante  consultar um de nossos  consultores para que saiba  mais de todos os processos. Quando o verão chegar, a área toda ficará  prontinha e bem feita  para receber a família  e os amigos. 
                  </p>
                 </figcaption>        
-                <input type="submit" value="PARTICIPE">
+                <input type="submit" value="PARTICIPE" onclick="openModal('Promoção de Inverno')">
             </div>
         </figure>
     </section>
@@ -82,27 +82,73 @@
                 Então não perca  tempo e aproveite nossa  promoção exclusiva para o dia das crianças.
                 </p>
                 </figcaption>        
-                <input type="submit" value="PARTICIPE">
+                <input type="submit" value="PARTICIPE" onclick="openModal('Promoção do Dia das Crianças')">
             </div>
             <img class="promotion__two--image" src="assets/img/children-pool-party4.png" alt="">   
         </figure>
     </section>
 
 </div>
+<span class="promotion__main--modal">
+    <section class="promotion__main--container"> 
+        <span id="promotion__main--close" onclick="closeModal()">X</span>
+        <h1 class="promotion__title" id="promotion__title" >PARTICIPE DA PROMOÇÃO</h1>
+        <form class="promotion__form" action="" method="post">
+            <input class="promotion__name text__green" type="text" name="nome" placeholder="Nome:">
 
-<span class="promotion__modal"></span>
-<?php  
+            <input class="promotion__subjective  text__green"  type="text" name="assunto" placeholder="Assunto:">
 
-	$email_destino="contato@novacasadapiscina.com";
+            <input class="promotion__email  text__green"  type="text" name="email" placeholder="E-mail:">
+
+            <textarea class="promotion__message  textarea__green" name="mensagem" placeholder="Escreva sua mensagem aqui:">   </textarea>
+
+            <input class="promotion__phone  text__green"  type="text" name="telefone" placeholder="Telefone:">
+
+            <div class="promotion__char" >
+                <span class="promotion__char--count" >0 de 250</span>
+            </div>        
+
+            <div class="promotion__bar">
+                <input class="promotion__bar--submit button-green"  type="submit" value="enviar">
+            </div>
+        </form>
+    </section>
+</span>
+
+
+<?php
+	function zerar(){	
+		unset($email_destino);
+		unset($nome);
+		unset($email_contato);
+		unset($assunto);
+		unset($mensagem);
+        unset($telefone);
+	}
+
+	$email_destino="hackbras@outlook.com";
 	$nome=$_POST['nome'];
 	$email_contato=$_POST['email'];
-	
+	$assunto=$_POST['assunto'];
+	$mensagem=$_POST['mensagem'];
+	$telefone=$_POST['telefone'];
 
-	if (isset($nome)&& isset($email_contato)
-		&& mail($email_destino, "notification", "Solicitação de notificação","from:".$email_contato)){
+	if (isset($nome)&& isset($email_contato) && isset($mensagem)
+		&& mail($email_destino,"Solicitação de orçamento" .$assunto, $mensagem." telefone".$telefone,"from:".$email_contato)){
 
 	echo '<script>alert("'.$nome.'sua mensagem foi enviada com sucesso.");</script>';
 
-	}
+	zerar();
 
+	}
 ?>
+
+<script>
+    function closeModal() {
+        document.querySelector('.promotion__main--modal').style.display='none';
+    }
+    function openModal(value) {
+        document.querySelector('.promotion__main--modal').style.display='block';
+        document.querySelector('.promotion__subjective ').value=value;
+    }
+</script>

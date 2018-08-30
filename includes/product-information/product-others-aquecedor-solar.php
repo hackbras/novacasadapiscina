@@ -14,7 +14,8 @@
             <ul>
                 <li><a href="index.php?pagina=includes/product-information/product-spa.php">SPA</a></li>
                 <li><a href="index.php?pagina=includes/product-information/product-sauna.php">Sauna</a></li>
-                <li><a href="index.php?pagina=includes/product-information/product-pool.php">Piscina</a></li>           
+                <li><a href="index.php?pagina=includes/product-information/product-pool.php">Piscina</a></li>    
+                <li><a href="index.php?pagina=includes/product-information/product-others.php">Outros</a></li>               
             </ul>
         </div>
 

@@ -16,7 +16,8 @@
                 <li><a href="index.php?pagina=includes/product-information/product-spa.php">SPA</a></li>
                 <li><a href="index.php?pagina=includes/product-information/product-sauna.php">Sauna</a></li>
                 <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-gas.php">Aquecedor à Gás</a></li>     
-                <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-solar.php">Aquecedor Solar Elétrico</a></li>               
+                <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-solar.php">Aquecedor Solar Elétrico</a></li>   
+                <li><a href="index.php?pagina=includes/product-information/product-others.php">Outros</a></li>                    
             </ul>
         </div>
 
@@ -57,19 +58,7 @@ As piscinas de concreto  armado possuem um valor  mais alto comparado à piscina
 </figcaption>
             </figure>
         </div>
-
-        <div class="product__default--casos">
-            <h2 class="product__default--caso-titulo">Instalações Realizadas</h2>
-            <figure class="product__default--caso-image_default">
-                <img id="product__default--caso-image_default-azulejo"  src="assets/img/produtos/piscinas/instalacoes_realizadas/azulejo1.jpg" alt="">
-            </figure>
-            <section class="product__default--caso-images">
-                <figure>
-                    <img id="product__default--caso-azulejo1"  src="assets/img/produtos/piscinas/instalacoes_realizadas/azulejo2.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-azulejo',this.id)" >
-                </figure>
-            </section>
-        </div>
-
+        
         <div class="product__default--steps">  
             <svg
                 xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -553,6 +542,18 @@ As piscinas de concreto  armado possuem um valor  mais alto comparado à piscina
                 </g>
                 </svg>
       
+        </div>
+        
+        <div class="product__default--casos">
+            <h2 class="product__default--caso-titulo">Instalações Realizadas</h2>
+            <figure class="product__default--caso-image_default">
+                <img id="product__default--caso-image_default-azulejo"  src="assets/img/produtos/piscinas/instalacoes_realizadas/azulejo1.jpg" alt="">
+            </figure>
+            <section class="product__default--caso-images">
+                <figure>
+                    <img id="product__default--caso-azulejo1"  src="assets/img/produtos/piscinas/instalacoes_realizadas/azulejo2.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-azulejo',this.id)" >
+                </figure>
+            </section>
         </div>
         
     </section>

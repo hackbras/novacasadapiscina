@@ -16,7 +16,8 @@
                 <li><a href="index.php?pagina=includes/product-information/product-spa.php">SPA</a></li>
                 <li><a href="index.php?pagina=includes/product-information/product-sauna.php">Sauna</a></li>
                 <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-gas.php">Aquecedor à Gás</a></li>     
-                <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-solar.php">Aquecedor Solar Elétrico</a></li>             
+                <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-solar.php">Aquecedor Solar Elétrico</a></li>    
+                <li><a href="index.php?pagina=includes/product-information/product-others.php">Outros</a></li>                 
             </ul>
         </div>
 
@@ -55,31 +56,49 @@
                 </figcaption>
             </figure>
         </div>
-
-        <div class="product__default--casos">
-            <h2 class="product__default--caso-titulo">Instalações Realizadas</h2>
-            <figure class="product__default--caso-image_default">
-                <img id="product__default--caso-image_default-fibra" src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra2.jpg" alt="">
-            </figure>
-            <section class="product__default--caso-images">
-
-                <figure>
-                    <img id="product__default--caso-fibra3" src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra3.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
-                </figure>
-                <figure>
-                    <img id="product__default--caso-fibra4"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra4.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
-                </figure>
-                <figure>
-                    <img id="product__default--caso-fibra5"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra5.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
-                </figure>
-                <figure>
-                    <img id="product__default--caso-fibra7"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra7.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
-                </figure>
-                <figure>
-                    <img id="product__default--caso-fibra9"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra9.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
-                </figure>
-            </section>
-        </div>
+        <!---->
+        <div  class="product__default--catalogo">
+        
+		<h2 class="catalogo">Catálogo</h2>
+		<button class="collapsible">Linha Prime</button>
+		<div class="content" style="max-Height:465px">
+		  <img src="assets/img/produtos/piscinas/catalogo/piscinas-fibra/prime.png" alt="linha Prime">
+		</div>
+		<button class="collapsible contraste">Linha Innity</button>
+		<div class="content">
+		  <img src="assets/img/produtos/piscinas/catalogo/piscinas-fibra/Innity.png" alt="linha Innity">
+		</div>
+		<button class="collapsible">Linha Requinte</button>
+		<div class="content">
+		  <img src="assets/img/produtos/piscinas/catalogo/piscinas-fibra/requinte.png" alt="linha Requinte">
+		</div>
+		<button class="collapsible contraste">Linha Premium</button>
+		<div class="content">
+		  <img src="assets/img/produtos/piscinas/catalogo/piscinas-fibra/premium.png" alt="linha Premium">
+		</div>
+		<button class="collapsible">Linha Exclusive</button>
+		<div class="content">
+		  <img src="assets/img/produtos/piscinas/catalogo/piscinas-fibra/exclusive.png" alt="linha Exclusive">
+		</div>
+		<button class="collapsible contraste">Linha Praia</button>
+		<div class="content">
+		  <img src="assets/img/produtos/piscinas/catalogo/piscinas-fibra/praia.png" alt="linha Praia">
+		</div>
+		<button class="collapsible">Linha Top</button>
+		<div class="content">
+		  <img src="assets/img/produtos/piscinas/catalogo/piscinas-fibra/top.png" alt="linha Top">
+		</div>
+		<button class="collapsible contraste">Linha Retangulares</button>
+		<div class="content">
+		  <img src="assets/img/produtos/piscinas/catalogo/piscinas-fibra/retangulares.png" alt="linha Retangulares">
+		</div>
+		<button class="collapsible">Linha atlântica
+		</button>
+		<div class="content">
+		  <img src="assets/img/produtos/piscinas/catalogo/piscinas-fibra/atlantica.png" alt="linha atlanta.png">
+		</div>
+	</div>
+        <!---->
 
         <div class="product__default--steps">     
             <svg
@@ -564,5 +583,46 @@
                 </g>
                 </svg>
             </div>
+            <div class="product__default--casos">
+            <h2 class="product__default--caso-titulo">Instalações Realizadas</h2>
+            <figure class="product__default--caso-image_default">
+                <img id="product__default--caso-image_default-fibra" src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra2.jpg" alt="">
+            </figure>
+            <section class="product__default--caso-images">
+
+                <figure>
+                    <img id="product__default--caso-fibra3" src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra3.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
+                </figure>
+                <figure>
+                    <img id="product__default--caso-fibra4"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra4.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
+                </figure>
+                <figure>
+                    <img id="product__default--caso-fibra5"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra5.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
+                </figure>
+                <figure>
+                    <img id="product__default--caso-fibra7"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra7.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
+                </figure>
+                <figure>
+                    <img id="product__default--caso-fibra9"  src="assets/img/produtos/piscinas/instalacoes_realizadas/fibra9.jpg" alt="" onmouseover="toggle__image('product__default--caso-image_default-fibra',this.id)" >
+                </figure>
+            </section>
+        </div>
     </section>
 </div>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+</script>

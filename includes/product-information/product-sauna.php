@@ -6,7 +6,8 @@
                 <li><a href="index.php?pagina=includes/product-information/product-spa.php">SPA</a></li>
                 <li><a href="index.php?pagina=includes/product-information/product-sauna.php">Sauna</a></li>
                 <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-gas.php">Aquecedor à Gás</a></li>     
-                <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-solar.php">Aquecedor Solar Elétrico</a></li>             
+                <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-solar.php">Aquecedor Solar Elétrico</a></li> 
+                <li><a href="index.php?pagina=includes/product-information/product-others.php">Outros</a></li>                    
             </ul>
         </div>
 

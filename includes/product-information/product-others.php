@@ -7,8 +7,7 @@
                 <li><a href="index.php?pagina=includes/product-information/product-pool.php">Piscinas</a></li>
                 <li><a href="index.php?pagina=includes/product-information/product-sauna.php">Sauna</a></li>
                 <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-gas.php">Aquecedor à Gás</a></li>     
-                <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-solar.php">Aquecedor Solar Elétrico</a></li>     
-                <li><a href="index.php?pagina=includes/product-information/product-others.php">Outros</a></li>             
+                <li><a href="index.php?pagina=includes/product-information/product-others-aquecedor-solar.php">Aquecedor Solar Elétrico</a></li>          
             </ul>
         </div>
 
@@ -36,38 +35,27 @@
         </div>
     </aside>
     <section class="product__default">
-            <h1 class="product__default--title">SPA</h1> 
-        <div class="product__default--description">  
-            <figure class="product__default--figure">
-                <!--<img src="assets/img/produtos/spa/spa.png">-->
-                <div class="product__default--image-spa"></div>
-                <figcaption>                
-                 <b>Hidroterapia:</b>
-                Uma terapia muito usada em hospitais, profissionais da área, fisioterapeutas  e em SPAS totalmente  no mudo todo, é designada  de hidroterapia, que faz o uso da água para resguardar  e auxiliar no medicação  de doenças.
-
-                <b>Descansa o corpo:</b> Um banho de banheira garante  vários benefícios bem como de aliviar  o corpo, o submersão  na água reduz o peso corpóreo  até 85%, os esguichos  possuem uma ação massageadora, que suaviza a pressão  nos nervos e nas juntas, contribuindo também para o alívio  dos músculos.
-
-                <b>Relaxa a mente:</b> Não existe um lugar melhor  para fechar os olhos, libertar a mente, afinar  os sentidos e relaxar  do que um bom banho  de banheira. Esse lavagem  relaxa a mente e o físico, estando relaxado você liberta  os seus pensamentos, dá espaço  e tempo para que apareçam  boas e novas ideias. <b>Melhora o sono:</b>
-                A imersão na água ao escurecer  ou no inicio da noite  é um horário certo  para o banho de banheira. Possuindo o efeito relaxante  que aclama as tensões, ao deitar você aproveitará  um sono mais profundo  e restaurador e ao despertar  notará que dormiu com mais facilidade. <b>Beneficia o relacionamento:</b>
-                Atualmente sabemos e vemos  o quanto está difícil  ter tempo de qualidade  para dividir com o (a) companheiro  (a) as ocorrências do nosso  dia a dia. Uma banheira  cria uma perfeita oportunidade  para dialogar e sentir-se  mais próximo do (a) companheiro  (a).
-
-
-                <b>Muito mais benefícios:</b>
-                Ajuda a diminuir  o stress, minimiza as dores  musculares e das articulações, ameniza as dores da artrite, ajuda a controlar a diabete, ajuda no tratamento de transtornos  cardiovasculares e muitos outros  benefícios.</figcaption>
-            </figure>
-        </div>
-	<!---->
+            <h1 class="product__default--title">OUTROS</h1> 
+        <!---->
         <div  class="product__default--catalogo">
         
 		<h2 class="catalogo">Catálogo</h2>
-		<button class="collapsible">Linha Spa</button>
-		<div class="content" style="max-Height:465px">
-		  <img src="assets/img/produtos/spa/catalogo/spa.png" alt="Linha Spa">
+		<button class="collapsible">Casa de Máquinas</button>
+		<div class="content" style="max-Height:100%">
+		  <img src="assets/img/produtos/outros/catalogo/casaDeMaquinas.png" alt="Linha Spa">
 		</div>
-		<button class="collapsible contraste">Linha Cobertura</button>
-		<div class="content" style="max-Height:465px">
-		  <img src="assets/img/produtos/spa/catalogo/cobertura.png" alt="Linha Cobertura">
+		<button class="collapsible contraste">Linha infantil / Escorregador</button>
+		<div class="content" style="max-Height:100%">
+		  <img src="assets/img/produtos/outros/catalogo/escorregador.png" alt="Linha Cobertura">
 		</div>		
+		<button class="collapsible">Kit Hidráulico</button>
+		<div class="content" style="max-Height:100%">
+		  <img src="assets/img/produtos/outros/catalogo/kitHidraulico.png" alt="Linha Spa">
+		</div>
+		<button class="collapsible contraste">Toboágua</button>
+		<div class="content" style="max-Height:100%">
+		  <img src="assets/img/produtos/outros/catalogo/toboagua.png" alt="Linha Cobertura">
+		</div>	
 	</div>
         <!---->
 

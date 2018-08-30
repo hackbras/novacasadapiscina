@@ -1,12 +1,14 @@
 <?php
-	function zerar(){	
-		unset($email_destino);
-		unset($nome);
-		unset($email_contato);
-		unset($assunto);
-		unset($mensagem);
-        unset($telefone);
-	}
+    //  ob_start()
+
+	// function zerar(){	
+	// 	unset($email_destino);
+	// 	unset($nome);
+	// 	unset($email_contato);
+	// 	unset($assunto);
+	// 	unset($mensagem);
+    //     unset($telefone);
+	// }
 
 	$email_destino="hackbras@outlook.com";
 	$nome=$_POST['nome'];
@@ -22,6 +24,24 @@
 
 	zerar();
 	
+		switch ($_SESSION["current_page"]) {
+			case 'home':
+				header('Location: '.'index.php?pagina=includes/home.php';
+				break;
+			case 'contact':
+				header('Location: '.'index.php?pagina=includes/contact.php';
+				break;
+			case 'services':
+				header('Location: '.'index.php?pagina=includes/services.php';
+				break;
+			case 'promotion':
+				header('Location: '.'index.php?pagina=includes/promotion.php';
+				break;
+			
+			default:
+				header('Location:'.'index.php?pagina=includes/home.php';
+				break;
+		}
 
 	}
 
